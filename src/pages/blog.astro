@@ -1,28 +1,13 @@
 ---
-import "../styles/global.css";
-import Header from '../components/Header.astro';
-import Footer from "../components/Footer.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Blog";
 ---
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>{pageTitle}</title>
-    </head>
-    <body>
-        <Header />
-
-        <main>
-            <h1>{pageTitle}</h1>
-            <ul>
-                <li>
-                    <a href="/posts/2026-05-08_on_setting_up_this_website/"
-                        >On setting up this website</a>
-                </li>
-            </ul>
-        </main>
-        <Footer />
-    </body>
-</html>
+<BaseLayout pageTitle = {pageTitle}>
+    <ul>
+        <li>
+            <a href="/posts/2026-05-08_on_setting_up_this_website/"
+                >On setting up this website</a>
+        </li>
+    </ul>
+</BaseLayout>

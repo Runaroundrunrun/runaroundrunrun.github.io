@@ -1,21 +1,52 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/about.css";
 const pageTitle = "About";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
     <h2>Welcome to Runa's Playground!</h2>
-    <p>working in progress...</p>
+    <div>
+        I'm trying to make this website:
+        <ul>
+            <li>a place where I can have fun, explore, and experiment</li>
+            <li>a repository for the things I create and write</li>
+        </ul>
+    </div>
 
-    
-    <div style="display: flex;">
-        <!-- profile image -->
+    <div class="profile-container">
         <div>
-            <img src="/images/profile.png" />
+            <img src="/images/profile.png" alt="profile image" />
         </div>
-        <div style="margin: 0 1rem">
-            <h2>Runa Suzuki</h2>
-            <!-- description -->
+        <div class="profile-description">
+            <div>
+                <h2>Runa</h2>
+                <!-- description -->
+                <ul>
+                    <li>
+                        loves exploring, travelling, reading, and journaling
+                    </li>
+                    <li>currently on a career break (formerly coder)</li>
+                    <li>
+                        is always interested in learning languages currently
+                        learning:
+                        <ul>
+                            <li>English</li>
+                            <li>French</li>
+                            <li>Chinese</li>
+                        </ul>
+                    </li>
+                    <li>trying to act like a responsible adult</li>
+                    <li>but often end up being a procrastinator</li>
+                    <li>wants to learn how to draw</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>
+                    Working in progress...
+                </p>
+            </div>
         </div>
     </div>
 </BaseLayout>

@@ -1,0 +1,8 @@
+div.profile-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.profile-description {
+    min-width: 60%;
+}

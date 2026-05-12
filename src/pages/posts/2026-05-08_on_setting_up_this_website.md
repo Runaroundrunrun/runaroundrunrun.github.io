@@ -3,9 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'On setting up this website'
 published: 2026-05-08
 modified: 2026-05-11
-# description: 'This is the first post of my new Astro blog.'
 lang: 'en'
-# tags: ["astro", "blogging", "learning in public"]
 ---
 I've always dreamed of having my own portfolio/blog/website. Since I'm on a career break right now, I figured it's the perfect time to set one up!
 

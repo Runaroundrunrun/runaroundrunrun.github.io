@@ -15,12 +15,13 @@ body {
 
 h1 {
     margin: 1rem 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
-ul.posts {
-    list-style-type: none;
+hr {
+    color: #e6e6e6
 }
+
 footer {
     display: flex;
     gap: 1rem;
@@ -36,6 +37,10 @@ main {
 :not(pre) > code {
     background-color: #efefef;
     padding: 1px 4px;
+}
+
+.invisible {
+    display: none;
 }
 
 /* header */
@@ -65,4 +70,29 @@ header {
 }
 :lang(ja) {
     font-family: var(--font-japanese);
+}
+
+/* posts */
+span.date {
+    color: #9a9a9a;
+    display: flex;
+    gap: 1rem;
+    font-style: italic;
+}
+
+span.date > p {
+    margin: 0 ;
+}
+ul.posts {
+    list-style-type: none;
+}
+ul.posts li {
+    margin: 1rem 0;
+}
+ul.posts a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+ul.posts a:hover {
+    text-decoration: underline;
 }

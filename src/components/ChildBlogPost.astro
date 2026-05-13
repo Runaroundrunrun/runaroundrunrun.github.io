@@ -1,0 +1,13 @@
+---
+const {modified, published, title, url} = Astro.props;
+const visibility = modified != null ? "" : "invisible";
+---
+<li>
+    <a href={url}>
+        {title}
+    </a>
+    <span class="date">
+        <p>Published: <time>{published.toString().slice(0,10)}</time></p>
+        <p class={visibility}>Last modified: <time>{modified?.toString().slice(0,10)}</time></p>
+    </span>
+</li>

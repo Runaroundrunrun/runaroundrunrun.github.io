@@ -2,11 +2,16 @@
 import BaseLayout from "./BaseLayout.astro";
 
 const { frontmatter } = Astro.props;
+const visibility = frontmatter.modified != null ? "" : "invisible";
 ---
 <BaseLayout pageTitle = {frontmatter.title}>
     <article>
-        <p>Published: {frontmatter.published.toString().slice(0,10)}</p>
+        <span class="date">
+            <p>Published: <time>{frontmatter.published.toString().slice(0,10)}</time></p>
+            <p class={visibility}>Last modified: <time>{frontmatter.modified?.toString().slice(0,10)}</time></p>
+        </span>
         <!-- <div>tags</div> -->
+         <hr>
         <slot />   
     </article>
 </BaseLayout>

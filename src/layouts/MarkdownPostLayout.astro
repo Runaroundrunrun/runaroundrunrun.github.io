@@ -11,7 +11,9 @@ const visibility = frontmatter.modified != null ? "" : "invisible";
             <p class={visibility}>Last modified: <time>{frontmatter.modified?.toString().slice(0,10)}</time></p>
         </span>
         <!-- <div>tags</div> -->
-         <hr>
-        <slot />   
+        <hr>
+        <div class="content-container">
+            <slot />   
+        </div>
     </article>
 </BaseLayout>

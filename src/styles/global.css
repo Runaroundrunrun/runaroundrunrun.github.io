@@ -104,3 +104,7 @@ article p:has(img) {
 article img {
     margin: auto;
 }
+div.content-container {
+    max-width: 50rem;
+    margin: auto;
+}

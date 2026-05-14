@@ -26,4 +26,4 @@ It was totally worth it.
 The most hilarious part for me was Soon-rok's Naughty Cell. I mean, look how huge he is compared to the other cells!  
 He even wears **A CAPE**!
 
-![Naughty Cell and Love Cell](../../../public/images/posts/2026-05-13_yumis_cells3.png)
+![Naughty Cell and Love Cell](./images/2026-05-13_yumis_cells3.png)

@@ -42,6 +42,22 @@ main {
 .invisible {
     display: none;
 }
+a {
+    /* color: #2E5EAA; */
+    /* color: #982649; */
+    /* color: #0B6E4F; */
+    /* color: #005E7C; */
+    /* color: #5465FF; */
+    /* color: #ED254E;  */
+    /* color: #FF0035; */
+    text-decoration: none;
+}
+/* a:visited {
+    text-decoration: none;
+} */
+a:hover {
+    text-decoration: underline;
+}
 
 /* header */
 header {
@@ -53,12 +69,12 @@ header {
     font-size: 1rem;
     gap: 1.5rem;
 }
-.navigation-links a {
-    text-decoration: none;
+/* .navigation-links a {
+} 
+.navigation-links a:visited {
 }
 .navigation-links a:hover {
-    text-decoration: underline;
-}
+} */
 
 /* fonts */
 :root {

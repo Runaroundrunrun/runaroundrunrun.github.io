@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)
 published: 2026-05-13
 modified: 
@@ -26,4 +26,4 @@ It was totally worth it.
 The most hilarious part for me was Soon-rok's Naughty Cell. I mean, look how huge he is compared to the other cells!  
 He even wears **A CAPE**!
 
-![Naughty Cell and Love Cell](./images/2026-05-13_yumis_cells3.png)
+![Naughty Cell and Love Cell](../images/2026-05-13_yumis_cells3.png)

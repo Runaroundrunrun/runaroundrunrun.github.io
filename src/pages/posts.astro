@@ -2,15 +2,20 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ChildBlogPost from "../components/ChildBlogPost.astro";
 const pageTitle = "Posts";
-const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
-// sort by published date (desc)
-const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > b.frontmatter.published ? -1 : 1);
 ---
 
 <BaseLayout pageTitle = {pageTitle}>
-    <ul class="posts">
-        {sortedPosts.map((post: any) =>
-            <ChildBlogPost url={post.url} title ={post.frontmatter.title} published={post.frontmatter.published} modified={post.frontmatter.modified} />
-        )}
-    </ul>
+    <div class="posts-category">
+        <h3>TV series</h3>
+        <ul class="posts">
+            <ChildBlogPost url="./tv-series/2026-05-13_yumis_cells3" title="I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)" published="2026-05-13" />
+        </ul>
+    </div>
+    <div class="posts-category">
+        <h3>Website Development</h3>
+        <ul class="posts">
+            <ChildBlogPost url="./web-dev/2026-05-08_on_setting_up_this_website" title="On setting up this website" published="2026-05-08" modified="2026-05-11"/>
+            <ChildBlogPost url="./web-dev/2026-05-12_my_current_vscode_keybindings_configuration" title="My current keybindings configuration in VSCode" published="2026-05-12" />
+        </ul>
+    </div>
 </BaseLayout>

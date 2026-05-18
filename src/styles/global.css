@@ -124,3 +124,7 @@ div.content-container {
     max-width: 50rem;
     margin: auto;
 }
+/* index */
+div.index-content {
+    margin: 1rem;
+}

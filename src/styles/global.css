@@ -76,6 +76,11 @@ header {
 .navigation-links a:hover {
 } */
 
+.lang-switch {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* fonts */
 :root {
     --font-japanese: "YakuHanJPs", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", sans-serif;

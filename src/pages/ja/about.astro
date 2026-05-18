@@ -1,0 +1,51 @@
+---
+import BaseLayoutJa from "../../layouts/ja/BaseLayoutJa.astro";
+import "../../styles/about.css";
+const pageTitle = "About";
+---
+
+<BaseLayoutJa pageTitle={pageTitle}>
+	<div class="lang-switch">
+		<a href="/about/">English</a>
+	</div>
+    <h1>{pageTitle}</h1>
+    <h2>Runa's Playground へようこそ!</h2>
+    <div>
+        この Web サイトは
+        <ul>
+            <li>サイト作成者がいろいろ試して遊ぶために作っています。</li>
+            <li>書いた文章や作ったものの保管庫にもなる予定です。</li>
+        </ul>
+    </div>
+
+    <div>
+        <img src="/images/profile.png" alt="profile image" />
+    </div>
+
+    <div class="profile-description">
+        <div>
+            <h2>ちょっとしたプロフィール</h2>
+            <ul>
+                <li>旅行や知らない場所を訪れること、読書、そして手帳を眺めたり書くのが好き</li>
+                <li>前職ではコードを書いていたけど、仕事は一旦ストップ中</li>
+                <li>日本のどこかに住んでる</li>
+                <li>
+                    いっつも言語学習のトピックに惹かれてる。
+                    今かじっている言語は、
+                    <ul>
+                        <li>英語</li>
+                        <li>フランス語</li>
+                        <li>中国語</li>
+                    </ul>
+                </li>
+                <li>ちゃんと大人になりたい</li>
+                <li>でもよく先延ばししてしまう</li>
+                <li>絵がうまくなりたい</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <p>作業中...</p>
+        </div>
+    </div>
+</BaseLayoutJa>

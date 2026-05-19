@@ -4,12 +4,12 @@ import ChildBlogPost from "../components/ChildBlogPost.astro";
 const pageTitle = "Runa's Playground"
 ---
 <BaseLayout pageTitle={pageTitle}>
+	<div class="lang-switch">
+		<a href="/ja/">にほんご / Japanese</a>
+	</div>
 	<div id="recent" class="index-content">
-		<div class="lang-switch">
-			<a href="/ja/">にほんご / Japanese</a>
-		</div>
 		<h2>Recent</h2>
-		<ul>
+		<ul class="posts">
 			<ChildBlogPost url="./reading/2026-05-16_I_buy_way_more_books_than_I_can_read" title="I buy way more books than I can read" published="2026-05-16" />
 			<ChildBlogPost url="./tv-series/2026-05-13_yumis_cells3" title="I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)" published="2026-05-13" />
 			<ChildBlogPost url="./web-dev/2026-05-12_my_current_vscode_keybindings_configuration" title="My current keybindings configuration in VSCode" published="2026-05-12" />

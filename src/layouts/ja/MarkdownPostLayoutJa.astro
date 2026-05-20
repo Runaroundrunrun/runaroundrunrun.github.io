@@ -1,0 +1,22 @@
+---
+import BaseLayoutJa from "./BaseLayoutJa.astro";
+
+const { frontmatter } = Astro.props;
+const visibility = frontmatter.modified != null ? "" : "invisible";
+const published = frontmatter.published.toString().slice(0,10);
+const modified = frontmatter.modified?.toString().slice(0,10);
+---
+<BaseLayoutJa pageTitle = {frontmatter.title}>
+    <article>
+        <h1>{frontmatter.title}</h1>
+        <span class="date">
+            <p>Published: <time datetime={published}>{published}</time></p>
+            <p class={visibility}>Last modified: <time>{modified}</time></p>
+        </span>
+        <!-- <div>tags</div> -->
+        <hr>
+        <div class="content-container">
+            <slot />   
+        </div>
+    </article>
+</BaseLayoutJa>

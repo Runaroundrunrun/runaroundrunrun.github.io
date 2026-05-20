@@ -77,6 +77,7 @@ header {
 .lang-switch {
     display: flex;
     justify-content: flex-end;
+    margin: 1rem;
 }
 
 /* fonts */
@@ -131,6 +132,8 @@ article p:has(img) {
 }
 article img {
     margin: auto;
+    max-width: 100%;
+    height: auto;
 }
 div.content-container {
     max-width: 50rem;
@@ -138,11 +141,11 @@ div.content-container {
 }
 /* index */
 div.index-content {
-    margin: 1rem;
+    margin: 1rem auto;
     padding: 1rem;
     border: solid #e6e6e6 2px;
     border-radius: 4px;
-    min-width: 50rem;
+    max-width: 50rem;
 
     h2 {
         margin: 0;

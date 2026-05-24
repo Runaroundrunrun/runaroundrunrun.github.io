@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)
 published: 2026-05-13
-modified: 
+modified: 2026-05-24
 lang: 'en'
 tags: [""]
 ---
@@ -13,7 +13,8 @@ I never fully watched Seasons 1 and 2; I only checked highlights and teasers on 
 Then came Season 3.  
 
 Here's the trailer:  
-https://youtu.be/c3j5JlU4AvA?si=7KUvy-m4dnhInwLR  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c3j5JlU4AvA?si=twdjLbAtXjqSfvJ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 At first, I watched only highlights and teasers as usual, but as the story progressed, I became eager to watch the full episodes.
 So I ended up paying 1,250 yen for a monthly Disney+ subscription and started watching the latest episodes.

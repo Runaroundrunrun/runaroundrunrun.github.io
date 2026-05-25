@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'On setting up this website'
 published: 2026-05-08
-modified: 2026-05-20
+modified: 2026-05-26
 lang: 'en'
 ---
 *[日本語で読む](/ja/posts/web-dev/2026-05-20_on_setting_up_this_website)*
@@ -20,3 +20,6 @@ Here are some posts that inspired me to set up this website:
 - [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) - 32-Bit Cafe  
 - [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas) - James' Coffee Blog  
 - [Publishing your work increases your luck](https://github.com/readme/guides/publishing-your-work) - Aaron Francis  
+
+## Related
+- [Features I want to add to this website](/posts/web-dev/2026-05-20_features_to_add)

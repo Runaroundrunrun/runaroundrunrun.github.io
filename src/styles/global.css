@@ -150,4 +150,13 @@ div.index-content {
     h2 {
         margin: 0;
     }
+    h3 {
+        margin: 0;
+    }
+    div.recently-child {
+        margin: 0.5rem auto auto 1rem;
+        ul {
+            margin: auto 0;
+        }
+    }
 }

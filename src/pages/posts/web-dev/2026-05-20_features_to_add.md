@@ -15,4 +15,4 @@ Here are some features I want to add to this website in the future:
 I also want to write about each feature above once I add it, and add the links here later!
 
 ## Related
-- [On setting up this website](2026-05-08_on_setting_up_this_website)
+- [On setting up this website](/posts/web-dev/2026-05-08_on_setting_up_this_website)

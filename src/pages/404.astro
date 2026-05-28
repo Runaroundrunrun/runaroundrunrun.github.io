@@ -1,11 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from 'astro:assets';
 import "../styles/about.css";
-const pageTitle = "404 Page Not Found";
+import errorPageImage from "./images/404.png";
+const pageTitle = "Page Not Found";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <div>
-        Working in progress...
+    <div class="error-page-container">
+        <Image src={errorPageImage} alt="404 - page not found" layout="constrained"/>
+        <a href="/">BACK TO HOME</a>
     </div>
 </BaseLayout>

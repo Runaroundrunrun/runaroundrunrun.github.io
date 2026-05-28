@@ -160,3 +160,15 @@ div.index-content {
         }
     }
 }
+
+/* 404 page */
+div.error-page-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

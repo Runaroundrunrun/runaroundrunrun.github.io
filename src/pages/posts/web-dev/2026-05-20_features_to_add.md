@@ -2,10 +2,11 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Features I want to add to this website
 published: 2026-05-20
-modified: 2026-05-26
+modified: 2026-05-30
 lang: 'en'
-tags: [""]
 ---
+*[日本語で読む](/ja/posts/web-dev/2026-05-30_features_to_add)*
+
 Here are some features I want to add to this website in the future:
 - Dark mode
 - RSS feed

@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: ウェブサイトを立ち上げてみた
 published: 2026-05-20
-modified: 
+modified: 2026-05-30
 lang: 'ja'
 ---
 *Read the English version [here](/posts/web-dev/2026-05-08_on_setting_up_this_website).*
@@ -22,3 +22,6 @@ lang: 'ja'
 - [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) - 32-Bit Cafe  
 - [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas) - James' Coffee Blog  
 - [Publishing your work increases your luck](https://github.com/readme/guides/publishing-your-work) - Aaron Francis  
+
+## 関連
+- [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add)

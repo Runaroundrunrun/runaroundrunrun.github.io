@@ -9,30 +9,45 @@ const pageTitle = "Posts and Notes";
 		<a href="/ja/posts/">にほんご / Japanese</a>
 	</div>
     <h1>{pageTitle}</h1>
-    <div id="crafting" class="posts-category">
-        <h3>Crafting</h3>
-        <ul class="posts">
-            <ChildBlogPost url="/posts/crafting/2026-05-26_decorating_notebook_covers" title="Decorating notebook covers" published="2026-05-26" />
-        </ul>
-    </div>
-    <div id="reading" class="posts-category">
-        <h3>Reading</h3>
-        <ul class="posts">
-            <ChildBlogPost url="/posts/reading/2026-05-16_I_buy_way_more_books_than_I_can_read" title="I buy way more books than I can read" published="2026-05-16" />
-        </ul>
-    </div>
-    <div id="tv-series" class="posts-category">
-        <h3>TV series</h3>
-        <ul class="posts">
-            <ChildBlogPost url="/posts/tv-series/2026-05-13_yumis_cells3" title="I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)" published="2026-05-13" modified="2026-05-24" />
-        </ul>
-    </div>
-    <div id="website-dev" class="posts-category">
-        <h3>Website Development</h3>
-        <ul class="posts">
-            <ChildBlogPost url="/posts/web-dev/2026-05-20_features_to_add" title="Features I want to add to this website" published="2026-05-20" modified="2026-05-26" />
-            <ChildBlogPost url="/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration" title="My current keybindings configuration in VSCode" published="2026-05-12" />
-            <ChildBlogPost url="/posts/web-dev/2026-05-08_on_setting_up_this_website" title="On setting up this website" published="2026-05-08" modified="2026-05-20"/>
-        </ul>
+    <div class="categories-and-posts">
+        <aside class="categories">
+            <nav>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#crafting">Crafting</a></li>
+                    <li><a href="#reading">Reading</a></li>
+                    <li><a href="#tv-series">TV series</a></li>
+                    <li><a href="#website-dev">Website Development</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="posts-container">
+            <div id="crafting" class="posts-category">
+                <h3>Crafting</h3>
+                <ul class="posts">
+                    <ChildBlogPost url="/posts/crafting/2026-05-26_decorating_notebook_covers" title="Decorating notebook covers" published="2026-05-26" />
+                </ul>
+            </div>
+            <div id="reading" class="posts-category">
+                <h3>Reading</h3>
+                <ul class="posts">
+                    <ChildBlogPost url="/posts/reading/2026-05-16_I_buy_way_more_books_than_I_can_read" title="I buy way more books than I can read" published="2026-05-16" />
+                </ul>
+            </div>
+            <div id="tv-series" class="posts-category">
+                <h3>TV series</h3>
+                <ul class="posts">
+                    <ChildBlogPost url="/posts/tv-series/2026-05-13_yumis_cells3" title="I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)" published="2026-05-13" modified="2026-05-24" />
+                </ul>
+            </div>
+            <div id="website-dev" class="posts-category">
+                <h3>Website Development</h3>
+                <ul class="posts">
+                    <ChildBlogPost url="/posts/web-dev/2026-05-20_features_to_add" title="Features I want to add to this website" published="2026-05-20" modified="2026-05-26" />
+                    <ChildBlogPost url="/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration" title="My current keybindings configuration in VSCode" published="2026-05-12" />
+                    <ChildBlogPost url="/posts/web-dev/2026-05-08_on_setting_up_this_website" title="On setting up this website" published="2026-05-08" modified="2026-05-20"/>
+                </ul>
+            </div>
+        </div>
     </div>
 </BaseLayout>

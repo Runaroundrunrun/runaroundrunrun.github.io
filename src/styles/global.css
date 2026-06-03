@@ -151,6 +151,12 @@ article {
     span.date {
         margin: 0.8rem;
     }
+    iframe {
+        /* responsive styles */
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 16 / 9;
+    }
 }
 article p:has(img) {
     display: flex;

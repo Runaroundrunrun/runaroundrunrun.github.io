@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: ウェブサイトを立ち上げてみた
 published: 2026-05-20
-modified: 2026-05-30
+modified: 2026-06-06
 lang: 'ja'
 ---
 *Read the English version [here](/posts/web-dev/2026-05-08_on_setting_up_this_website).*
@@ -16,12 +16,12 @@ lang: 'ja'
 - 文章に限らず、今までに作ったもの、これから作るものの保管庫にする  
 
 ちなみに、ウェブサイトを作りたい欲がむくむく湧いてきたのは以下の記事のおかげ。
-- [Why you should have a website](https://rscottjones.com/why-you-should-have-a-website/) - rscottjones  
-- [Why You Should Start a Blog Right Now](https://guzey.com/personal/why-have-a-blog/) - Alexey Guzey  
-- [EveryoneShouldBlog.txt](https://library.xandra.cc/everyone-should-blog/) - the library of alexandra  
-- [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) - 32-Bit Cafe  
-- [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas) - James' Coffee Blog  
-- [Publishing your work increases your luck](https://github.com/readme/guides/publishing-your-work) - Aaron Francis  
+- <a class="new-tab" target="_blank" href="https://rscottjones.com/why-you-should-have-a-website/">Why you should have a website - rscottjones</a>
+- <a class="new-tab" target="_blank" href="https://guzey.com/personal/why-have-a-blog/">Why You Should Start a Blog Right Now - Alexey Guzey</a>
+- <a class="new-tab" target="_blank" href="https://library.xandra.cc/everyone-should-blog/">EveryoneShouldBlog.txt - the library of alexandra</a>
+- <a class="new-tab" target="_blank" href="https://32bit.cafe/websiteideas/">Ideas for Your Personal Website - 32-Bit Cafe</a>
+- <a class="new-tab" target="_blank" href="https://jamesg.blog/2024/02/19/personal-website-ideas">100 things you can do on your personal website - James' Coffee Blog</a>
+- <a class="new-tab" target="_blank" href="https://github.com/readme/guides/publishing-your-work">Publishing your work increases your luck - Aaron Francis</a>
 
 ## 関連
 - [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add)

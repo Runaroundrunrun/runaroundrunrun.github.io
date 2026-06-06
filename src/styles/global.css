@@ -59,6 +59,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a.new-tab::after {
+    content: "";
+    display: inline-block;
+    background-image: url('/images/new_tab_48px_50px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0.9em;
+    height: 1em;
+    vertical-align: middle;
+    margin-left: 0.5em;
+}
 time {
     white-space: nowrap;
 }
@@ -195,6 +206,17 @@ div.index-content {
         }
     }
 }
+.icon-music::before {
+    content: "";
+    display: inline-block;
+    background-image: url('/images/music_32px_50px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0.65em;
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
 
 /* 404 page */
 div.error-page-container {
@@ -212,3 +234,14 @@ div.error-page-container {
     display: flex;
     justify-content: space-between;
 } */
+p.mail::before{
+    content: "";
+    display: inline-block;
+    background-image: url('/images/mail_50px_35px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.5em;
+    height: 1.05em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}

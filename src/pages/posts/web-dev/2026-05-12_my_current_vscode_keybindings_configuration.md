@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: My current keybindings configuration in VSCode
 published: 2026-05-12
-modified: 
+modified: 2026-06-06
 lang: 'en'
 tags: ["coding"]
 ---
@@ -38,9 +38,10 @@ The configuration above allows me to use these shortcuts in VSCode:
 - `Alt` + `:` : current time in `HH:MM` format
 
 ## Resources
-- [Keyboard shortcuts for Visual Studio Code](https://code.visualstudio.com/docs/configure/keybindings) - VSCode  
+- <a class="new-tab" target="_blank" href="https://code.visualstudio.com/docs/configure/keybindings">Keyboard shortcuts for Visual Studio Code - VSCode</a>  
 (accessed: 2026-05-12)
-- [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editing/userdefinedsnippets) - VSCode  
+- <a class="new-tab" target="_blank" href="https://code.visualstudio.com/docs/editing/userdefinedsnippets">Snippets in Visual Studio Code - VSCode</a>  
 (accessed: 2026-05-12)
-- [VSCodeのショートカットキーに現在の日付を入力するキーを追加する。 #VSCode - Qiita](https://qiita.com/umyu/items/d9c3875133b8d1c6cb20) - @umyu  
+- <a class="new-tab" target="_blank" href="https://qiita.com/umyu/items/d9c3875133b8d1c6cb20">VSCodeのショートカットキーに現在の日付を入力するキーを追加する。 #VSCode - Qiita - @umyu</a>  
 (accessed: 2026-05-12)
+ 

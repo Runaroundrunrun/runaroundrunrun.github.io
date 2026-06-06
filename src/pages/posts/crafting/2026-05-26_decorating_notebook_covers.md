@@ -2,9 +2,11 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Decorating notebook covers
 published: 2026-05-26
-modified: 
+modified: 2026-06-06
 lang: 'en'
 ---
+*[日本語で読む](/ja/posts/crafting/2026-06-06_decorating_notebook_covers)*
+
 Last year, I started decorating notebook covers.  
 First I used stickers and pens. This is the first notebook I decorated.  
 

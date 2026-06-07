@@ -13,8 +13,8 @@ Here are the things I enjoyed in May 2026.
 - *Project Hail Mary* by Andy Weir (Japanese version)
 
 ## Blog Posts
-- <a class="new-tab" target="_blank" href="https://waitbutwhy.com/faq">Frequently Asked Questions by WAIT BUT WHY</a>
-- <a class="new-tab" target="_blank" href="https://newsletter.ownyourweb.site/archive/own-your-web-issue-18-curators/">Own Your Web – Issue 18: Curators</a>
+- <a class="icon-new-tab" target="_blank" href="https://waitbutwhy.com/faq">Frequently Asked Questions by WAIT BUT WHY</a>
+- <a class="icon-new-tab" target="_blank" href="https://newsletter.ownyourweb.site/archive/own-your-web-issue-18-curators/">Own Your Web – Issue 18: Curators</a>
 
 ## Movies
 - *The Mandalorian and Grogu*

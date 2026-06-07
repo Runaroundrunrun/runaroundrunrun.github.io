@@ -32,5 +32,5 @@ lang: 'ja'
 - アストリッドとラファエル 文書係の事件録
 
 ## ブログ
-- <a class="new-tab" target="_blank" href="https://waitbutwhy.com/faq">Frequently Asked Questions by WAIT BUT WHY</a>
-- <a class="new-tab" target="_blank" href="https://newsletter.ownyourweb.site/archive/own-your-web-issue-18-curators/">Own Your Web – Issue 18: Curators</a>
+- <a class="icon-new-tab" target="_blank" href="https://waitbutwhy.com/faq">Frequently Asked Questions by WAIT BUT WHY</a>
+- <a class="icon-new-tab" target="_blank" href="https://newsletter.ownyourweb.site/archive/own-your-web-issue-18-curators/">Own Your Web – Issue 18: Curators</a>

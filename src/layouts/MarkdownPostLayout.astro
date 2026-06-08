@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import "../styles/post.css";
 
 const { frontmatter } = Astro.props;
 const visibility = frontmatter.modified != null ? "" : "invisible";

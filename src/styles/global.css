@@ -203,31 +203,6 @@ div.categories-and-posts {
         }
     }
 }
-/* index */
-div.index-content {
-    margin: 1rem auto;
-    padding: 1rem;
-    border: solid var(--border-color) 2px;
-    border-radius: 4px;
-    max-width: 50rem;
-
-    h2 {
-        margin: 0;
-    }
-    h3 {
-        margin: 0;
-    }
-    div.recently-child {
-        margin: 0.5rem auto auto 1rem;
-        ul {
-            margin: auto 0;
-        }
-    }
-}
-a.link-to-posts img {
-    width: 17em;
-    height: auto;
-}
 
 /* 404 page */
 div.error-page-container {

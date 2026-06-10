@@ -1,6 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
 import ChildBlogPost from "../components/ChildBlogPost.astro";
+import { Image } from 'astro:assets';
+import seeAllPostsImage from "./images/see_all_posts.png";
+
 const pageTitle = "Home"
 ---
 <BaseLayout pageTitle={pageTitle}>
@@ -14,7 +17,10 @@ const pageTitle = "Home"
 			<ChildBlogPost url="/posts/technical/2026-05-30_keyboard_shortcuts" title="Keyboard shortcuts I use" published="2026-05-30"/>
 			<ChildBlogPost url="/posts/crafting/2026-05-26_decorating_notebook_covers" title="Decorating notebook covers" published="2026-05-26" />
 		</ul>
-		<a href="/posts/by-date/">and more...</a>
+		<!-- <a href="/posts/by-date/">and more...</a> -->
+		<a class="link-to-posts" href="/posts/by-date/">
+			<Image src={seeAllPostsImage} alt="see all posts" layout="constrained"/>
+		</a>
 	</div>
 	<div id="recently" class="index-content">
 		<h2>Recently</h2>

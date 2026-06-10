@@ -1,6 +1,9 @@
 ---
 import BaseLayoutJa from "../../layouts/ja/BaseLayoutJa.astro"
 import ChildBlogPost from "../../components/ChildBlogPost.astro";
+import { Image } from 'astro:assets';
+import seeAllPostsImage from "../images/see_all_posts_jpn.png";
+
 const pageTitle = "Home"
 ---
 <BaseLayoutJa pageTitle={pageTitle}>
@@ -14,7 +17,9 @@ const pageTitle = "Home"
 			<ChildBlogPost url="/ja/posts/lifelog/2026/2026_may_media_log" title="2026年5月に楽しんだ作品リスト" published="2026-06-06" />
 			<ChildBlogPost url="/ja/posts/technical/2026-06-06_keyboard_shortcuts" title="使っているショートカットキー" published="2026-06-06" />
 		</ul>
-		<!-- <a href="/ja/posts/by-date/">and more...</a> -->
+		<a class="link-to-posts" href="/ja/posts">
+			<Image src={seeAllPostsImage} alt="もっと見る" layout="constrained"/>
+		</a>
 	</div>
 	<div id="recently" class="index-content">
 		<h2>Recently</h2>

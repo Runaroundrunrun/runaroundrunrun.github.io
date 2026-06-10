@@ -224,6 +224,10 @@ div.index-content {
         }
     }
 }
+a.link-to-posts img {
+    height: 6em;
+    width: auto;
+}
 
 /* 404 page */
 div.error-page-container {

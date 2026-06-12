@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Keyboard shortcuts I use
 published: 2026-05-30
-modified: 2026-06-06
+modified: 2026-06-12
 lang: 'en'
 ---
 *[日本語で読む](/ja/posts/technical/2026-06-06_keyboard_shortcuts)*
@@ -10,8 +10,10 @@ lang: 'en'
 When I was a student, I didn't know that learning shortcuts could be helpful, so I would use the mouse and click the "Back" or "Save" button every time I wrote an essay.  
 Now that I'm used to using shortcuts, using the mouse each time I want to save or edit the document feels like a waste of energy.
 
-I used Windows devices at work, so I got used to Windows shortcuts.   
-I thought it could be satisfying to list all the shortcuts I've been using for years, so that I can see how much I've learned. I can use this as a cheat sheet, of course!
+Below are the Windows keyboard shortcuts I've been using for years. 
+I thought it could be satisfying to list them, so that I could see how much I've learned.
+
+I can use this as a cheat sheet, of course!
 
 ### General shortcuts
 - `Ctrl` + `C` to copy

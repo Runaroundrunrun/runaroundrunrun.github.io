@@ -9,7 +9,8 @@ lang: 'en'
 
 Here are the things I enjoyed in May 2026.
 
-## Books
+<h2 class="icon-books">Books</h2>
+
 - <a href="/posts/reading/2026-06-12_project_hail_mary"><span style="font-style:italic">Project Hail Mary</span> by Andy Weir (Japanese version)</a>
 
 

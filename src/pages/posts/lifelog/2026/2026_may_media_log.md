@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (May 2026)
 published: 2026-06-03
-modified: 2026-06-06
+modified: 2026-06-12
 lang: 'en'
 ---
 *[日本語で読む](/ja/posts/lifelog/2026/2026_may_media_log)*
@@ -10,7 +10,8 @@ lang: 'en'
 Here are the things I enjoyed in May 2026.
 
 ## Books
-- *Project Hail Mary* by Andy Weir (Japanese version)
+- <a href="/posts/reading/2026-06-12_project_hail_mary"><span style="font-style:italic">Project Hail Mary</span> by Andy Weir (Japanese version)</a>
+
 
 ## Blog Posts
 - <a class="icon-new-tab" target="_blank" href="https://waitbutwhy.com/faq">Frequently Asked Questions by WAIT BUT WHY</a>
@@ -19,13 +20,14 @@ Here are the things I enjoyed in May 2026.
 ## Movies
 - *The Mandalorian and Grogu*
 
-## Music
-### Albums
+<h2 class="icon-album">Albums</h2>
+
 - Roxwell - Matilda Mann
 - SABLE, fABLE - Bon Iver
 - Famille - Ben Mazué
 
-### Songs
+<h2 class="icon-music">Songs</h2>
+
 - The Fig Tree - Matilda Mann
 - IF I - I.O.I
 - Suddenly - I.O.I

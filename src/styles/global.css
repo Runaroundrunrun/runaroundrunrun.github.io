@@ -107,19 +107,16 @@ li:has(.icon-new-tab) {
     vertical-align: middle;
     margin-right: 0.5em;
 }
-li.icon-album {
-    list-style: none;
-    &::before {
-        content: "";
-        display: inline-block;
-        background-image: url('/images/album_50px_47px.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 1.0em;
-        height: 0.94em;
-        vertical-align: middle;
-        margin-right: 0.5em;
-    }
+.icon-album::before {
+    content: "";
+    display: inline-block;
+    background-image: url('/images/album_50px_47px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.0em;
+    height: 0.94em;
+    vertical-align: middle;
+    margin-right: 0.5em;
 }
 .icon-books::before {
     content: "";

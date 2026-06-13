@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: ウェブサイトを立ち上げてみた
 published: 2026-05-20
-modified: 2026-06-06
+modified: 2026-06-13
 lang: 'ja'
 ---
 *Read the English version [here](/posts/web-dev/2026-05-08_on_setting_up_this_website).*
@@ -25,3 +25,4 @@ lang: 'ja'
 
 ## 関連
 - [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add)
+- [Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)

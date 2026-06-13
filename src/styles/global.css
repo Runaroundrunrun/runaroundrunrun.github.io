@@ -68,8 +68,7 @@ main {
 }
 a {
     color: var(--text-color);
-    border-bottom: 1px solid var(--link-color);
-    text-decoration: none;
+    text-decoration: underline var(--link-color);
 }
 a.no-decoration {
     border-bottom: none;

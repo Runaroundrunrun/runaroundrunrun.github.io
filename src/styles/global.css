@@ -157,7 +157,7 @@ header {
     margin: 0 auto;
 }
 
-.lang-switch {
+.lang {
     display: flex;
     justify-content: flex-end;
     margin: 1rem;

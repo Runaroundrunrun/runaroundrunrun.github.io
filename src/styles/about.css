@@ -1,0 +1,14 @@
+/* about page */
+div.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.profile-description {
+    padding: 0 2rem;
+}
+div.about-container {
+    padding: 0 2rem;
+    border: solid var(--border-color) 2px;
+    border-radius: 4px;
+    margin: 1rem 0;
+}

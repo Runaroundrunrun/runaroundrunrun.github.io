@@ -9,6 +9,12 @@ const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > 
 ---
 <BaseLayout pageTitle = {pageTitle}>
     <h1>{pageTitle}</h1>
+    <p>
+        A collection of my thoughts, logs, and letters to a new friend.<br>
+        I treat this page like a digital garden, so some posts here may be incomplete or a work in progress. <br>
+        I might also rewrite or rephrase from time to time.
+    </p>
+    <!-- <a href="/posts">See by Category</a> -->
     <ul class="posts">
         {sortedPosts.map((post:any) => 
             <ChildBlogPost url={post.url} title ={post.frontmatter.title} published={post.frontmatter.published} modified={post.frontmatter.modified} />

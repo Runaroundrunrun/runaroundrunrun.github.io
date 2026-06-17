@@ -167,7 +167,7 @@ header {
 span.date {
     color: var(--date-color);
     display: flex;
-    gap: 1rem;
+    gap: 0.6rem;
     font-style: italic;
 }
 

@@ -11,8 +11,8 @@ const modified = frontmatter.modified?.toString().slice(0,10);
     <article>
         <h1>{frontmatter.title}</h1>
         <span class="date">
-            <p>Published: <time datetime={published}>{published}</time></p>
-            <p class={visibility}>Last modified: <time>{modified}</time></p>
+            <p>published: <time datetime={published}>{published}</time></p>
+            <p class={visibility}>modified: <time>{modified}</time></p>
         </span>
         <!-- <div>tags</div> -->
         <hr>

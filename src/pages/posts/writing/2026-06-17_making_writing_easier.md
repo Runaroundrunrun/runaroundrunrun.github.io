@@ -40,6 +40,6 @@ Delete the unnecessary sentences and add the missing explanations. Repeat this p
 I won't force myself to follow these tips though. Sometimes writing in one go can be better, I believe.
 
 ## References
-- Sönke Ahrens, *How to Take Smart Notes*
+- Sönke Ahrens, *How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking for Students, Academics and Nonfiction Book Writers*
 - Peter Suhm, <a class="icon-new-tab" target="_blank" href="https://writinghabit.com/">How to start a writing habit</a> (last accessed: 2026-06-16)
 - David Perrell, <a class="icon-new-tab" target="_blank" href="https://perell.com/essay/the-ultimate-guide-to-writing-online/">The Ultimate Guide to Writing Online</a> (last accessed: 2026-06-16)

@@ -2,9 +2,11 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "The most exciting sci-fi I've ever read: Project Hail Mary"
 published: 2026-06-12
-modified: 
+modified: 2026-06-19
 lang: 'en'
 ---
+*[日本語で読む](/ja/posts/reading/2026-06-19_project_hail_mary)*
+
 This book is so great.  
 I wish I could erase my memory and read it again!
 This is the kind of book that makes reading fun... Why didn't I read it sooner? 

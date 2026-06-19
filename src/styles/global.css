@@ -206,6 +206,11 @@ div.categories-and-posts {
         a:hover {
             text-decoration: underline;
         }
+        nav {
+            position: sticky;
+            top: 0;
+            overflow-y: auto;
+        }
     }
 }
 

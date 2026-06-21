@@ -148,6 +148,10 @@ time {
 header {
     max-width: 80rem;
     margin: 0 auto;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 .navigation-links {
     display: flex;

@@ -1,12 +1,20 @@
 ---
 import Navigation from "./Navigation.astro";
+const {lang, currentPage} = Astro.props;
+const home = lang == "ja" ? "/ja/" : "/";
+const currentLangPage = (lang != "ja" ? "/ja" : "") + currentPage;
+const langDisp = lang != "ja" ? "にほんご / Japanese" : "English";
+const langVisibility = currentPage == null ? "invisible" : "";
 ---
 
 <header>
-  <div>
-    <a class="logo no-decoration" href="/"><img src="/images/logo_E9631A.png" alt="logo Runa's Playground"/></a>
+  <div class="container">
+    <a class="logo no-decoration" href={home}><img src="/images/logo_E9631A.png" alt="logo Runa's Playground"/></a>
+    <div class="lang">
+      <a class={langVisibility} href={currentLangPage}>{langDisp}</a>
+    </div>
   </div>
   <nav>
-    <Navigation />
+    <Navigation lang={lang}/>
   </nav>
 </header>

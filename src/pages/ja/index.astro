@@ -5,12 +5,10 @@ import { Image } from 'astro:assets';
 import seeAllPostsImage from "../images/see_all_posts_jpn.png";
 import "../../styles/index.css";
 
-const pageTitle = "Home"
+const pageTitle = "Home";
+const currentJaPage = "/";
 ---
-<BaseLayoutJa pageTitle={pageTitle}>
-	<div class="lang">
-		<a href="/">English</a>
-	</div>
+<BaseLayoutJa pageTitle={pageTitle} currentPage={currentJaPage}>
 	<div id="latest" class="index-content">
 		<h2>更新履歴</h2>
 		<ul class="posts">

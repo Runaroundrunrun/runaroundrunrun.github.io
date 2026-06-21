@@ -2,12 +2,13 @@
 import BaseLayoutJa from "../../../layouts/ja/BaseLayoutJa.astro";
 import ChildBlogPost from "../../../components/ChildBlogPost.astro";
 const pageTitle = "Posts and Notes";
+const currentJaPage = "/posts/chronological/";
 const allPosts = Object.values(import.meta.glob('./**/*.md', { eager: true }));
 // sort by published date (desc)
 const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > b.frontmatter.published ? -1 : 1);
 
 ---
-<BaseLayoutJa pageTitle = {pageTitle}>
+<BaseLayoutJa pageTitle = {pageTitle} currentPage={currentJaPage}>
     <h1>{pageTitle}</h1>
     <ul class="posts">
         {sortedPosts.map((post:any) => 

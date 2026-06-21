@@ -2,12 +2,13 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ChildBlogPost from "../../components/ChildBlogPost.astro";
 const pageTitle = "Posts and Notes";
+const currentPage = "/posts/chronological/";
 const allPosts = Object.values(import.meta.glob('./**/*.md', { eager: true }));
 // sort by published date (desc)
 const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > b.frontmatter.published ? -1 : 1);
 
 ---
-<BaseLayout pageTitle = {pageTitle}>
+<BaseLayout pageTitle = {pageTitle} currentPage={currentPage}>
     <h1>{pageTitle}</h1>
     <p>
         A collection of my thoughts, logs, and letters to a new friend.<br>

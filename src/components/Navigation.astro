@@ -1,7 +1,9 @@
 ---
+const {lang} = Astro.props;
+const urlPrefix = lang == "ja" ? "/ja" : "";
 ---
 <div id="menu" class="navigation-links">
-    <a href="/">Home</a>
-    <a href="/posts/">Posts & Notes</a>
-    <a href="/about/">About</a>
+    <a href={`${urlPrefix}/`}>Home</a>
+    <a href={`${urlPrefix}/posts/`}>Posts & Notes</a>
+    <a href={`${urlPrefix}/about/`}>About</a>
 </div>

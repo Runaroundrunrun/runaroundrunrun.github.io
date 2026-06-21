@@ -5,12 +5,10 @@ import profileImage from "./images/profile.png";
 import "../styles/about.css";
 
 const pageTitle = "About";
+const currentPage = "/about/";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-	<div class="lang">
-		<a href="/ja/about/">にほんご / Japanese</a>
-	</div>
+<BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
     <h1>{pageTitle}</h1>
     <div class="about-container">
         <h2>Welcome to Runa's Playground!</h2>

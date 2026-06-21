@@ -4,12 +4,10 @@ import { Image } from 'astro:assets';
 import profileImage from "../images/profile.png";
 import "../../styles/about.css";
 const pageTitle = "About";
+const currentJaPage = "/about/"
 ---
 
-<BaseLayoutJa pageTitle={pageTitle}>
-    <div class="lang">
-        <a href="/about/">English</a>
-    </div>
+<BaseLayoutJa pageTitle={pageTitle} currentPage={currentJaPage}>
     <h1>{pageTitle}</h1>
     <div class="about-container">
         <h2>Runa's Playground へようこそ!</h2>

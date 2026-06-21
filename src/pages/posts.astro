@@ -2,12 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ChildBlogPost from "../components/ChildBlogPost.astro";
 const pageTitle = "Posts and Notes";
+const currentPage ="/posts/"
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-    <div class="lang">
-        <a href="/ja/posts/">にほんご / Japanese</a>
-    </div>
+<BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
     <h1>{pageTitle}</h1>
     <p>
         A collection of my thoughts, logs, and letters to a new friend.<br />

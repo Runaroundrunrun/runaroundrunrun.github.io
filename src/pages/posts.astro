@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ChildBlogPost from "../components/ChildBlogPost.astro";
 const pageTitle = "Posts and Notes";
-const currentPage ="/posts/"
+const currentPage = "/posts/";
 ---
 
 <BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
@@ -53,6 +53,11 @@ const currentPage ="/posts/"
             <div id="reading" class="posts-category">
                 <h3>Reading</h3>
                 <ul class="posts">
+                    <ChildBlogPost
+                        url="/posts/reading/2026-06-21_books_I_want_to_read"
+                        title="A list of books I've been wanting to read"
+                        published="2026-06-21"
+                    />
                     <ChildBlogPost
                         url="/posts/reading/2026-06-12_project_hail_mary"
                         title="The most exciting sci-fi I've ever read: Project Hail Mary"

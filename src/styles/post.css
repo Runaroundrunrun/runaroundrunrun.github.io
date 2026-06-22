@@ -17,6 +17,13 @@ article {
         height: 100%;
         aspect-ratio: 16 / 9;
     }
+    /* code block */
+    pre {
+        padding: 0.5rem;
+    }
+    code, code * {
+        font-family: var(--font-code) !important;
+    }
 }
 article p:has(img) {
     display: flex;

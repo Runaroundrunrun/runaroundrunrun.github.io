@@ -10,10 +10,10 @@ div.index-content {
         margin: 0;
     }
     h3 {
-        margin: 0;
+        margin: 0.5rem 0;
     }
     div.recently-child {
-        margin: 0.5rem auto auto 1rem;
+        margin: 0.5rem auto 0.5rem 1rem;
         ul {
             margin: auto 0;
         }

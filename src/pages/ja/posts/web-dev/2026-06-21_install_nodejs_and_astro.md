@@ -2,9 +2,11 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: "Webサイト立ち上げの記録 (2) - Astro を使う準備"
 published: 2026-06-21
-modified: 
+modified: 2026-06-22
 lang: 'ja'
 ---
+前の記事は [こちら](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)
+
 Astro を使うための環境構築としてやったことは大きく分けるとこの2つ。
 - Visual Studio Code のインストール
 - Node.js のインストール

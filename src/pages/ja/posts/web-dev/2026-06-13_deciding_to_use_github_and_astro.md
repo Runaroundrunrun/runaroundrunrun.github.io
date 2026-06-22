@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: "Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める"
 published: 2026-06-13
-modified: 
+modified: 2026-06-22
 lang: 'ja'
 ---
 ## GitHub Pages を使うと決める
@@ -53,7 +53,7 @@ Jekyll の話に戻ると、これはGitHubが Ruby で開発したものらし�
 
 Astro のチュートリアルを読み始めて気づいたのだけど、まずは環境構築をしないといけない...  
 (そらそうか)  
-今自宅で使っている PC は開発用に使ったことがなかったので、 Visual Studio Code と Node.js をインストールするところからスタートである。  
+今自宅で使っている PC は開発用に使ったことがなかったので、 [Visual Studio Code と Node.js をインストールする](/ja/posts/web-dev/2026-06-21_install_nodejs_and_astro) ところからスタートである。  
 
 開発環境を作る過程でやったことはまた別にまとめていく、予定。
 

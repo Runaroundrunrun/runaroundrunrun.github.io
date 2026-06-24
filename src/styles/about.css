@@ -2,13 +2,22 @@
 div.profile-container {
     display: flex;
     flex-wrap: wrap;
+    img {
+        margin: auto;
+    }
 }
 div.profile-description {
     padding: 0 2rem;
 }
 div.about-container {
-    padding: 0 2rem;
+    padding: 0.5rem 2rem;
     border: solid var(--border-color) 2px;
     border-radius: 4px;
     margin: 1rem 0;
+    h3 {
+        margin: 0.5rem auto;
+    }
+    p {
+        margin: 0.5rem 0;
+    }
 }

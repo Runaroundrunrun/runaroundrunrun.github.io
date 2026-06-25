@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: このサイトに加えたい機能
 published: 2026-05-30
-modified: 
+modified: 2026-06-25
 lang: 'ja'
 ---
 *Read the English version [here](/posts/web-dev/2026-05-20_features_to_add).*
@@ -10,7 +10,7 @@ lang: 'ja'
 後でこのサイトに、以下の機能を加えたい！
 - ダークモード
 - RSSフィード
-- [Posts and Notes](/ja/posts/) ページに、カテゴリリスト（カテゴリごとにリンクで飛べるようにしたい）
+- [Posts and Notesページに、カテゴリリスト（カテゴリごとにリンクで飛べるようにしたい）](/posts/web-dev/2026-06-25_adding_categories_section)
 - 記事にのせた画像を一覧で確認できるギャラリーページ
 
 そして上記の機能ができてきたら、作るときの経緯とかの記録をこの記事にリンク付けしたいな、と思っている。

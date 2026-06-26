@@ -69,7 +69,7 @@ main {
 }
 a {
     color: var(--text-color);
-    text-decoration: underline var(--link-color);
+    text-decoration-color:  var(--link-color);
 }
 a.no-decoration {
     border-bottom: none;
@@ -139,6 +139,17 @@ li:has(.icon-new-tab) {
     height: 0.8em;
     vertical-align: middle;
     margin-right: 0.5em;
+}
+.icon-camera::before {
+    content: "";
+    display: inline-block;
+    background-image: url('/images/camera_50px_39px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.0em;
+    height: 0.78em;
+    vertical-align: middle;
+    margin-right: 0.5em; 
 }
 
 time {

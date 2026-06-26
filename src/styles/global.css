@@ -69,7 +69,7 @@ main {
 }
 a {
     color: var(--text-color);
-    text-decoration: underline var(--link-color);
+    text-decoration-color:  var(--link-color);
 }
 a.no-decoration {
     border-bottom: none;

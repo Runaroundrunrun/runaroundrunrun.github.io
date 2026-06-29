@@ -1,8 +1,8 @@
 ---
 layout: ../../../layouts/MarkdownPostLayout.astro
-title: How can I make writing easier?
+title: How to make it easier for me to write?
 published: 2026-06-17
-modified: 
+modified: 2026-06-29
 lang: 'en'
 ---
 It feels easy to start writing when I'm in a cafe or in a waiting room, but it's not that easy when I'm at home.

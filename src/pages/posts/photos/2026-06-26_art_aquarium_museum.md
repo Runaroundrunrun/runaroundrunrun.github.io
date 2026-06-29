@@ -2,9 +2,10 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "Photos: Art Aquarium Museum"
 published: 2026-06-26
-modified: 
+modified: 2026-06-29
 lang: 'en'
 ---
+*[日本語で読む](/ja/posts/photos/2026-06-29_art_aquarium_museum)*
 
 This April I visited <a class="icon-new-tab" target="_blank" href="https://artaquarium.jp/">Art Aquarium Museum</a> in Ginza, Tokyo.
 

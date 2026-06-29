@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: "Webサイト立ち上げの記録 (2) - Astro を使う準備"
 published: 2026-06-21
-modified: 2026-06-22
+modified: 2026-06-29
 lang: 'ja'
 ---
 前の記事は [こちら](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)
@@ -65,3 +65,6 @@ npm もオッケー！
 - <a class="icon-new-tab" target="_blank" href="https://github.com/coreybutler/nvm-windows">GitHub - coreybutler/nvm-windows: A node.js version management utility for Windows. Ironically written in Go. · GitHub</a>
 - <a class="icon-new-tab" target="_blank" href="https://code.visualstudio.com/">Visual Studio Code - The open source AI code editor | Your home for multi-agent development</a>
 - <a class="icon-new-tab" target="_blank" href="https://nodejs.org/ja">Node.js — どこでもJavaScriptを使おう</a>
+
+## 関連
+- [Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)

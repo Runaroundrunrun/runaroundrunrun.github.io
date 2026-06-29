@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Adding "categories" section to Posts and Notes page
 published: 2026-06-25
-modified: 
+modified: 2026-06-29
 lang: 'en'
 ---
 A while ago I added “categories” section to [Posts and Notes](/posts/) page.
@@ -10,6 +10,7 @@ A while ago I added “categories” section to [Posts and Notes](/posts/) page.
 ![added section](../images/2026-06-25_added_categories_section.png)
 
 Visitors can click a category and jump to the category's posts.  
+
 The structure of the page is like this:
 
 ![structure of posts and notes page](../images/2026-06-25_structure_of_posts_and_notes_page.jpeg)
@@ -31,7 +32,9 @@ nav {
 }
 ```
 This is one of the features I wanted to add when I first set up this website, but lately I’m starting to feel that it’s unnecessary.  
+
 The "categories" section won't be displayed if the screen width is smaller than 57 rem, so it’s usually hidden when you access the page from your phone.  
+
 Personally I use my phone more than my computer when I read posts, and I think that applies to many smartphone users.  
 So what’s the point of adding categories section that can only be displayed on tablets or computers?
 

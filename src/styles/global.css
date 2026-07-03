@@ -10,6 +10,7 @@
     --date-color: #9a9a9a;
     --border-color: #E9631A;
     --link-color: #E9631A;
+    --back-color-2: #E3EFFD;
 
 }
 /* fonts */
@@ -151,6 +152,17 @@ li:has(.icon-new-tab) {
     vertical-align: middle;
     margin-right: 0.5em; 
 }
+.icon-movie::before {
+    content: "";
+    display: inline-block;
+    background-image: url('/images/movie_42px_50px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0.9em;
+    height: 1.2em;
+    vertical-align: middle;
+    margin-right: 0.5em; 
+}
 
 time {
     white-space: nowrap;
@@ -177,9 +189,15 @@ header {
     display: flex;
     justify-content: flex-end;
     margin: 1rem;
+    height: 1.5rem;
 }
 
 /* posts */
+p.description {
+    background-color: var(--back-color-2);
+    border-radius: 5px;
+    padding: 1rem;
+}
 span.date {
     color: var(--date-color);
     display: flex;

@@ -7,7 +7,7 @@ const currentJaPage = "/posts/"
 
 <BaseLayoutJa pageTitle = {pageTitle} currentPage = {currentJaPage}>
     <h1>{pageTitle}</h1>
-    <p>
+    <p class="description">
         考えていること、やったことなどをここに集めています。<br>
         デジタルガーデンみたいなイメージなので、ここにあるものは未完成だったり、作業中の可能性があります。<br>
         時折編集したりするかも。
@@ -38,11 +38,12 @@ const currentJaPage = "/posts/"
             <div id="website-dev" class="posts-category">
                 <h3>Webサイト開発</h3>
                 <ul class="posts">
+                    <ChildBlogPost url="/ja/posts/web-dev/2026-07-03_adding_categories_section" title="categories セクションを Posts and Notes ページに追加" published="2026-07-03"/>
                     <ChildBlogPost url="/ja/posts/web-dev/2026-06-30_my_current_vscode_keybindings_configuration" title="今のVSCodeのkeybindings設定" published="2026-06-30"/>
                     <ChildBlogPost url="/ja/posts/web-dev/2026-06-21_install_nodejs_and_astro" title="Webサイト立ち上げの記録 (2) - Astro を使う準備" published="2026-06-21" modified="2026-06-29"/>
                     <ChildBlogPost url="/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro" title="Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める" published="2026-06-13" modified="2026-06-29" />
                     <ChildBlogPost url="/ja/posts/web-dev/2026-06-10_setting_iframe_css" title="画面を縮小したら親要素から動画がはみ出る問題の対応" published="2026-06-10" />
-                    <ChildBlogPost url="/ja/posts/web-dev/2026-05-30_features_to_add" title="このサイトに加えたい機能" published="2026-05-30" modified="2026-06-25"/>
+                    <ChildBlogPost url="/ja/posts/web-dev/2026-05-30_features_to_add" title="このサイトに加えたい機能" published="2026-05-30" modified="2026-07-03"/>
                     <ChildBlogPost url="/ja/posts/web-dev/2026-05-20_on_setting_up_this_website" title="ウェブサイトを立ち上げてみた" published="2026-05-20" modified="2026-06-13"/>
                 </ul>
             </div>

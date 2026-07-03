@@ -10,10 +10,10 @@ const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > 
 ---
 <BaseLayout pageTitle = {pageTitle} currentPage={currentPage}>
     <h1>{pageTitle}</h1>
-    <p>
+    <p class="description">
         A collection of my thoughts, logs, and letters to a new friend.<br>
         I treat this page like a digital garden, so some posts here may be incomplete or a work in progress. <br>
-        I might also rewrite or rephrase from time to time.
+        I might also rewrite or rephrase occasionally.
     </p>
     <!-- <a href="/posts">See by Category</a> -->
     <ul class="posts">

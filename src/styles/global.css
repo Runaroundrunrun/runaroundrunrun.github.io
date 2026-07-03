@@ -152,6 +152,17 @@ li:has(.icon-new-tab) {
     vertical-align: middle;
     margin-right: 0.5em; 
 }
+.icon-movie::before {
+    content: "";
+    display: inline-block;
+    background-image: url('/images/movie_42px_50px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0.9em;
+    height: 1.2em;
+    vertical-align: middle;
+    margin-right: 0.5em; 
+}
 
 time {
     white-space: nowrap;

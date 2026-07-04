@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: "レシピ: 小松菜のナムルもどき"
 published: 2026-06-24
-modified: 
+modified: 2026-07-04
 lang: 'ja'
 ---
 料理をするのが億劫なときでもこれなら作れるかもな、と思っているもの。
@@ -25,3 +25,6 @@ lang: 'ja'
 ゴマ油と塩は和えながら味見して、好みの量に調整する。
 
 ![handwritten recipe of namul](../../../posts/images/2026-06-24_recipe_namul.jpeg)
+
+## 他のレシピもあるよ
+- [レシピ: ミネストローネ](/ja/posts/cooking/2026-07-04_recipe_minestrone)

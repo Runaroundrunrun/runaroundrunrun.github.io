@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (May 2026)
 published: 2026-06-03
-modified: 2026-06-13
+modified: 2026-07-04
 lang: 'en'
 ---
 *[日本語で読む](/ja/posts/lifelog/2026/2026_may_media_log)*
@@ -23,7 +23,7 @@ Here are the things I enjoyed in May 2026.
 
 <h2 class="icon-album">Albums</h2>
 
-- Roxwell - Matilda Mann
+- [Roxwell - Matilda Mann](/posts/music/2026-07-04_roxwell)
 - SABLE, fABLE - Bon Iver
 - Famille - Ben Mazué
 
@@ -37,3 +37,6 @@ Here are the things I enjoyed in May 2026.
 ## TV Series
 - <a href="/posts/tv-series/2026-05-13_yumis_cells3">유미의 세포들 3 (Yumi's Cells 3)</a>
 - Astrid et Raphaëlle
+
+## Related
+- [My Favorite Album: Roxwell by Matilda Mann](/posts/music/2026-07-04_roxwell)

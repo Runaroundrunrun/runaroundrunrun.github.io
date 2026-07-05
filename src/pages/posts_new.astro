@@ -1,8 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ChildBlogPost from "../components/ChildBlogPost.astro";
+import type { MarkdownInstance } from 'astro';
 
-interface PostMeta {
+interface Frontmatter {
     layout: string,
     title: string,
     published: string,
@@ -14,18 +15,22 @@ interface PostMeta {
 const pageTitle = "Posts and Notes";
 const currentPage = "/posts/";
 
-const allPosts = Object.values(import.meta.glob('./posts/**/*.md', { eager: true }));
+const allPosts = Object.values(import.meta.glob<MarkdownInstance<Frontmatter>>('./posts/**/*.md', { eager: true }));
 // sort by published date (desc)
 const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > b.frontmatter.published ? -1 : 1);
 const filtered = sortedPosts.filter((post:any) => post.frontmatter?.category != null);
-const group = filtered.reduce((keys:any, post:any) => {
-    const key = post.frontmatter.category;
-        if (!keys[key]) {
-            keys[key] = [];
-        }
-        keys[key].push(post);
-        return keys;
-}, {});
+const byCategory = Map.groupBy(filtered, (post) => {return post.frontmatter.category as string});
+const categoryDispMap: Record<string, string> = {
+    "crafting" : "Crafting",
+    "lifelog" : "Lifelog",
+    "music" : "Music",
+    "photos" : "Photos",
+    "reading" : "Reading",
+    "technical" : "Technical",
+    "tv-series" : "TV series",
+    "website-dev" : "Website Development",
+    "writing" : "Writing"
+};
 
 ---
 
@@ -37,24 +42,19 @@ const group = filtered.reduce((keys:any, post:any) => {
         or a work in progress. <br />
         I might also rewrite or rephrase occasionally.
     </p>
-    <p>{JSON.stringify(group)}</p>
+    <!-- <p>{JSON.stringify([...byCategory])}</p> -->
     <div class="categories-and-posts">
         <aside class="categories">
             <nav>
                 <h4>Categories</h4>
                 <ul>
-                    {typeof group}
-                    <li><a href="#crafting">Crafting</a></li>
-                    <li><a href="#lifelog">Lifelog</a></li>
-                    <li><a href="#music">Music</a></li>
-                    <li><a href="#photos">Photos</a></li>
-                    <li><a href="#reading">Reading</a></li>
-                    <li><a href="#tv-series">TV series</a></li>
-                    <li><a href="#website-dev">Website Development</a></li>
-                    <li><a href="#writing">Writing</a></li>
+                    {Array.from(byCategory.keys()).map(category => 
+                        <li><a href={`#${category}`}>{categoryDispMap[category]}</a></li>
+                    )}
                 </ul>
             </nav>
         </aside>
+        {}
         <div class="posts-container">
             <div id="crafting" class="posts-category">
                 <h3>Crafting</h3>

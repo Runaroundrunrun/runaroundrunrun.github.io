@@ -2,8 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Features I want to add to this website
 published: 2026-05-20
-modified: 2026-06-25
+modified: 2026-07-05
 lang: 'en'
+category: web-dev
 ---
 *[日本語で読む](/ja/posts/web-dev/2026-05-30_features_to_add)*
 

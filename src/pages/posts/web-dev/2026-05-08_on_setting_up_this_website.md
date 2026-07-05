@@ -2,8 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'On setting up this website'
 published: 2026-05-08
-modified: 2026-06-06
+modified: 2026-07-05
 lang: 'en'
+category: web-dev
 ---
 *[日本語で読む](/ja/posts/web-dev/2026-05-20_on_setting_up_this_website)*
 

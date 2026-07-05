@@ -1,8 +1,50 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ChildBlogPost from "../components/ChildBlogPost.astro";
+import type { MarkdownInstance } from 'astro';
+
+interface Frontmatter {
+    layout: string,
+    title: string,
+    published: string,
+    modified?: string,
+    lang: string,
+    category?: string
+}
+
 const pageTitle = "Posts and Notes";
 const currentPage = "/posts/";
+
+const allPosts = Object.values(import.meta.glob<MarkdownInstance<Frontmatter>>('./posts/**/*.md', { eager: true }));
+// sort by published date (desc)
+const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > b.frontmatter.published ? -1 : 1);
+const byCategory = Map.groupBy(sortedPosts, (post) => {return post.frontmatter.category as string});
+// sort categories alphabetically
+const categories = [...byCategory.keys()].sort();
+
+const categoryDispMap: Record<string, string> = {
+    "crafting" : "Crafting",
+    "lifelog" : "Lifelog",
+    "music" : "Music",
+    "photos" : "Photos",
+    "reading" : "Reading",
+    "technical" : "Technical",
+    "tv-series" : "TV series",
+    "web-dev" : "Website Development",
+    "writing" : "Writing"
+};
+const categoryIconMap: Record<string, string> = {
+    "crafting" : "",
+    "lifelog" : "",
+    "music" : "icon-music",
+    "photos" : "icon-camera",
+    "reading" : "icon-books",
+    "technical" : "",
+    "tv-series" : "",
+    "web-dev" : "",
+    "writing" : ""
+};
+
 ---
 
 <BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
@@ -18,150 +60,27 @@ const currentPage = "/posts/";
             <nav>
                 <h4>Categories</h4>
                 <ul>
-                    <li><a href="#crafting">Crafting</a></li>
-                    <li><a href="#lifelog">Lifelog</a></li>
-                    <li><a href="#music">Music</a></li>
-                    <li><a href="#photos">Photos</a></li>
-                    <li><a href="#reading">Reading</a></li>
-                    <li><a href="#tv-series">TV series</a></li>
-                    <li><a href="#website-dev">Website Development</a></li>
-                    <li><a href="#writing">Writing</a></li>
+                    {categories.map(category => 
+                        <li><a href={`#${category}`}>{categoryDispMap[category]}</a></li>
+                    )}
                 </ul>
             </nav>
         </aside>
         <div class="posts-container">
-            <div id="crafting" class="posts-category">
-                <h3>Crafting</h3>
-                <ul class="posts">
-                    <ChildBlogPost
-                        url="/posts/crafting/2026-05-26_decorating_notebook_covers"
-                        title="Decorating notebook covers"
-                        published="2026-05-26"
-                        modified="2026-06-06"
-                    />
-                </ul>
-            </div>
-            <div id="lifelog" class="posts-category">
-                <h3>Lifelog</h3>
-                <ul class="posts">
-                    <ChildBlogPost 
-                        url="/posts/lifelog/2026/2026_june_media_log"
-                        title="Media Log (June 2026)"
-                        published="2026-07-01"
-                    />
-                    <ChildBlogPost
-                        url="/posts/lifelog/2026/2026_may_media_log"
-                        title="Media Log (May 2026)"
-                        published="2026-06-03"
-                        modified="2026-07-04"
-                    />
-                </ul>
-            </div>
-            <div id="music" class="posts-category">
-                <h3 class="icon-music">Music</h3>
-                <ul class="posts">
-                    <ChildBlogPost 
-                        url="/posts/music/2026-07-04_roxwell"
-                        title="My Favorite Album: Roxwell by Matilda Mann"
-                        published="2026-07-04"
-                    />
-                </ul>
-            </div>
-            <div id="photos" class="posts-category">
-                <h3 class="icon-camera">Photos</h3>
-                <ul class="posts">
-                    <ChildBlogPost
-                        url="/posts/photos/2026-06-26_art_aquarium_museum"
-                        title="Photos: Art Aquarium Museum"
-                        published="2026-06-26"
-                        modified="2026-06-29"
-                    />
-                </ul>
-            </div>
-            <div id="reading" class="posts-category">
-                <h3 class="icon-books">Reading</h3>
-                <ul class="posts">
-                    <ChildBlogPost
-                        url="/posts/reading/2026-06-21_books_I_want_to_read"
-                        title="A list of books I've been wanting to read"
-                        published="2026-06-21"
-                        modified="2026-07-01"
-                    />
-                    <ChildBlogPost
-                        url="/posts/reading/2026-06-12_project_hail_mary"
-                        title="The most exciting sci-fi I've ever read: Project Hail Mary"
-                        published="2026-06-12"
-                        modified="2026-06-19"
-                    />
-                    <ChildBlogPost
-                        url="/posts/reading/2026-05-16_I_buy_way_more_books_than_I_can_read"
-                        title="I buy way more books than I can read"
-                        published="2026-05-16"
-                    />
-                </ul>
-            </div>
-            <div id="technical">
-                <h3>Technical</h3>
-                <ul class="posts">
-                    <ChildBlogPost
-                        url="/posts/technical/2026-05-30_keyboard_shortcuts"
-                        title="Keyboard shortcuts I use"
-                        published="2026-05-30"
-                        modified="2026-06-12"
-                    />
-                </ul>
-            </div>
-            <div id="tv-series" class="posts-category">
-                <h3>TV series</h3>
-                <ul class="posts">
-                    <ChildBlogPost
-                        url="/posts/tv-series/2026-05-13_yumis_cells3"
-                        title="I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)"
-                        published="2026-05-13"
-                        modified="2026-06-13"
-                    />
-                </ul>
-            </div>
-            <div id="website-dev" class="posts-category">
-                <h3>Website Development</h3>
-                <ul class="posts">
-                    <ChildBlogPost
-                        url="/posts/web-dev/2026-06-25_adding_categories_section"
-                        title="Adding &quot;categories&quot; section to Posts and Notes page"
-                        published="2026-06-25"
-                        modified="2026-07-03"
-                    />
-                    <ChildBlogPost
-                        url="/posts/web-dev/2026-05-20_features_to_add"
-                        title="Features I want to add to this website"
-                        published="2026-05-20"
-                        modified="2026-06-25"
-                    />
-                    <ChildBlogPost
-                        url="/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration"
-                        title="My current keybindings configuration in VSCode"
-                        published="2026-05-12"
-                        modified="2026-06-30"
-                    />
-                    <ChildBlogPost
-                        url="/posts/web-dev/2026-05-08_on_setting_up_this_website"
-                        title="On setting up this website"
-                        published="2026-05-08"
-                        modified="2026-06-06"
-                    />
-                </ul>
-            </div>
-            <div id="writing" class="posts-category">
-                <h3>Writing</h3>
-                <ul class="posts">
-                    <ChildBlogPost
-                        url="/posts/writing/2026-06-17_making_writing_easier"
-                        title="How to make it easier for me to write??"
-                        published="2026-06-17"
-                        modified="2026-06-29"
-                    />
-                </ul>
-            </div>
+            {categories.map(category => {
+                return (
+                    <div id={category} class="posts-category">
+                        <h3 class={categoryIconMap[category]}>{categoryDispMap[category]}</h3>
+                        <ul class="posts">
+                            {byCategory.get(category)?.map(
+                                (post) => {return (
+                                    <ChildBlogPost url={post.url} title={post.frontmatter.title} published={post.frontmatter.published} modified={post.frontmatter.modified}/>   
+                                )}
+                            )}
+                        </ul>
+                    </div>
+                )
+            })}
         </div>
     </div>
 </BaseLayout>

@@ -2,8 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: How to make it easier for me to write?
 published: 2026-06-17
-modified: 2026-06-29
+modified: 2026-07-05
 lang: 'en'
+category: writing
 ---
 It feels easy to start writing when I'm in a cafe or in a waiting room, but it's not that easy when I'm at home.
 Sometimes, just opening a notebook and holding a pen feels like too much.

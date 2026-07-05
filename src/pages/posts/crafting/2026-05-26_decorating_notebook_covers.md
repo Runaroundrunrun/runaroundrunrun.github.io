@@ -2,8 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Decorating notebook covers
 published: 2026-05-26
-modified: 2026-06-06
+modified: 2026-07-05
 lang: 'en'
+category: crafting
 ---
 *[日本語で読む](/ja/posts/crafting/2026-06-06_decorating_notebook_covers)*
 

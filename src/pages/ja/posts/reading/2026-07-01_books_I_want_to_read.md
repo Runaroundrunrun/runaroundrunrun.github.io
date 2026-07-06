@@ -4,6 +4,7 @@ title: 読みたい本リスト
 published: 2026-07-01
 modified: 
 lang: 'ja'
+category: reading
 ---
 *Read the English version [here](/posts/reading/2026-06-21_books_I_want_to_read).*
 

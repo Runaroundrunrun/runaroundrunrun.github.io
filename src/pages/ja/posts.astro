@@ -1,8 +1,46 @@
 ---
 import BaseLayoutJa from "../../layouts/ja/BaseLayoutJa.astro";
 import ChildBlogPost from "../../components/ChildBlogPost.astro";
+import type { MarkdownInstance } from 'astro';
+
+interface Frontmatter {
+    layout: string,
+    title: string,
+    published: string,
+    modified?: string,
+    lang: string,
+    category?: string
+}
+
 const pageTitle = "Posts and Notes";
 const currentJaPage = "/posts/"
+
+const allPosts = Object.values(import.meta.glob<MarkdownInstance<Frontmatter>>('./posts/**/*.md', { eager: true }));
+// sort by published date (desc)
+const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > b.frontmatter.published ? -1 : 1);
+const byCategory = Map.groupBy(sortedPosts, (post) => {return post.frontmatter.category as string});
+const categoryDispMap: Record<string, string> = {
+    "cooking" : "料理",
+    "crafting" : "ハンドクラフト",
+    "lifelog" : "ライフログ",
+    "photos" : "写真",
+    "reading" : "読書",
+    "technical" : "Tech",
+    "web-dev" : "Webサイト開発"
+};
+// 日本語の昇順に並べる
+const categories = [...byCategory.keys()].sort((a, b) => categoryDispMap[a].localeCompare(categoryDispMap[b], 'ja'));
+const categoryIconMap: Record<string, string> = {
+    "crafting" : "",
+    "lifelog" : "",
+    "music" : "icon-music",
+    "photos" : "icon-camera",
+    "reading" : "icon-books",
+    "technical" : "",
+    "tv-series" : "",
+    "web-dev" : "",
+    "cooking" : "",
+};
 ---
 
 <BaseLayoutJa pageTitle = {pageTitle} currentPage = {currentJaPage}>
@@ -17,74 +55,27 @@ const currentJaPage = "/posts/"
             <nav>
                 <h4>Categories</h4>
                 <ul>
-                    <li><a href="#technical">Tech</a></li>
-                    <li><a href="#website-dev">Webサイト開発</a></li>
-                    <li><a href="#photos">写真</a></li>
-                    <li><a href="#reading">読書</a></li>
-                    <!-- <li><a href="#tv-series">ドラマ</a></li> -->
-                    <li><a href="#crafting">ハンドクラフト</a></li>
-                    <li><a href="#lifelog">ライフログ</a></li>  
-                    <li><a href="#cooking">料理</a></li>                  
+                    {categories.map(category => 
+                        <li><a href={`#${category}`}>{categoryDispMap[category]}</a></li>
+                    )}
                 </ul>
             </nav>
         </aside>
         <div class="posts-container">
-            <div id="technical">
-                <h3>Tech</h3>
-                <ul class="posts">
-                    <ChildBlogPost url="/ja/posts/technical/2026-06-06_keyboard_shortcuts" title="使っているショートカットキー" published="2026-06-06"/>
-                </ul>
-            </div>
-            <div id="website-dev" class="posts-category">
-                <h3>Webサイト開発</h3>
-                <ul class="posts">
-                    <ChildBlogPost url="/ja/posts/web-dev/2026-07-03_adding_categories_section" title="categories セクションを Posts and Notes ページに追加" published="2026-07-03"/>
-                    <ChildBlogPost url="/ja/posts/web-dev/2026-06-30_my_current_vscode_keybindings_configuration" title="今のVSCodeのkeybindings設定" published="2026-06-30"/>
-                    <ChildBlogPost url="/ja/posts/web-dev/2026-06-21_install_nodejs_and_astro" title="Webサイト立ち上げの記録 (2) - Astro を使う準備" published="2026-06-21" modified="2026-06-29"/>
-                    <ChildBlogPost url="/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro" title="Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める" published="2026-06-13" modified="2026-06-29" />
-                    <ChildBlogPost url="/ja/posts/web-dev/2026-06-10_setting_iframe_css" title="画面を縮小したら親要素から動画がはみ出る問題の対応" published="2026-06-10" />
-                    <ChildBlogPost url="/ja/posts/web-dev/2026-05-30_features_to_add" title="このサイトに加えたい機能" published="2026-05-30" modified="2026-07-03"/>
-                    <ChildBlogPost url="/ja/posts/web-dev/2026-05-20_on_setting_up_this_website" title="ウェブサイトを立ち上げてみた" published="2026-05-20" modified="2026-06-13"/>
-                </ul>
-            </div>
-            <div id="photos" class="posts-category">
-                <h3 class="icon-camera">写真</h3>
-                <ul class="posts">
-                    <ChildBlogPost url="/ja/posts/photos/2026-06-29_art_aquarium_museum" title="Photos: アートアクアリウム美術館" published="2026-06-29" />
-                </ul>
-            </div>
-            <div id="reading" class="posts-category">
-                <h3>読書</h3>
-                <ul class="posts">
-                    <ChildBlogPost url="/ja/posts/reading/2026-07-01_books_I_want_to_read" title="読みたい本リスト" published="2026-07-01" />
-                    <ChildBlogPost url="/ja/posts/reading/2026-06-19_project_hail_mary" title="今まで読んだSFの中で、いちばんワクワクした作品：『プロジェクト・ヘイル・メアリー』" published="2026-06-19" />
-                </ul>
-            </div>
-            <!-- <div id="tv-series" class="posts-category">
-                <h3>ドラマ</h3>
-                <ul class="posts">
-                    <ChildBlogPost url="/posts/tv-series/2026-05-13_yumis_cells3" title="I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)" published="2026-05-13" modified="2026-05-24" />
-                </ul>
-            </div> -->
-            <div id="crafting" class="posts-category">
-                <h3>ハンドクラフト</h3>
-                <ul class="posts">
-                    <ChildBlogPost url="/ja/posts/crafting/2026-06-06_decorating_notebook_covers" title="ノートデコのススメ" published="2026-06-06" />
-                </ul>
-            </div>
-            <div id="lifelog" class="posts-category">
-                <h3>ライフログ</h3>
-                <ul class="posts">
-                    <ChildBlogPost url="/ja/posts/lifelog/2026/2026_may_media_log" title="2026年5月に楽しんだ作品リスト" published="2026-06-06" modified="2026-06-19"/>
-                </ul>
-            </div>
-            <div id="cooking" class="posts-category">
-                <h3>料理</h3>
-                <ul class="posts">
-                    <ChildBlogPost url="/ja/posts/cooking/2026-07-04_recipe_minestrone" title="レシピ: ミネストローネ" published="2026-07-04"/>
-                    <ChildBlogPost url="/ja/posts/cooking/2026-06-24_recipe_namul" title="レシピ: 小松菜のナムルもどき" published="2026-06-24" modified="2026-07-04"/>
-                </ul>
-            </div>
+            {categories.map(category => {
+                return (
+                    <div id={category} class="posts-category">
+                        <h3 class={categoryIconMap[category]}>{categoryDispMap[category]}</h3>
+                        <ul class="posts">
+                            {byCategory.get(category)?.map(
+                                (post) => {return (
+                                    <ChildBlogPost url={post.url} title={post.frontmatter.title} published={post.frontmatter.published} modified={post.frontmatter.modified}/>   
+                                )}
+                            )}
+                        </ul>
+                    </div>
+                )
+            })}
         </div>
     </div>
 </BaseLayoutJa>

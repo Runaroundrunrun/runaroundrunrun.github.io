@@ -4,6 +4,7 @@ title: Media Log (June 2026)
 published: 2026-07-01
 modified: 
 lang: 'en'
+category: lifelog
 ---
 
 Here are the things I enjoyed in June 2026.

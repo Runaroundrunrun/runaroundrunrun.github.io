@@ -2,8 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "The most exciting sci-fi I've ever read: Project Hail Mary"
 published: 2026-06-12
-modified: 2026-06-19
+modified: 2026-07-05
 lang: 'en'
+category: reading
 ---
 *[日本語で読む](/ja/posts/reading/2026-06-19_project_hail_mary)*
 

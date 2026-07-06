@@ -4,6 +4,7 @@ title: このサイトに加えたい機能
 published: 2026-05-30
 modified: 2026-07-03
 lang: 'ja'
+category: web-dev
 ---
 *Read the English version [here](/posts/web-dev/2026-05-20_features_to_add).*
 

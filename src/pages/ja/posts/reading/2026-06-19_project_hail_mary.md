@@ -4,6 +4,7 @@ title: "今まで読んだSFの中で、いちばんワクワクした作品：�
 published: 2026-06-19
 modified: 
 lang: 'ja'
+category: reading
 ---
 *Read the English version [here](/posts/reading/2026-06-12_project_hail_mary).*
 

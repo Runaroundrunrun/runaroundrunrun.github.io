@@ -2,9 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: My current keybindings configuration in VSCode
 published: 2026-05-12
-modified: 2026-06-30
+modified: 2026-07-05
 lang: 'en'
-tags: ["coding"]
+category: web-dev
 ---
 *[日本語で読む](/ja/posts/web-dev/2026-06-30_my_current_vscode_keybindings_configuration)*
 

@@ -2,9 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: I buy way more books than I can read
 published: 2026-05-16
-modified: 
+modified: 2026-07-05
 lang: 'en'
-tags: ["reading"]
+category: reading
 ---
 I love bookstores; they're one of my favorite places in the world.
 

@@ -2,8 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "Photos: Art Aquarium Museum"
 published: 2026-06-26
-modified: 2026-06-29
+modified: 2026-07-05
 lang: 'en'
+category: photos
 ---
 *[日本語で読む](/ja/posts/photos/2026-06-29_art_aquarium_museum)*
 

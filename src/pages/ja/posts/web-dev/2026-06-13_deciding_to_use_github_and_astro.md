@@ -4,6 +4,7 @@ title: "Webサイト立ち上げの記録 (1) - 利用するサービス・ツ�
 published: 2026-06-13
 modified: 2026-06-29
 lang: 'ja'
+category: web-dev
 ---
 ## GitHub Pages を使うと決める
 

@@ -4,6 +4,7 @@ title: Keyboard shortcuts I use
 published: 2026-05-30
 modified: 2026-06-12
 lang: 'en'
+category: technical
 ---
 *[日本語で読む](/ja/posts/technical/2026-06-06_keyboard_shortcuts)*
 

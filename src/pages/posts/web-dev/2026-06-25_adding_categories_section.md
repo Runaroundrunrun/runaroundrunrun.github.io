@@ -2,8 +2,9 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Adding "categories" section to Posts and Notes page
 published: 2026-06-25
-modified: 2026-07-03
+modified: 2026-07-05
 lang: 'en'
+category: web-dev
 ---
 *[日本語で読む](/ja/posts/web-dev/2026-07-03_adding_categories_section)*
 

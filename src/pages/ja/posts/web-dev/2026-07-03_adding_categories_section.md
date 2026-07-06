@@ -4,6 +4,7 @@ title: categories セクションを Posts and Notes ページに追加
 published: 2026-07-03
 modified:
 lang: 'ja'
+category: web-dev
 ---
 *Read the English version [here](/posts/web-dev/2026-06-25_adding_categories_section).*  
 

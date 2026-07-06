@@ -5,6 +5,7 @@ published: 2026-05-13
 modified: 2026-06-13
 lang: 'en'
 tags: [""]
+category: tv-series
 ---
 Here in Japan, 유미의 세포들 3 (Yumi's Cells 3) is only available on Disney+ (as far as I know).
 

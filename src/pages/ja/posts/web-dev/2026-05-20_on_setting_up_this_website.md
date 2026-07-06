@@ -4,6 +4,7 @@ title: ウェブサイトを立ち上げてみた
 published: 2026-05-20
 modified: 2026-06-13
 lang: 'ja'
+category: web-dev
 ---
 *Read the English version [here](/posts/web-dev/2026-05-08_on_setting_up_this_website).*
 

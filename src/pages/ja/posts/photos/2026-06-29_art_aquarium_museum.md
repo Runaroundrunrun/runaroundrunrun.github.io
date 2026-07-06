@@ -4,6 +4,7 @@ title: "Photos: アートアクアリウム美術館"
 published: 2026-06-29
 modified: 
 lang: 'ja'
+category: photos
 ---
 *Read the English version [here](/posts/photos/2026-06-26_art_aquarium_museum).*
 

@@ -4,6 +4,7 @@ title: Media Log (May 2026)
 published: 2026-06-03
 modified: 2026-07-04
 lang: 'en'
+category: lifelog
 ---
 *[日本語で読む](/ja/posts/lifelog/2026/2026_may_media_log)*
 

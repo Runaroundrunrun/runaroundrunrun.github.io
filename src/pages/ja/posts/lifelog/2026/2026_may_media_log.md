@@ -4,6 +4,7 @@ title: 2026年5月に楽しんだ作品リスト
 published: 2026-06-06
 modified: 2026-06-19
 lang: 'ja'
+category: lifelog
 ---
 *Read the English version [here](/posts/lifelog/2026/2026_may_media_log).*
 

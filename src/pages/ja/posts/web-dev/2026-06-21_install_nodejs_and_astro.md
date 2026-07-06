@@ -4,6 +4,7 @@ title: "Webサイト立ち上げの記録 (2) - Astro を使う準備"
 published: 2026-06-21
 modified: 2026-06-29
 lang: 'ja'
+category: web-dev
 ---
 前の記事は [こちら](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)
 

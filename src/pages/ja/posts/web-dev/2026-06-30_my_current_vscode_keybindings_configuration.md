@@ -4,7 +4,7 @@ title: 今のVSCodeのkeybindings設定
 published: 2026-06-30
 modified: 
 lang: 'ja'
-tags: ["coding"]
+category: web-dev
 ---
 *Read the English version [here](/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration).*  
 

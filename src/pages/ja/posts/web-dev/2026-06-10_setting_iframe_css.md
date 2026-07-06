@@ -4,6 +4,7 @@ title: 画面を縮小したら親要素から動画がはみ出る問題の対�
 published: 2026-06-10
 modified: 
 lang: 'ja'
+category: web-dev
 ---
 
 [この記事](/posts/tv-series/2026-05-13_yumis_cells3)のページの話。

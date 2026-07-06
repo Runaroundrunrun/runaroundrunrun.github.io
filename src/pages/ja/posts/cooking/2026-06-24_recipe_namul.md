@@ -4,6 +4,7 @@ title: "レシピ: 小松菜のナムルもどき"
 published: 2026-06-24
 modified: 2026-07-04
 lang: 'ja'
+category: cooking
 ---
 料理をするのが億劫なときでもこれなら作れるかもな、と思っているもの。
 

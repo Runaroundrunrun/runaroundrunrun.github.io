@@ -4,6 +4,7 @@ title: ノートデコのススメ
 published: 2026-06-06
 modified: 
 lang: 'ja'
+category: crafting
 ---
 *Read the English version [here](/posts/crafting/2026-05-26_decorating_notebook_covers).*
 

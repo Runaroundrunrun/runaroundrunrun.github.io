@@ -4,6 +4,7 @@ title: 使っているショートカットキー
 published: 2026-06-06
 modified: 
 lang: 'ja'
+category: technical
 ---
 *Read the English version [here](/posts/technical/2026-05-30_keyboard_shortcuts).*
 

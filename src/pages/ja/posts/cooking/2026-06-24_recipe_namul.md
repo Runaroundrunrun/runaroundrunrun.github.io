@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: "レシピ: 小松菜のナムルもどき"
 published: 2026-06-24
-modified: 2026-07-04
+modified: 2026-07-06
 lang: 'ja'
 category: cooking
 ---
@@ -27,5 +27,6 @@ category: cooking
 
 ![handwritten recipe of namul](../../../posts/images/2026-06-24_recipe_namul.jpeg)
 
-## 他のレシピもあるよ
+## 他にも読んでみる？
 - [レシピ: ミネストローネ](/ja/posts/cooking/2026-07-04_recipe_minestrone)
+- [料理を少しラクにしてくれるレシピリスト](/ja/posts/cooking/2026-07-06_recipes_that_make_cooking_easier)

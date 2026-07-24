@@ -1,0 +1,75 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Links";
+const currentPage = "/links/";
+---
+
+<BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
+    <h1>{pageTitle}</h1>
+    <p class="description">
+        Links for the pages that I often visit or love exploring.
+    </p>
+    <div class="categories-and-links">
+        <aside class="categories">
+            <nav>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#blogs">Blogs / Personal Websites</a></li>
+                    <li><a href="#cooking">Cooking</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#radio">Radio</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#web-dev">Website Development</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="posts-container">
+            <div id="blogs">
+                <h3>Blogs / Personal Websites</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://austinkleon.com/">AUSTIN KLEON</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://bearblog.dev/">Bear Blog</a>'s <a class="icon-new-tab" target="_blank" href="https://bearblog.dev/discover/">Discovery</a> feed</li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://cassidoo.co/">Cassidy Williams</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://flamedfury.com/">FLAMED FURY</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://waitbutwhy.com/">WAIT BUT WHY</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://note.com/">note</a> 's <a class="icon-new-tab" target="_blank" href="https://note.com/notemagazine/m/mf2e92ffd6658">今日の注目記事</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://dain.cocolog-nifty.com/">わたしが知らないスゴ本は、きっとあなたが読んでいる</a></li>
+                </ul>
+            </div>
+            <div id="cooking">
+                <h3>Cooking</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://www.sirogohan.com/">白ごはん.com</a></li>
+                </ul>
+            </div>
+            <div id="music">
+                <h3>Music</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://www.last.fm/">last.fm</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://jo1.jp/">JO1</a></li>
+                </ul>
+            </div>
+            <div id="radio">
+                <h3>Radio</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://www.allnightnippon.com/jo1/">JO1のオールナイトニッポンX（クロス）</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://www.allnightnippon.com/sixtones/">SixTONESのオールナイトニッポンサタデースペシャル</a></li>
+                </ul>
+            </div>
+            <div id="tools">
+                <h3>Tools</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://ndlocr-liteweb.netlify.app/">NDLOCR-Lite Web</a></li>
+                </ul>
+            </div>
+            <div id="web-dev">
+                <h3>Website Development</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://docs.astro.build/en/getting-started/">Astro Docs</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</BaseLayout>

@@ -248,6 +248,34 @@ div.categories-and-posts {
     }
 }
 
+/* links page */
+div.categories-and-links {
+    display: flex;
+    aside.categories {
+        margin-right: 2rem;
+        ul {
+            padding: 0;
+            margin: 0;
+            li {
+                display: block;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (width < calc(57rem)) {
+            nav {
+                position: sticky;
+                top: 0;
+                overflow-y: auto;
+            }
+        }
+    }
+}
+
 /* 404 page */
 div.error-page-container {
     margin-top: 5rem;

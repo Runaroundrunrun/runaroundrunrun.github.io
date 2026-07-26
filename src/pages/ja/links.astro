@@ -1,32 +1,52 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayoutJa from "../../layouts/ja/BaseLayoutJa.astro";
 
-const pageTitle = "Links";
+const pageTitle = "リンク";
 const currentPage = "/links/";
 ---
 
-<BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
+<BaseLayoutJa pageTitle={pageTitle} currentPage={currentPage}>
     <h1>{pageTitle}</h1>
     <p class="description">
-        Links for the pages that I often visit or love exploring.
+        よくアクセスするサイトや、探索するのが好きなサイトへのリンク集。
     </p>
     <div class="categories-and-posts">
         <aside class="categories">
             <nav>
                 <h4>Categories</h4>
                 <ul>
-                    <li><a href="#blogs">Blogs / Personal Websites</a></li>
-                    <li><a href="#cooking">Cooking</a></li>
-                    <li><a href="#music">Music</a></li>
-                    <li><a href="#radio">Radio</a></li>
-                    <li><a href="#tools">Tools</a></li>
-                    <li><a href="#web-dev">Website Development</a></li>
+                    <li><a href="#web-dev">Webサイト開発</a></li>
+                    <li><a href="#music">音楽</a></li>
+                    <li><a href="#tools">ツール</a></li>
+                    <li><a href="#blogs">ブログ・個人サイト</a></li>
+                    <li><a href="#radio">ラジオ</a></li>
+                    <li><a href="#cooking">料理</a></li>
                 </ul>
             </nav>
         </aside>
         <div class="posts-container">
+            <div id="web-dev">
+                <h3>Webサイト開発</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://docs.astro.build/en/getting-started/">Astro Docs</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                </ul>
+            </div>
+            <div id="music">
+                <h3>音楽</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://www.last.fm/">last.fm</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://jo1.jp/">JO1</a></li>
+                </ul>
+            </div>
+            <div id="tools">
+                <h3>ツール</h3>
+                <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://ndlocr-liteweb.netlify.app/">NDLOCR-Lite Web</a></li>
+                </ul>
+            </div>
             <div id="blogs">
-                <h3>Blogs / Personal Websites</h3>
+                <h3>ブログ・個人サイト</h3>
                 <ul>
                     <li><a class="icon-new-tab" target="_blank" href="https://austinkleon.com/">AUSTIN KLEON</a></li>
                     <li><a class="icon-new-tab" target="_blank" href="https://bearblog.dev/">Bear Blog</a>'s <a class="icon-new-tab" target="_blank" href="https://bearblog.dev/discover/">Discovery</a> feed</li>
@@ -37,39 +57,19 @@ const currentPage = "/links/";
                     <li><a class="icon-new-tab" target="_blank" href="https://dain.cocolog-nifty.com/">わたしが知らないスゴ本は、きっとあなたが読んでいる</a></li>
                 </ul>
             </div>
-            <div id="cooking">
-                <h3>Cooking</h3>
-                <ul>
-                    <li><a class="icon-new-tab" target="_blank" href="https://www.sirogohan.com/">白ごはん.com</a></li>
-                </ul>
-            </div>
-            <div id="music">
-                <h3>Music</h3>
-                <ul>
-                    <li><a class="icon-new-tab" target="_blank" href="https://www.last.fm/">last.fm</a></li>
-                    <li><a class="icon-new-tab" target="_blank" href="https://jo1.jp/">JO1</a></li>
-                </ul>
-            </div>
             <div id="radio">
-                <h3>Radio</h3>
+                <h3>ラジオ</h3>
                 <ul>
                     <li><a class="icon-new-tab" target="_blank" href="https://www.allnightnippon.com/jo1/">JO1のオールナイトニッポンX（クロス）</a></li>
                     <li><a class="icon-new-tab" target="_blank" href="https://www.allnightnippon.com/sixtones/">SixTONESのオールナイトニッポンサタデースペシャル</a></li>
                 </ul>
             </div>
-            <div id="tools">
-                <h3>Tools</h3>
+            <div id="cooking">
+                <h3>料理</h3>
                 <ul>
-                    <li><a class="icon-new-tab" target="_blank" href="https://ndlocr-liteweb.netlify.app/">NDLOCR-Lite Web</a></li>
-                </ul>
-            </div>
-            <div id="web-dev">
-                <h3>Website Development</h3>
-                <ul>
-                    <li><a class="icon-new-tab" target="_blank" href="https://docs.astro.build/en/getting-started/">Astro Docs</a></li>
-                    <li><a class="icon-new-tab" target="_blank" href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://www.sirogohan.com/">白ごはん.com</a></li>
                 </ul>
             </div>
         </div>
     </div>
-</BaseLayout>
+</BaseLayoutJa>

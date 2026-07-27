@@ -69,3 +69,4 @@ npm もオッケー！
 
 ## 関連
 - [Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)
+- [Webサイト立ち上げの記録(3) - Astro を使ったプロジェクトの作成](/ja/posts/web-dev/2026-07-27_create_astro_project)

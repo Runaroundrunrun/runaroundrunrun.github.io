@@ -2,17 +2,18 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (June 2026)
 published: 2026-07-01
-modified: 
+modified: 2026-07-28
 lang: 'en'
 category: lifelog
 ---
+*[日本語で読む](/ja/posts/lifelog/2026/2026_june_media_log)*
 
 Here are the things I enjoyed in June 2026.
 
 <h2 class="icon-books">Books</h2>
 
 - <span style="font-style:italic">The Martian</span> by Andy Weir (Japanese version)
-- <span style="font-style:italic">How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking for Students, Academics and Nonfiction Book Writers</span> by Sönke Ahrens
+- <span style="font-style:italic">How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking for Students, Academics and Nonfiction Book Writers</span> by Sönke Ahrens (Japanese version)
     - I read it for the second time.
 - 『脱力、台湾式。』 by 青木由香
     - Made me want to visit Taiwan again!

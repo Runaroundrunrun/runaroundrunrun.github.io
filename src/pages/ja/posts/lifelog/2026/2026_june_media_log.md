@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/MarkdownPostLayout.astro
 title: 2026年6月に楽しんだ作品リスト
 published: 2026-07-28
-modified: 
+modified: 2026-07-31
 lang: 'ja'
 category: lifelog
 ---
@@ -49,7 +49,6 @@ category: lifelog
     - 読むたびに、デジタルガーデンって楽しそうなんだよな、と思う。
 - MIT Technology Review, <a class="icon-new-tab" target="_blank" href="https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/">Digital gardens let you cultivate your own little bit of the internet</a>
 - Andyʼs working notes, <a class="icon-new-tab" target="_blank" href="https://notes.andymatuschak.org/zUhd6Hb5dk35PPpnCHvd6bV">Note-writing practices provide weak feedback</a>
-    - This post got me thinking about notes I took over the last few years - I haven't figured out if it was worth it yet.
     - この記事を読んで、ここ数年でとったメモについて見直す気になった（メモをとることで何か役に立ったのかはまだよくわからない）。
 - todoist, <a class="icon-new-tab" target="_blank" href="https://www.todoist.com/ja/inspiration/cooking-at-home">How to Cook More at Home in 2026</a>
     - 料理するハードルを下げてくれた記事。

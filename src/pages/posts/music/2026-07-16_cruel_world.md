@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'My new favourite album : Cruel World by Holly Humberstone'
 published: 2026-07-16
-modified: 
+modified: 2026-07-31
 lang: 'en'
 category: music
 ---
@@ -41,3 +41,6 @@ I loved her performance as well!
 - Will Richards, <a class="icon-new-tab" target="_blank" href="https://www.rollingstone.co.uk/music/holly-humberstone-cruel-world-album-review-60230/">Holly Humberstone ‘Cruel World’ review: simply sublime songwriting</a> - Rolling Stone UK (last accessed: 2026-07-11)
 - Hannah Ewens, <a class="icon-new-tab" target="_blank" href="https://www.rollingstone.co.uk/music/holly-humberstone-world-of-her-own-feature-60111/">Holly Humberstone: world of her own</a> - Rolling Stone UK (last accessed: 2026-07-16)
     - This article helped me understand the album and the songs better. It also made me want to look closely into the lyrics.
+
+## Related
+- [Media Log (July 2026)](/posts/lifelog/2026/2026_july_media_log)

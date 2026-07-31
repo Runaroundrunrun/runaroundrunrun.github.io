@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/MarkdownPostLayout.astro
 title: 2026年5月に楽しんだ作品リスト
 published: 2026-06-06
-modified: 2026-06-19
+modified: 2026-07-31
 lang: 'ja'
 category: lifelog
 ---
@@ -15,7 +15,7 @@ category: lifelog
 
 ## 音楽
 ### アルバム
-- Roxwell - Matilda Mann
+- [Roxwell - Matilda Mann](/ja/posts/music/2026-07-31_roxwell)
 - SABLE, fABLE - Bon Iver
 - Famille - Ben Mazué
 
@@ -35,3 +35,6 @@ category: lifelog
 ## ブログ
 - <a class="icon-new-tab" target="_blank" href="https://waitbutwhy.com/faq">Frequently Asked Questions by WAIT BUT WHY</a>
 - <a class="icon-new-tab" target="_blank" href="https://newsletter.ownyourweb.site/archive/own-your-web-issue-18-curators/">Own Your Web – Issue 18: Curators</a>
+
+## 関連
+- [お気に入りのアルバム: Matilda Mann の Roxwell](/ja/posts/music/2026-07-31_roxwell)

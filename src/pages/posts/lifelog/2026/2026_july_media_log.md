@@ -2,10 +2,11 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (July 2026)
 published: 2026-07-31
-modified: 
+modified: 2026-08-02
 lang: 'en'
 category: lifelog
 ---
+*[日本語で読む](/ja/posts/lifelog/2026/2026_july_media_log)*
 
 Here are the things I enjoyed in July 2026.
 

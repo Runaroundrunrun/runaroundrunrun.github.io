@@ -22,6 +22,7 @@ const byCategory = Map.groupBy(sortedPosts, (post) => {return post.frontmatter.c
 const categoryDispMap: Record<string, string> = {
     "cooking" : "料理",
     "crafting" : "ハンドクラフト",
+    "drawing" : "描いたもの",
     "lifelog" : "ライフログ",
     "music" : "音楽",
     "photos" : "写真",
@@ -32,15 +33,16 @@ const categoryDispMap: Record<string, string> = {
 // 日本語の昇順に並べる
 const categories = [...byCategory.keys()].sort((a, b) => categoryDispMap[a].localeCompare(categoryDispMap[b], 'ja'));
 const categoryIconMap: Record<string, string> = {
+    "cooking" : "",
     "crafting" : "",
+    "drawing" : "",
     "lifelog" : "",
     "music" : "icon-music",
     "photos" : "icon-camera",
     "reading" : "icon-books",
     "technical" : "",
     "tv-series" : "",
-    "web-dev" : "",
-    "cooking" : "",
+    "web-dev" : ""
 };
 ---
 

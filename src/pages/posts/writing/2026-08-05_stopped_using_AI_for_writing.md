@@ -31,6 +31,13 @@ One thing I learned after I stopped using AI is that it's easier to publish post
 I'm not saying that I will leave my mistakes untouched, 
 I will correct errors and rewrite as many times as possible.
 
+## Links
+- Pablo Enoc, <a class="icon-new-tab" target="_blank" href="https://enocc.com/blog/2025-10-24-insulting-ai-writing.html">It's Insulting to Read Your AI Writing</a> (last accessed: 2026-08-05)
+
+## Related
+- [Media Log (June 2026)](/posts/lifelog/2026/2026_june_media_log)
+
+
 ---
 
 [^1]: I used AI for these posts:

@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (June 2026)
 published: 2026-07-01
-modified: 2026-07-28
+modified: 2026-08-05
 lang: 'en'
 category: lifelog
 ---
@@ -57,3 +57,8 @@ Here are the things I enjoyed in June 2026.
 ## YouTube
 - <a class="icon-new-tab" target="_blank" href="https://youtube.com/playlist?list=PLVAh-MgDVqvDUEq6qDXqORBioE4Yhol_z&si=9yPyruyZstQqg3JA">Backrooms</a> by Kane Pixels
     - Since I live in Japan, I have to wait until September to watch the movie :(
+
+---
+
+## Related
+- [I stopped using AI for writing](/posts/writing/2026-08-05_stopped_using_AI_for_writing)

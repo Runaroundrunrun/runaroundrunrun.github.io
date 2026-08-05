@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Adding "categories" section to Posts and Notes page
 published: 2026-06-25
-modified: 2026-07-05
+modified: 2026-08-05
 lang: 'en'
 category: web-dev
 ---
@@ -24,7 +24,7 @@ div.container {
     display: flex;
 }
 aside {
-    @media (width < calc(57rem)) {
+    @media (width < calc(768px)) {
         display: none;
     }
 }
@@ -36,7 +36,7 @@ nav {
 ```
 This is one of the features I wanted to add when I first set up this website, but lately I’m starting to feel that it’s unnecessary.  
 
-The "categories" section won't be displayed if the screen width is smaller than 57 rem, so it’s usually hidden when you access the page from your phone.  
+The "categories" section won't be displayed if the screen width is smaller than 768 px, so it’s usually hidden when you access the page from your phone.  
 
 Personally I use my phone more than my computer when I read posts, and I think that applies to many smartphone users.  
 So what’s the point of adding categories section that can only be displayed on tablets or computers?

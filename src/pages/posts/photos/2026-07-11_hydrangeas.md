@@ -2,11 +2,13 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Photos : hydrangeas'
 published: 2026-07-11
-modified: 
+modified: 2026-08-05
 lang: 'en'
 category: photos
 ---
-Photos of hydrangeas I took last month:
+*[日本語で読む](/ja/posts/photos/2026-08-05_hydrangeas)*
+
+Photos of hydrangeas I took last month（AQUOS wish3）:
 
 ![pink hydrangeas](../images/2026-07-11_hydrangea_1.JPG)
 

@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: categories セクションを Posts and Notes ページに追加
 published: 2026-07-03
-modified:
+modified: 2026-08-05
 lang: 'ja'
 category: web-dev
 ---
@@ -24,7 +24,7 @@ div.container {
     display: flex;
 }
 aside {
-    @media (width < calc(57rem)) {
+    @media (width < calc(768px)) {
         display: none;
     }
 }
@@ -38,7 +38,7 @@ nav {
 
 なんで、いらないかもと思うのか。  
 
-上記のCSSではスクリーンの横幅が 57rem よりも小さいときに、この categories セクションが表示されないようにしている。  
+上記のCSSではスクリーンの横幅が 768px よりも小さいときに、この categories セクションが表示されないようにしている。  
 このため、スマホでこのページにアクセスするとだいたい非表示になっているはずである。  
 
 個人的には、ブログ記事を読むのはパソコンよりもスマホの方が多い。  

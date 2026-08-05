@@ -40,3 +40,8 @@ div.content-container {
 h2#footnote-label {
     display: none;
 }
+blockquote {
+    border-left: solid 2px var(--quote-border);
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}

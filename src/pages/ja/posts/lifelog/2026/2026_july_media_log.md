@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/MarkdownPostLayout.astro
 title: 2026年7月に消費したメディア記録
 published: 2026-08-02
-modified: 
+modified: 2026-08-06
 lang: 'ja'
 category: lifelog
 ---
@@ -17,7 +17,7 @@ category: lifelog
 
 <h2 class="icon-album">Music - アルバム</h2>
 
-- Cruel World - Holly Humberstone
+- [Cruel World - Holly Humberstone](/ja/posts/music/2026-08-06_cruel_world)
 - Hotel TV - Lawrence
 - Ooh La La - Faces
 - Stars And Teeth - Sophie May
@@ -38,7 +38,7 @@ category: lifelog
 
 ## 記事
 - Hannah Ewens, <a class="icon-new-tab" target="_blank" href="https://www.rollingstone.co.uk/music/holly-humberstone-world-of-her-own-feature-60111/">Holly Humberstone: world of her own</a> - Rolling Stone UK
-	- Holly Humberstone と彼女のアルバム [Cruel World](/posts/music/2026-07-16_cruel_world) についての記事。
+	- Holly Humberstone と彼女のアルバム [Cruel World](/ja/posts/music/2026-08-06_cruel_world) についての記事。
 
 ## 関連
 - [やっぱり笑える!『人間をお休みしてヤギになってみた結果』](/ja/posts/reading/2026-07-26_goatman)

@@ -1,11 +1,11 @@
 ---
 import BaseLayoutJa from "../../layouts/ja/BaseLayoutJa.astro";
 
-const pageTitle = "リンク";
-const currentPage = "/links/";
+const pageTitle = "リンク集";
+const currentJaPage = "/links/";
 ---
 
-<BaseLayoutJa pageTitle={pageTitle} currentPage={currentPage}>
+<BaseLayoutJa pageTitle={pageTitle} currentPage={currentJaPage}>
     <h1>{pageTitle}</h1>
     <p class="description">
         よくアクセスするサイトや、探索するのが好きなサイトへのリンク集。
@@ -35,7 +35,9 @@ const currentPage = "/links/";
             <div id="music">
                 <h3>音楽</h3>
                 <ul>
-                    <li><a class="icon-new-tab" target="_blank" href="https://www.last.fm/">last.fm</a></li>
+                    <li><a class="icon-new-tab" target="_blank" href="https://www.last.fm/">last.fm</a>
+                        <br>聞いた音楽を記録できるウェブサイト。
+                    </li>
                     <li><a class="icon-new-tab" target="_blank" href="https://jo1.jp/">JO1</a></li>
                     <li><a class="icon-new-tab" target="_blank" href="https://matildamann.com/">Matilda Mann</a></li>
                     <li><a class="icon-new-tab" target="_blank" href="https://www.hollyhumberstone.com/">Holly Humberstone | Official Site</a></li>
@@ -62,9 +64,11 @@ const currentPage = "/links/";
             <div id="radio">
                 <h3>ラジオ & ポッドキャスト</h3>
                 <ul>
+                    <li><a class="icon-new-tab" target="_blank" href="https://coffeebreaklanguages.com/coffeebreakfrench/">Coffee Break French</a></li>
                     <li><a class="icon-new-tab" target="_blank" href="https://www.allnightnippon.com/jo1/">JO1のオールナイトニッポンX（クロス）</a></li>
                     <li><a class="icon-new-tab" target="_blank" href="https://www.youtube.com/playlist?list=PLHQcvV05pml8wru9T6phHD3O8v5y22hNw">Simple Cafeine</a>
-                    <br>このリンクはYouTubeに飛ぶけれど、Apple Podcast や Spotify でも聴ける</li>
+                        <br>このリンクはYouTubeに飛ぶけれど、Apple Podcast や Spotify でも聴ける。
+                    </li>
                     <li><a class="icon-new-tab" target="_blank" href="https://www.allnightnippon.com/sixtones/">SixTONESのオールナイトニッポンサタデースペシャル</a></li>
                     <li><a class="icon-new-tab" target="_blank" href="https://stuffyoushouldknow.com/">Stuff You Should Know</a></li>
                 </ul>

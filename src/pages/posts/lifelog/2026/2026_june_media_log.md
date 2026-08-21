@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (June 2026)
 published: 2026-07-01
-modified: 2026-08-05
+modified: 2026-08-21
 lang: 'en'
 category: lifelog
 ---
@@ -33,7 +33,7 @@ Here are the things I enjoyed in June 2026.
     - This post made it easier for me to start cooking for myself.
 - Melon's Thoughts, <a class="icon-new-tab" target="_blank" href="https://thoughts.melonking.net/thoughts/every-site-needs-a-links-page-why-linking-matters">Every site needs a Links Page / Why linking matters</a>
     - It reminded me that I discovered interesting posts thanks to a post that had links (I don't remember anything about that post anymore, sadly). 
-    - It made me want to create a links page.
+    - It made me want to create a links page. [and I did!](/posts/web-dev/2026-08-21_adding_links_page)
 
 <h2 class="icon-album">Albums</h2>
 
@@ -62,3 +62,4 @@ Here are the things I enjoyed in June 2026.
 
 ## Related
 - [I stopped using AI for writing](/posts/writing/2026-08-05_stopped_using_AI_for_writing)
+- [Update: added Links page](/posts/web-dev/2026-08-21_adding_links_page)

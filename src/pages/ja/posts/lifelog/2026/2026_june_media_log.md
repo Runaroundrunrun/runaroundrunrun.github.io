@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/MarkdownPostLayout.astro
 title: 2026年6月に楽しんだ作品リスト
 published: 2026-07-28
-modified: 2026-07-31
+modified: 2026-08-22
 lang: 'ja'
 category: lifelog
 ---
@@ -55,3 +55,8 @@ category: lifelog
 - Melon's Thoughts, <a class="icon-new-tab" target="_blank" href="https://thoughts.melonking.net/thoughts/every-site-needs-a-links-page-why-linking-matters">Every site needs a Links Page / Why linking matters</a>
     - 今まで読んで面白いと感じた記事って、ほかの記事とかWebサイトのリンクから見つけたんだよな、と思い出すなどした（残念なことにどのサイトを起点に面白いものを見つけ始めたのか、覚えてない）。
     - 「リンク」ページを作りたいな、と。
+
+---
+
+## 関連
+- [リンク集を作ったはなし](/ja/posts/web-dev/2026-08-22_adding_links_page)

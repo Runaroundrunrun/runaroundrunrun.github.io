@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: このサイトに加えたい機能
 published: 2026-05-30
-modified: 2026-07-09
+modified: 2026-08-22
 lang: 'ja'
 category: web-dev
 ---
@@ -13,10 +13,11 @@ category: web-dev
 - RSSフィード
 - [Posts and Notesページに、カテゴリリスト（カテゴリごとにリンクで飛べるようにしたい）](/ja/posts/web-dev/2026-07-03_adding_categories_section)
 - 記事にのせた画像を一覧で確認できるギャラリーページ
-- リンク/ブックマークページ
+- [リンク集](/ja/links)/ブックマークページ
 
 そして上記の機能ができてきたら、作るときの経緯とかの記録をこの記事にリンク付けしたいな、と思っている。
 
 ## 関連
 - [ウェブサイトを立ち上げてみた](/ja/posts/web-dev/2026-05-20_on_setting_up_this_website)
 - [categories セクションを Posts and Notes ページに追加](/ja/posts/web-dev/2026-07-03_adding_categories_section)
+- [リンク集を作ったはなし](/ja/posts/web-dev/2026-08-22_adding_links_page)

@@ -2,10 +2,12 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Update: added Links page'
 published: 2026-08-21
-modified: 
+modified: 2026-08-22
 lang: 'en'
 category: web-dev
 ---
+*[日本語で読む](/ja/posts/web-dev/2026-08-22_adding_links_page)*
+
 I added <a href="/links">Links</a> page to this website.
 
 I added this page because after reading this post below, I thought I needed to create one and list all the links I find worth sharing.

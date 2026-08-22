@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Features I want to add to this website
 published: 2026-05-20
-modified: 2026-08-21
+modified: 2026-08-22
 lang: 'en'
 category: web-dev
 ---
@@ -13,7 +13,7 @@ Here are some features I want to add to this website in the future:
 - RSS feed
 - [A table of contents for the Posts and Notes page](/posts/web-dev/2026-06-25_adding_categories_section)
 - A gallery page for images from my posts
-- [Links](/posts/web-dev/2026-08-21_adding_links_page)/Bookmarks page
+- [Links](/links)/Bookmarks page
 
 I also want to write about each feature above once I add it, and add the links here later!
 

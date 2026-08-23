@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/MarkdownPostLayout.astro
 title: 2026年6月に楽しんだ作品リスト
 published: 2026-07-28
-modified: 2026-08-22
+modified: 2026-08-23
 lang: 'ja'
 category: lifelog
 ---
@@ -43,7 +43,7 @@ category: lifelog
 
 ## ブログ、Webサイト
 - Ava, <a class="icon-new-tab" target="_blank" href="https://blog.avas.space/digital-remains/">let's talk about your digital remains!</a>
-- Pablo Enoc, <a class="icon-new-tab" target="_blank" href="https://enocc.com/blog/2025-10-24-insulting-ai-writing.html">It's Insulting to Read Your AI Writing</a>
+- <a class="icon-new-tab" target="_blank" href="https://enocc.com/">Pablo Enoc</a>, It's Insulting to Read Your AI Writing[^1]
 - 注文住宅の大和ハウス, <a class="icon-new-tab" target="_blank" href="https://www.daiwahouse.co.jp/jutaku/lifestyle/kajishare/youkai/zukan/index.html">名もなき家事妖怪ずかん</a>
 - Maggie Appleton, <a class="icon-new-tab" target="_blank" href="https://maggieappleton.com/garden-history/">A Brief History & Ethos of the Digital Garden</a>
     - 読むたびに、デジタルガーデンって楽しそうなんだよな、と思う。
@@ -60,3 +60,6 @@ category: lifelog
 
 ## 関連
 - [リンク集を作ったはなし](/ja/posts/web-dev/2026-08-22_adding_links_page)
+
+---
+[^1]: 残念なことに、もうこの記事は存在しない様子...

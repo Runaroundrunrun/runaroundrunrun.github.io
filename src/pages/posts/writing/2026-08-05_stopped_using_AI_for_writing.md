@@ -6,6 +6,7 @@ modified: 2026-08-23
 lang: 'en'
 category: writing 
 ---
+*[日本語で読む](/ja/posts/writing/2026-08-23_stopped_using_AI_for_writing)*
 
 Because my first language is not English and I haven't taken enough writing classes, I'm not confident of my English writing skill.    
 When I started writing here, I was using Grammarly and ChatGPT to correct my grammar mistakes and rewrite unnatural expressions.  

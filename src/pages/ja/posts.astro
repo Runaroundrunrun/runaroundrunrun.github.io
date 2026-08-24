@@ -28,7 +28,8 @@ const categoryDispMap: Record<string, string> = {
     "photos" : "写真",
     "reading" : "読書",
     "technical" : "Tech",
-    "web-dev" : "Webサイト開発"
+    "web-dev" : "Webサイト開発",
+    "writing" : "書くことについて"
 };
 // 日本語の昇順に並べる
 const categories = [...byCategory.keys()].sort((a, b) => categoryDispMap[a].localeCompare(categoryDispMap[b], 'ja'));
@@ -42,7 +43,8 @@ const categoryIconMap: Record<string, string> = {
     "reading" : "icon-books",
     "technical" : "",
     "tv-series" : "",
-    "web-dev" : ""
+    "web-dev" : "",
+    "writing": ""
 };
 ---
 

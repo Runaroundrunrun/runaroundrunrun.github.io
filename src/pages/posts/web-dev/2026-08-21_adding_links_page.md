@@ -1,8 +1,8 @@
 ---
 layout: ../../../layouts/MarkdownPostLayout.astro
-title: 'Update: added Links page'
+title: 'Update: Links page is now available'
 published: 2026-08-21
-modified: 2026-08-22
+modified: 2026-08-27
 lang: 'en'
 category: web-dev
 ---

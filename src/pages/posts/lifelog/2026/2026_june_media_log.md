@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (June 2026)
 published: 2026-07-01
-modified: 2026-08-23
+modified: 2026-08-29
 lang: 'en'
 category: lifelog
 ---
@@ -62,7 +62,7 @@ Here are the things I enjoyed in June 2026.
 
 ## Related
 - [I stopped using AI for writing](/posts/writing/2026-08-05_stopped_using_AI_for_writing)
-- [Update: added Links page](/posts/web-dev/2026-08-21_adding_links_page)
+- [Update: Links page is now available](/posts/web-dev/2026-08-21_adding_links_page)
 
 ---
 

@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Features I want to add to this website
 published: 2026-05-20
-modified: 2026-08-22
+modified: 2026-08-27
 lang: 'en'
 category: web-dev
 ---
@@ -20,4 +20,4 @@ I also want to write about each feature above once I add it, and add the links h
 ## Related
 - [On setting up this website](/posts/web-dev/2026-05-08_on_setting_up_this_website)
 - [Adding "categories" section to Posts and Notes page](/posts/web-dev/2026-06-25_adding_categories_section)
-- [Update: added Links page](/posts/web-dev/2026-08-21_adding_links_page)
+- [Update: Links page is now available](/posts/web-dev/2026-08-21_adding_links_page)

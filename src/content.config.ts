@@ -11,13 +11,11 @@ import { z } from 'astro/zod';
 const blog = defineCollection({
   loader: glob({ base: './src/pages/posts', pattern: '**/*.md' }),
   schema: z.object({
-    // TODO: Read https://docs.astro.build/en/guides/content-collections/#defining-the-collection-schema and fix
-
-    // title: z.string(),
-    // published: z.string(),
-    // modified: z.string().optional(),
-    // lang: z.string(),
-    // category: z.string().optional(),
+    title: z.string(),
+    published: z.coerce.date(),
+    modified: z.coerce.date().optional(),
+    lang: z.enum(["en", "ja"]).default("en"),
+    category: z.string().optional(),
   }),
 });
 

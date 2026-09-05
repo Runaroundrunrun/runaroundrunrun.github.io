@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "My Favorite Belonging: KODAK Film Camera M38"
 published: 2026-08-27
-modified: 2026-08-29
+modified: 2026-09-05
 lang: 'en'
 category: lifelog
 ---
@@ -33,6 +33,8 @@ It's one of the best things I've got.
 ## Links
 - Jan Moren, <a class="icon-new-tab" target="_blank" href="https://janneinosaka.blogspot.com/2009/10/utsurundesu-fuji-one-use-camera.html">Utsurundesu - Fuji one-use camera</a> Janne In Osaka (last accessed: 2026-08-23)
     - If you want to know more about UtsuRundesu, I think this post helps a lot.
+- <a class="icon-new-tab" target="_blank" href="https://filmphotography.eu/en/film/fujifilm-400/">Fujifilm 400 – All You Need to Know in the Film Guide</a> FILM PHOTOGRAPHY .EU (last accessed: 2026-09-05)
+    - I often use this film.
 
 ## Related
 

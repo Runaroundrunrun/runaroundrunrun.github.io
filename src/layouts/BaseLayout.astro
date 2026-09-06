@@ -9,6 +9,7 @@ const {pageTitle, currentPage} = Astro.props;
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
+		<link rel="alternate" type="application/rss+xml" title="Runa's Playground" href={new URL("feed.xml", Astro.site)}/>
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle} - Runa's Playground</title>

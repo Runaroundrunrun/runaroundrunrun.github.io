@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (August 2026)
 published: 2026-08-30
-modified: 
+modified: 2026-09-07
 lang: 'en'
 category: lifelog
 ---
@@ -20,7 +20,7 @@ category: lifelog
 - 『屍人荘の殺人』 by 今村昌弘
 
 ## Games
-- Dave the Diver
+- [Dave the Diver](/posts/gaming/2026-09-07_dave_the_diver)
 
 <h2 class="icon-album">Music - Albums</h2>
 
@@ -58,3 +58,7 @@ category: lifelog
     - very very helpful! I read it before I went to a live show in Shibuya.
 - kinaco68, <a class="icon-new-tab" target="_blank" href="https://kinaco68.hatenablog.com/entry/2021/02/15/200000">仕事は薬？ 斎藤環「『社会的うつ病』の治し方」を読む - 何たる迷惑であることか!</a> (last accessed: 2026-08-30)
     - This one hit me really hard... I felt like I was seeing my possible future self.
+
+
+## Related
+- [DAVE THE DIVER: very satisfying game!](/posts/gaming/2026-09-07_dave_the_diver)

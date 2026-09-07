@@ -19,7 +19,7 @@ export async function GET(context) {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
       }),
       ...post.data,
-    })),
+    })).sort((a, b) => a.pubDate > b.pubDate ? -1 : 1),
     customData: `<language>en-us</language>`,
   });
 }

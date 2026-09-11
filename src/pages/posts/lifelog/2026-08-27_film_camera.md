@@ -39,5 +39,5 @@ It's one of the best things I've got.
 ## Related
 
 Photos I took with this camera:
-- [Photos: Izumo, March 2025](/posts/photos/2026-08-06_izumo)
-- [Photos: Kurashiki, March 2026](/posts/photos/2026-08-29_kurashiki)
+- [Photos: Izumo, March 2025](/posts/photos/2026-08-06_izumo/)
+- [Photos: Kurashiki, March 2026](/posts/photos/2026-08-29_kurashiki/)

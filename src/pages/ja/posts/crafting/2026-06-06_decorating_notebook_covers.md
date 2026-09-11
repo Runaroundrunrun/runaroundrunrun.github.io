@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: crafting
 ---
-*Read the English version [here](/posts/crafting/2026-05-26_decorating_notebook_covers).*
+*Read the English version [here](/posts/crafting/2026-05-26_decorating_notebook_covers/).*
 
 去年からノートの表紙、裏表紙をデコり始めている。
 

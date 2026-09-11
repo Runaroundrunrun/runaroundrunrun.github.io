@@ -6,7 +6,7 @@ modified: 2026-09-07
 lang: 'en'
 category: lifelog
 ---
-*[日本語で読む](/ja/posts/lifelog/2026/2026_august_media_log)*
+*[日本語で読む](/ja/posts/lifelog/2026/2026_august_media_log/)*
 
 <h2 class="icon-books">Books</h2>
 
@@ -20,7 +20,7 @@ category: lifelog
 - 『屍人荘の殺人』 by 今村昌弘
 
 ## Games
-- [Dave the Diver](/posts/gaming/2026-09-07_dave_the_diver)
+- [Dave the Diver](/posts/gaming/2026-09-07_dave_the_diver/)
 
 <h2 class="icon-album">Music - Albums</h2>
 
@@ -61,4 +61,4 @@ category: lifelog
 
 
 ## Related
-- [DAVE THE DIVER: very satisfying game!](/posts/gaming/2026-09-07_dave_the_diver)
+- [DAVE THE DIVER: very satisfying game!](/posts/gaming/2026-09-07_dave_the_diver/)

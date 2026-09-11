@@ -6,7 +6,7 @@ modified: 2026-07-04
 lang: 'en'
 category: lifelog
 ---
-*[日本語で読む](/ja/posts/lifelog/2026/2026_may_media_log)*
+*[日本語で読む](/ja/posts/lifelog/2026/2026_may_media_log/)*
 
 Here are the things I enjoyed in May 2026.
 
@@ -24,7 +24,7 @@ Here are the things I enjoyed in May 2026.
 
 <h2 class="icon-album">Albums</h2>
 
-- [Roxwell - Matilda Mann](/posts/music/2026-07-04_roxwell)
+- [Roxwell - Matilda Mann](/posts/music/2026-07-04_roxwell/)
 - SABLE, fABLE - Bon Iver
 - Famille - Ben Mazué
 
@@ -40,4 +40,4 @@ Here are the things I enjoyed in May 2026.
 - Astrid et Raphaëlle
 
 ## Related
-- [My Favorite Album: Roxwell by Matilda Mann](/posts/music/2026-07-04_roxwell)
+- [My Favorite Album: Roxwell by Matilda Mann](/posts/music/2026-07-04_roxwell/)

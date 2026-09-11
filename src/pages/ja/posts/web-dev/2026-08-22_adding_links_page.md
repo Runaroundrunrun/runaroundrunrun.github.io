@@ -6,9 +6,9 @@ modified:
 lang: 'ja'
 category: web-dev
 ---
-*Read the English version [here](/posts/web-dev/2026-08-21_adding_links_page).*
+*Read the English version [here](/posts/web-dev/2026-08-21_adding_links_page/).*
 
-[リンク集](/ja/links)ページを追加しました。
+[リンク集](/ja/links/)ページを追加しました。
 
 このページを作る最初のきっかけは、以下の記事を読んだこと。  
 リンク集を作っていいものをシェアせねば！と思って。
@@ -22,5 +22,5 @@ category: web-dev
 自分も同じことをしたいなと思っている。
 
 ## 関連
-- [2026年6月に楽しんだ作品リスト](/ja/posts/lifelog/2026/2026_june_media_log)
-- [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add)
+- [2026年6月に楽しんだ作品リスト](/ja/posts/lifelog/2026/2026_june_media_log/)
+- [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add/)

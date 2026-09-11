@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: stationery
 ---
-*Read the English version [here](/posts/stationery/2026-07-27_sokuryo_yacho).*
+*Read the English version [here](/posts/stationery/2026-07-27_sokuryo_yacho/).*
 
 どこかに出かけるとき、必ず小さいノートを持っていくようにしている。  
 カフェ、待合室、あまり人のいない電車で取り出しては眺めたり書いたり。
@@ -28,4 +28,4 @@ A5サイズのノートとか、カバーが柔らかめのノートとかいろ
 
 
 ## Related
-- [スケッチ (2026.06.24 - 06.26)](/ja/posts/drawing/2026-08-03_sketches)
+- [スケッチ (2026.06.24 - 06.26)](/ja/posts/drawing/2026-08-03_sketches/)

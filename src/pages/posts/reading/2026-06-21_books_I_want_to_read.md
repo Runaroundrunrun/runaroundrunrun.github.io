@@ -6,7 +6,7 @@ modified: 2026-07-05
 lang: 'en'
 category: reading
 ---
-*[日本語で読む](/ja/posts/reading/2026-07-01_books_I_want_to_read)*
+*[日本語で読む](/ja/posts/reading/2026-07-01_books_I_want_to_read/)*
 
 Here's a list of books I've been wanting to read:
 

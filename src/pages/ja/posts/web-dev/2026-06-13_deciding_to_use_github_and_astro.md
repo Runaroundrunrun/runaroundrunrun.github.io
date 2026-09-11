@@ -56,7 +56,7 @@ Astro のチュートリアルを読み始めて気づいたのだけど、ま�
 (そらそうか)  
 今自宅で使っている PC は開発用に使ったことがなかったので、Visual Studio Code と Node.js をインストールするところからスタートである。  
 
-開発環境を作る過程でやったことはまた別に ~~まとめていく、予定。~~ [まとめた](/ja/posts/web-dev/2026-06-21_install_nodejs)。
+開発環境を作る過程でやったことはまた別に ~~まとめていく、予定。~~ [まとめた](/ja/posts/web-dev/2026-06-21_install_nodejs/)。
 
 ## 参考文献
 - Astro, <a class="icon-new-tab" target="_blank" href="https://docs.astro.build/en/tutorial/0-introduction/">Build a blog tutorial</a> (閲覧日 2026-06-05)
@@ -69,5 +69,5 @@ Astro のチュートリアルを読み始めて気づいたのだけど、ま�
 - 「分かりそう」で「分からない」でも「分かった」気になれるIT用語辞典, <a class="icon-new-tab" target="_blank" href="https://wa3.i-3-i.info/word11862.html">静的ページとは</a> (閲覧日 2026-06-05)
 
 ## 関連
-- [ウェブサイトを立ち上げてみた](/ja/posts/web-dev/2026-05-20_on_setting_up_this_website)
-- [Webサイト立ち上げの記録 (2) - Astro を使う準備](/ja/posts/web-dev/2026-06-21_install_nodejs)
+- [ウェブサイトを立ち上げてみた](/ja/posts/web-dev/2026-05-20_on_setting_up_this_website/)
+- [Webサイト立ち上げの記録 (2) - Astro を使う準備](/ja/posts/web-dev/2026-06-21_install_nodejs/)

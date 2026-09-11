@@ -6,7 +6,7 @@ modified: 2026-09-07
 lang: 'en'
 category: stationery
 ---
-*[日本語で読む](/ja/posts/stationery/2026-09-07_sokuryo_yacho)*
+*[日本語で読む](/ja/posts/stationery/2026-09-07_sokuryo_yacho/)*
 
 When I go out, I always bring my pocket notebook with me.  
 I take it out in a cafe, in a waiting room, or in a train (only when few people are around though).  
@@ -24,6 +24,6 @@ Here are the reasons I love this notebook:
 - Made in Japan. It feels nice to use something that's made in your own country, right?
 
 ## Related
-- [Sketches (June 24 - June 26)](/posts/drawing/2026-07-09_sketches)
-- [Sketches (July 6 - July 15)](/posts/drawing/2026-08-03_sketches)
-- [Sketches (August 1 - August 11)](/posts/drawing/2026-09-04_sketches)
+- [Sketches (June 24 - June 26)](/posts/drawing/2026-07-09_sketches/)
+- [Sketches (July 6 - July 15)](/posts/drawing/2026-08-03_sketches/)
+- [Sketches (August 1 - August 11)](/posts/drawing/2026-09-04_sketches/)

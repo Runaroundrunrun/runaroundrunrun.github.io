@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: photos
 ---
-*Read the English version [here](/posts/photos/2026-06-26_art_aquarium_museum).*
+*Read the English version [here](/posts/photos/2026-06-26_art_aquarium_museum/).*
 
 今年の4月、銀座にある <a class="icon-new-tab" target="_blank" href="https://artaquarium.jp/">アートアクアリウム美術館</a> に行った。
 

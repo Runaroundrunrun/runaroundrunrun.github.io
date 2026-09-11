@@ -6,7 +6,7 @@ modified: 2026-06-12
 lang: 'en'
 category: technical
 ---
-*[日本語で読む](/ja/posts/technical/2026-06-06_keyboard_shortcuts)*
+*[日本語で読む](/ja/posts/technical/2026-06-06_keyboard_shortcuts/)*
 
 When I was a student, I didn't know that learning shortcuts could be helpful, so I would use the mouse and click the "Back" or "Save" button every time I wrote an essay.  
 Now that I'm used to using shortcuts, using the mouse each time I want to save or edit the document feels like a waste of energy.

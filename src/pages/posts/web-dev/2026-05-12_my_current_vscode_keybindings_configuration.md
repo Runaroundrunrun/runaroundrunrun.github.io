@@ -6,7 +6,7 @@ modified: 2026-07-05
 lang: 'en'
 category: web-dev
 ---
-*[日本語で読む](/ja/posts/web-dev/2026-06-30_my_current_vscode_keybindings_configuration)*
+*[日本語で読む](/ja/posts/web-dev/2026-06-30_my_current_vscode_keybindings_configuration/)*
 
 I use VSCode for coding and editing Markdown files.
 

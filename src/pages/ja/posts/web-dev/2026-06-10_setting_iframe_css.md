@@ -7,7 +7,7 @@ lang: 'ja'
 category: web-dev
 ---
 
-[この記事](/posts/tv-series/2026-05-13_yumis_cells3)のページの話。
+[この記事](/posts/tv-series/2026-05-13_yumis_cells3/)のページの話。
 
 ## 起こっていたこと
 

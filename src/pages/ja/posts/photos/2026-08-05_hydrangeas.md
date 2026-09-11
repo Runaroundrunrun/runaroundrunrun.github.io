@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: photos
 ---
-*Read the English version [here](/posts/photos/2026-07-11_hydrangeas).*
+*Read the English version [here](/posts/photos/2026-07-11_hydrangeas/).*
 
 6月に撮ったアジサイの写真（AQUOS wish3）。
 

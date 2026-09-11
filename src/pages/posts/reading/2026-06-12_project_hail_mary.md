@@ -6,7 +6,7 @@ modified: 2026-07-05
 lang: 'en'
 category: reading
 ---
-*[日本語で読む](/ja/posts/reading/2026-06-19_project_hail_mary)*
+*[日本語で読む](/ja/posts/reading/2026-06-19_project_hail_mary/)*
 
 This book is so great.  
 I wish I could erase my memory and read it again!
@@ -47,4 +47,4 @@ They might not have become BFFs if they hadn't been alone!
 </details>
 
 ## Related
-- [Media Log (May 2026)](/posts/lifelog/2026/2026_may_media_log)
+- [Media Log (May 2026)](/posts/lifelog/2026/2026_may_media_log/)

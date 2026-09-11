@@ -6,7 +6,7 @@ modified: 2026-08-05
 lang: 'ja'
 category: web-dev
 ---
-*Read the English version [here](/posts/web-dev/2026-06-25_adding_categories_section).*  
+*Read the English version [here](/posts/web-dev/2026-06-25_adding_categories_section/).*  
 
 ちょっと前から [Posts and Notes](/ja/posts/) ページにcategoriesセクションをつけてみている。
 
@@ -57,4 +57,4 @@ nav {
 この通りにページを変更するかどうかは、未定...
 
 ## Related
-- [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add)
+- [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add/)

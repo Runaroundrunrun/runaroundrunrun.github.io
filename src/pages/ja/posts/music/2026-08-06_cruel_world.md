@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: music 
 ---
-*Read the English version [here](/posts/music/2026-07-16_cruel_world).*
+*Read the English version [here](/posts/music/2026-07-16_cruel_world/).*
 
 Holly Humberstone というアーティストの "Scarlett" と "Room Service" を、少なくとも2年くらい聴いている。  
 他の曲はしばらくチェックしていなかったのだけれど、最近出たアルバム "Cruel World" を聴いてみたらめちゃくちゃ好きになり、購入した。  
@@ -46,4 +46,4 @@ Holly Humberstone というアーティストの "Scarlett" と "Room Service" �
     - この曲を読んで、アルバムとか収録されている曲についてより知ることができた。歌詞をじっくり読んでみようという気にもなり。
 
 ## 関連
-- [2026年7月に消費したメディア記録](/ja/posts/lifelog/2026/2026_july_media_log)
+- [2026年7月に消費したメディア記録](/ja/posts/lifelog/2026/2026_july_media_log/)

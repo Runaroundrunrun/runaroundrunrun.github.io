@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: technical
 ---
-*Read the English version [here](/posts/technical/2026-05-30_keyboard_shortcuts).*
+*Read the English version [here](/posts/technical/2026-05-30_keyboard_shortcuts/).*
 
 学生時代、ショートカットキーがどれだけ便利かわかっていなかったので、レポートをパソコン使って書くときなんかはマウスで「戻る」とか「保存」ボタンをいちいちクリックしていた。
 

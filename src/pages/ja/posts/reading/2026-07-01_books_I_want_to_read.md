@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: reading
 ---
-*Read the English version [here](/posts/reading/2026-06-21_books_I_want_to_read).*
+*Read the English version [here](/posts/reading/2026-06-21_books_I_want_to_read/).*
 
 読みたいなと思っている本リスト: 
 

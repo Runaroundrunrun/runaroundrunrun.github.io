@@ -6,7 +6,7 @@ modified: 2026-07-05
 lang: 'en'
 category: web-dev
 ---
-*[日本語で読む](/ja/posts/web-dev/2026-05-20_on_setting_up_this_website)*
+*[日本語で読む](/ja/posts/web-dev/2026-05-20_on_setting_up_this_website/)*
 
 I've always dreamed of having my own portfolio/blog/website. Since I'm on a career break right now, I figured it's the perfect time to set one up!
 
@@ -23,4 +23,4 @@ Here are some posts that inspired me to set up this website:
 - <a class="icon-new-tab" target="_blank" href="https://github.com/readme/guides/publishing-your-work">Publishing your work increases your luck - Aaron Francis</a>
 
 ## Related
-- [Features I want to add to this website](/posts/web-dev/2026-05-20_features_to_add)
+- [Features I want to add to this website](/posts/web-dev/2026-05-20_features_to_add/)

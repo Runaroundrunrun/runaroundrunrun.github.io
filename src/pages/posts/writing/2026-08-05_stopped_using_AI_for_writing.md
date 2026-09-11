@@ -6,7 +6,7 @@ modified: 2026-08-23
 lang: 'en'
 category: writing 
 ---
-*[日本語で読む](/ja/posts/writing/2026-08-23_stopped_using_AI_for_writing)*
+*[日本語で読む](/ja/posts/writing/2026-08-23_stopped_using_AI_for_writing/)*
 
 Because my first language is not English and I haven't taken enough writing classes, I'm not confident of my English writing skill.    
 When I started writing here, I was using Grammarly and ChatGPT to correct my grammar mistakes and rewrite unnatural expressions.  
@@ -33,17 +33,17 @@ I'm not saying that I will leave my mistakes untouched,
 I will correct errors and rewrite as many times as possible.
 
 ## Related
-- [Media Log (June 2026)](/posts/lifelog/2026/2026_june_media_log)
+- [Media Log (June 2026)](/posts/lifelog/2026/2026_june_media_log/)
 
 
 ---
 
 [^1]: It seems like the page doesn't exist anymore?
 [^2]: I used AI for these posts:
-<br>[Decorating notebook covers](/posts/crafting/2026-05-26_decorating_notebook_covers)
-<br> [The most exciting sci-fi I've ever read: Project Hail Mary](https://runaroundrunrun.github.io/posts/reading/2026-06-12_project_hail_mary),
-<br> [I buy way more books than I can read](/posts/reading/2026-05-16_I_buy_way_more_books_than_I_can_read), 
-<br>[Keyboard shortcuts I use](/posts/technical/2026-05-30_keyboard_shortcuts), 
-<br>[I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)](posts/tv-series/2026-05-13_yumis_cells3), 
-<br>[My current keybindings configuration in VSCode](/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration), 
-<br>[On setting up this website](/posts/web-dev/2026-05-08_on_setting_up_this_website)
+<br>[Decorating notebook covers](/posts/crafting/2026-05-26_decorating_notebook_covers/)
+<br> [The most exciting sci-fi I've ever read: Project Hail Mary](/posts/reading/2026-06-12_project_hail_mary),
+<br> [I buy way more books than I can read](/posts/reading/2026-05-16_I_buy_way_more_books_than_I_can_read/), 
+<br>[Keyboard shortcuts I use](/posts/technical/2026-05-30_keyboard_shortcuts/), 
+<br>[I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)](/posts/tv-series/2026-05-13_yumis_cells3/), 
+<br>[My current keybindings configuration in VSCode](/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration/), 
+<br>[On setting up this website](/posts/web-dev/2026-05-08_on_setting_up_this_website/)

@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: web-dev
 ---
-前の記事は [こちら](/ja/posts/web-dev/2026-06-21_install_nodejs)
+前の記事は [こちら](/ja/posts/web-dev/2026-06-21_install_nodejs/)
 
 Node.jsのインストールが終わり、いよいよ Astro を使った開発のスタート！
 
@@ -120,7 +120,7 @@ export default defineConfig({
 - Astro Docs, <a class="icon-new-tab" target="_blank" href="https://docs.astro.build/en/guides/deploy/github/">Deploy your Astro Site to GitHub Pages</a> (閲覧日: 2026-07-07)
 
 ## 関連
-- [Webサイト立ち上げの記録 (2) - Astro を使う準備](/ja/posts/web-dev/2026-06-21_install_nodejs)
+- [Webサイト立ち上げの記録 (2) - Astro を使う準備](/ja/posts/web-dev/2026-06-21_install_nodejs/)
 
 ----------
 [^1]: Webサイトをホストする <a class="icon-new-tab" target="_blank" href="https://www.netlify.com/">Netlify</a> へのデプロイとかはスキップした。私の目標は GitHub Pages にデプロイすることだったので！  

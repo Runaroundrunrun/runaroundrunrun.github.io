@@ -6,7 +6,7 @@ modified: 2026-08-23
 lang: 'ja'
 category: lifelog
 ---
-*Read the English version [here](/posts/lifelog/2026/2026_june_media_log).*
+*Read the English version [here](/posts/lifelog/2026/2026_june_media_log/).*
 
 2026年6月に読んだ・聞いた・観たものの中で、好きだったもの・楽しんだもの。  
 もう7月終わるけども!
@@ -59,7 +59,7 @@ category: lifelog
 ---
 
 ## 関連
-- [リンク集を作ったはなし](/ja/posts/web-dev/2026-08-22_adding_links_page)
+- [リンク集を作ったはなし](/ja/posts/web-dev/2026-08-22_adding_links_page/)
 
 ---
 [^1]: 残念なことに、もうこの記事は存在しない様子...

@@ -24,6 +24,6 @@ category: cooking
     - にんじんとか、チンゲンサイに変えてもいけそう。
 
 ## 備忘録
-- [小松菜のナムルもどき](/ja/posts/cooking/2026-06-24_recipe_namul)
+- [小松菜のナムルもどき](/ja/posts/cooking/2026-06-24_recipe_namul/)
 - 豚こまの冷しゃぶ
     - ただ豚こまをゆでるだけ。

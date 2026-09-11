@@ -6,7 +6,7 @@ modified: 2026-08-06
 lang: 'en'
 category: music
 ---
-*[日本語で読む](/ja/posts/music/2026-08-06_cruel_world)*
+*[日本語で読む](/ja/posts/music/2026-08-06_cruel_world/)*
 
 For at least two years, I have been listening to “Scarlett” and “Room Service” by Holly Humberstone.  
 I didn't check her newer songs for a while, but recently I stumbled upon her new album “Cruel World”.
@@ -45,4 +45,4 @@ I loved her performance as well!
     - This article helped me understand the album and the songs better. It also made me want to look closely into the lyrics.
 
 ## Related
-- [Media Log (July 2026)](/posts/lifelog/2026/2026_july_media_log)
+- [Media Log (July 2026)](/posts/lifelog/2026/2026_july_media_log/)

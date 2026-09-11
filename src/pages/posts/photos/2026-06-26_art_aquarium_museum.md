@@ -6,7 +6,7 @@ modified: 2026-07-05
 lang: 'en'
 category: photos
 ---
-*[日本語で読む](/ja/posts/photos/2026-06-29_art_aquarium_museum)*
+*[日本語で読む](/ja/posts/photos/2026-06-29_art_aquarium_museum/)*
 
 This April I visited <a class="icon-new-tab" target="_blank" href="https://artaquarium.jp/">Art Aquarium Museum</a> in Ginza, Tokyo.
 

@@ -21,4 +21,4 @@ I mean, he dives every day and works at night so he burns a lot of calories.
 And yet, he doesn't get muscular!
 
 ## Related
-- [Media Log (August 2026)](/posts/lifelog/2026/2026_august_media_log)
+- [Media Log (August 2026)](/posts/lifelog/2026/2026_august_media_log/)

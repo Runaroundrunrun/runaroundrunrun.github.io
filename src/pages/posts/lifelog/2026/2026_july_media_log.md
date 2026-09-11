@@ -6,13 +6,13 @@ modified: 2026-08-02
 lang: 'en'
 category: lifelog
 ---
-*[日本語で読む](/ja/posts/lifelog/2026/2026_july_media_log)*
+*[日本語で読む](/ja/posts/lifelog/2026/2026_july_media_log/)*
 
 Here are the things I enjoyed in July 2026.
 
 ## Articles
 - Hannah Ewens, <a class="icon-new-tab" target="_blank" href="https://www.rollingstone.co.uk/music/holly-humberstone-world-of-her-own-feature-60111/">Holly Humberstone: world of her own</a> - Rolling Stone UK
-    - About Holly Humberstone and her album [Cruel World](/posts/music/2026-07-16_cruel_world)
+    - About Holly Humberstone and her album [Cruel World](/posts/music/2026-07-16_cruel_world/)
 
 <h2 class="icon-books">Books</h2>
 
@@ -22,7 +22,7 @@ Here are the things I enjoyed in July 2026.
 
 <h2 class="icon-album">Music - Albums</h2>
 
-- [Cruel World - Holly Humberstone](/posts/music/2026-07-16_cruel_world)
+- [Cruel World - Holly Humberstone](/posts/music/2026-07-16_cruel_world/)
 - Hotel TV - Lawrence
 - Ooh La La - Faces
 - Stars And Teeth - Sophie May
@@ -42,4 +42,4 @@ Here are the things I enjoyed in July 2026.
 - Catch Me If You Can
 
 ## Related
-- [My new favourite album : Cruel World by Holly Humberstone](/posts/music/2026-07-16_cruel_world)
+- [My new favourite album : Cruel World by Holly Humberstone](/posts/music/2026-07-16_cruel_world/)

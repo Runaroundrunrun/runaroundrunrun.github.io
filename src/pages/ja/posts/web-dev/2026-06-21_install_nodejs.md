@@ -6,7 +6,7 @@ modified: 2026-06-29
 lang: 'ja'
 category: web-dev
 ---
-前の記事は [こちら](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)
+前の記事は [こちら](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro/)
 
 Astro を使うための環境構築としてやったことは大きく分けるとこの2つ。
 - Visual Studio Code のインストール
@@ -68,5 +68,5 @@ npm もオッケー！
 - <a class="icon-new-tab" target="_blank" href="https://nodejs.org/ja">Node.js — どこでもJavaScriptを使おう</a>
 
 ## 関連
-- [Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)
-- [Webサイト立ち上げの記録(3) - Astro を使ったプロジェクトの作成](/ja/posts/web-dev/2026-07-27_create_astro_project)
+- [Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro/)
+- [Webサイト立ち上げの記録(3) - Astro を使ったプロジェクトの作成](/ja/posts/web-dev/2026-07-27_create_astro_project/)

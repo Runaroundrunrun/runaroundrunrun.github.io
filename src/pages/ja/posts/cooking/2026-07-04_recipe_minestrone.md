@@ -46,4 +46,4 @@ category: cooking
 貝の形のパスタとか、缶詰の豆とか、青菜を後から足して煮込んでも、おいしい。
 
 ## 他のレシピもあるよ
-- [レシピ: 小松菜のナムルもどき](/ja/posts/cooking/2026-06-24_recipe_namul)
+- [レシピ: 小松菜のナムルもどき](/ja/posts/cooking/2026-06-24_recipe_namul/)

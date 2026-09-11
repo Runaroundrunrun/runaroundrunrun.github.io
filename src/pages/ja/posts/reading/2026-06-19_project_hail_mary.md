@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: reading
 ---
-*Read the English version [here](/posts/reading/2026-06-12_project_hail_mary).*
+*Read the English version [here](/posts/reading/2026-06-12_project_hail_mary/).*
 
 この本、めっちゃ良い！
 記憶をいちど消して、もう一回読めたらいいのに、こういう本があるから読書って楽しいよな...と思える本。  
@@ -47,4 +47,4 @@ category: reading
 </details>
 
 ## 関連
-- [2026年5月に楽しんだ作品リスト](/ja/posts/lifelog/2026/2026_may_media_log)
+- [2026年5月に楽しんだ作品リスト](/ja/posts/lifelog/2026/2026_may_media_log/)

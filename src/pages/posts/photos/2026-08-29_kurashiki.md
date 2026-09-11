@@ -7,7 +7,7 @@ lang: 'en'
 category: photos
 ---
 
-I visited Kurashiki in March 2026, here are the photos I took there with my [Kodak Film Camera M38 ](/posts/lifelog/2026-08-27_film_camera).
+I visited Kurashiki in March 2026, here are the photos I took there with my [Kodak Film Camera M38 ](/posts/lifelog/2026-08-27_film_camera/).
 
 ![alt](../images/2026-08-29_Kurashiki_1.jpg)
 

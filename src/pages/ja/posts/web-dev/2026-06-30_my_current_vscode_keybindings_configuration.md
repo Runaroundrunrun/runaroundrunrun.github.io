@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: web-dev
 ---
-*Read the English version [here](/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration).*  
+*Read the English version [here](/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration/).*  
 
 コーディングするときや、Markdownファイルを編集するのにVSCodeを使い続けている。  
 

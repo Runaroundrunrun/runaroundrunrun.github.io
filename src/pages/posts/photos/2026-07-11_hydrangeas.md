@@ -6,7 +6,7 @@ modified: 2026-08-05
 lang: 'en'
 category: photos
 ---
-*[日本語で読む](/ja/posts/photos/2026-08-05_hydrangeas)*
+*[日本語で読む](/ja/posts/photos/2026-08-05_hydrangeas/)*
 
 Photos of hydrangeas I took last month（AQUOS wish3）:
 

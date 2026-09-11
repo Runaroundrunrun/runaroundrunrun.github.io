@@ -6,7 +6,7 @@ modified: 2026-08-05
 lang: 'en'
 category: web-dev
 ---
-*[日本語で読む](/ja/posts/web-dev/2026-07-03_adding_categories_section)*
+*[日本語で読む](/ja/posts/web-dev/2026-07-03_adding_categories_section/)*
 
 A while ago I added “categories” section to [Posts and Notes](/posts/) page.
 
@@ -54,4 +54,4 @@ the list of posts under that category will appear.
 I haven’t decided if I’m going to make this change yet, though.
 
 ## Related
-- [Features I want to add to this website](/posts/web-dev/2026-05-20_features_to_add)
+- [Features I want to add to this website](/posts/web-dev/2026-05-20_features_to_add/)

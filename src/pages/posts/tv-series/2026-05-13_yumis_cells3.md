@@ -31,4 +31,4 @@ He even wears **A CAPE**!
 ![Naughty Cell and Love Cell](../images/2026-05-13_yumis_cells3.png)
 
 ## Related
-- [Media Log (May 2026)](/posts/lifelog/2026/2026_may_media_log)
+- [Media Log (May 2026)](/posts/lifelog/2026/2026_may_media_log/)

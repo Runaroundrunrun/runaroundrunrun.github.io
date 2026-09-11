@@ -6,7 +6,7 @@ modified: 2026-06-13
 lang: 'ja'
 category: web-dev
 ---
-*Read the English version [here](/posts/web-dev/2026-05-08_on_setting_up_this_website).*
+*Read the English version [here](/posts/web-dev/2026-05-08_on_setting_up_this_website/).*
 
 
 数年間ずっと、自分のポートフォリオだかブログだかウェブサイトを作ることに憧れがあった。  
@@ -25,5 +25,5 @@ category: web-dev
 - <a class="icon-new-tab" target="_blank" href="https://github.com/readme/guides/publishing-your-work">Publishing your work increases your luck - Aaron Francis</a>
 
 ## 関連
-- [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add)
-- [Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro)
+- [このサイトに加えたい機能](/ja/posts/web-dev/2026-05-30_features_to_add/)
+- [Webサイト立ち上げの記録 (1) - 利用するサービス・ツールを決める](/ja/posts/web-dev/2026-06-13_deciding_to_use_github_and_astro/)

@@ -6,7 +6,7 @@ modified:
 lang: 'ja'
 category: lifelog
 ---
-*Read the English version [here](/posts/lifelog/2026/2026_august_media_log).*
+*Read the English version [here](/posts/lifelog/2026/2026_august_media_log/).*
 
 2026年8月に触れたもの。
 

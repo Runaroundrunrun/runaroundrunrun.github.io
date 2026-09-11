@@ -2,10 +2,12 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "My Favorite Belonging: KODAK Film Camera M38"
 published: 2026-08-27
-modified: 2026-09-05
+modified: 2026-09-11
 lang: 'en'
 category: lifelog
 ---
+*[日本語で読む](/ja/posts/lifelog/2026-09-11_film_camera/)*
+
 When I go on a trip, I prefer taking photos with a film camera to taking them with my phone.  
 
 This is the one I use:  

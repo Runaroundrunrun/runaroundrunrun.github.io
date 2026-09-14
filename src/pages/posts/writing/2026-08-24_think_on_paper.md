@@ -2,10 +2,12 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "Note to self: please think on paper, for goodness' sake"
 published: 2026-08-24
-modified: 
+modified: 2026-09-14
 lang: 'en'
 category: writing
 ---
+*[日本語で読む](/ja/posts/writing/2026-09-14_think_on_paper/)*
+
 When I have to spend time alone with my brain, without books or a phone, I have little control over the voice in my head.  
 This voice - it isn't clear enough -  has power to make me feel depressed.  
 

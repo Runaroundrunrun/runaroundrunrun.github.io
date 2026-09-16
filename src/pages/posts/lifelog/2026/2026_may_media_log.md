@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (May 2026)
 published: 2026-06-03
-modified: 2026-07-04
+modified: 2026-09-16
 lang: 'en'
 category: lifelog
 ---
@@ -19,7 +19,8 @@ Here are the things I enjoyed in May 2026.
 - <a class="icon-new-tab" target="_blank" href="https://waitbutwhy.com/faq">Frequently Asked Questions by WAIT BUT WHY</a>
 - <a class="icon-new-tab" target="_blank" href="https://newsletter.ownyourweb.site/archive/own-your-web-issue-18-curators/">Own Your Web – Issue 18: Curators</a>
 
-## Movies
+<h2 class="icon-movie">Movies</h2>
+
 - *The Mandalorian and Grogu*
 
 <h2 class="icon-album">Albums</h2>

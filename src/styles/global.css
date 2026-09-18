@@ -5,13 +5,13 @@
     --font-english: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --font-code: "JetBrains Mono", monospace;
     /* colors */
-    --back-color: #F0ECE5;
+    --back-color: #FFF6EE;
     --text-color: #000;
     --date-color: #9a9a9a;
-    --border-color: #5C88CD;
-    --link-color: #E5B310;
-    --back-color-2: #5C88CD;
-    --text-color-2: #F0ECE5;
+    --border-color: #D6DCB2;
+    --link-color: #D86072;
+    --back-color-2: #D6DCB2;
+    --text-color-2: #000;
     --quote-border: #ADADAD;
 
 }

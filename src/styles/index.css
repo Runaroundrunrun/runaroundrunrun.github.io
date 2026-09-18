@@ -18,6 +18,14 @@ div.index-content {
             margin: auto 0;
         }
     }
+    div.menu-wrap {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        a {
+            font-size: 1.1rem;
+        }
+    }
 }
 a.link-to-posts img {
     width: 17em;

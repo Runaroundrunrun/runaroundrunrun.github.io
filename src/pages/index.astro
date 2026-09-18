@@ -9,6 +9,14 @@ const pageTitle = "Home";
 const currentPage ="/";
 ---
 <BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
+	<div id="menu" class="index-content">
+		<h2>Menu</h2>
+		<div class="menu-wrap">
+			<a class="" href="/posts/">Posts & Notes</a>
+			<a class="" href="/links/">Links</a>
+			<a class="" href="/about/">About</a>
+		</div>
+	</div>
 	<div id="latest" class="index-content">
 		<h2>Latest</h2>
 		<ul class="posts">

@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "My Favorite Belonging: KODAK Film Camera M38"
 published: 2026-08-27
-modified: 2026-09-14
+modified: 2026-09-18
 lang: 'en'
 category: lifelog
 ---
@@ -44,3 +44,6 @@ Photos I took with this camera:
 - [Photos: Izumo, March 2025](/posts/photos/2026-08-06_izumo/)
 - [Photos: Kurashiki, March 2026](/posts/photos/2026-08-29_kurashiki/)
 - [Photos: Kuhombutsu Joshin-ji Temple (2024 winter)](/posts/photos/2026-09-14_joshin-ji/)
+
+And failed ones:
+- [RIP: my failed photos](/posts/photos/2026-09-18_my_failed_photos/)

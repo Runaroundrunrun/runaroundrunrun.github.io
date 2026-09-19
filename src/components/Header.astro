@@ -1,5 +1,4 @@
 ---
-import Navigation from "./Navigation.astro";
 const {lang, currentPage} = Astro.props;
 const home = lang == "ja" ? "/ja/" : "/";
 const currentLangPage = (lang != "ja" ? "/ja" : "") + currentPage;
@@ -14,7 +13,4 @@ const langVisibility = currentPage == null ? "invisible" : "";
       <a class={langVisibility} href={currentLangPage}>{langDisp}</a>
     </div>
   </div>
-  <!-- <nav>
-    <Navigation lang={lang}/>
-  </nav> -->
 </header>

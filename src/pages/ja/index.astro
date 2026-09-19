@@ -1,5 +1,5 @@
 ---
-import BaseLayoutJa from "../../layouts/ja/BaseLayoutJa.astro"
+import BaseLayoutNoNavJa from "../../layouts/ja/BaseLayoutNoNavJa.astro";
 import ChildBlogPost from "../../components/ChildBlogPost.astro";
 import { Image } from 'astro:assets';
 import seeAllPostsImage from "../images/see_all_posts_jpn.png";
@@ -8,7 +8,14 @@ import "../../styles/index.css";
 const pageTitle = "Home";
 const currentJaPage = "/";
 ---
-<BaseLayoutJa pageTitle={pageTitle} currentPage={currentJaPage}>
+<BaseLayoutNoNavJa pageTitle={pageTitle} currentPage={currentJaPage}>
+	<div id="menu" class="index-content">
+		<div class="menu-wrap">
+			<a class="" href="/ja/posts/">Posts & Notes</a>
+			<a class="" href="/ja/links/">Links</a>
+			<a class="" href="/ja/about/">About</a>
+		</div>
+	</div>
 	<div id="latest" class="index-content">
 		<h2>更新履歴</h2>
 		<ul class="posts">
@@ -62,4 +69,4 @@ const currentJaPage = "/";
 	<!-- <div id="collections">
 
 	</div> -->
-</BaseLayoutJa>
+</BaseLayoutNoNavJa>

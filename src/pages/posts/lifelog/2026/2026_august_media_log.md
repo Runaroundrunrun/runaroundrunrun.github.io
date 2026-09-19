@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (August 2026)
 published: 2026-08-30
-modified: 2026-09-07
+modified: 2026-09-19
 lang: 'en'
 category: lifelog
 ---
@@ -61,4 +61,4 @@ category: lifelog
 
 
 ## Related
-- [DAVE THE DIVER: very satisfying game!](/posts/gaming/2026-09-07_dave_the_diver/)
+- [DAVE THE DIVER: such a fun game!](/posts/gaming/2026-09-07_dave_the_diver/)

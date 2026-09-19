@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: I buy way more books than I can read
 published: 2026-05-16
-modified: 2026-07-05
+modified: 2026-09-19
 lang: 'en'
 category: reading
 ---
@@ -21,3 +21,8 @@ Now I have a stack of books I have bought but haven't read yet.
 I have to stop myself from buying more, seriously!
 
 ![a stack of books I need to read](../images/2026-05-16_books_I_need_to_read.JPG)
+
+## Related
+
+As of September 2026, I buy less books now:
+- [I buy less books lately](/posts/reading/2026-09-19_I_buy_less_books/)

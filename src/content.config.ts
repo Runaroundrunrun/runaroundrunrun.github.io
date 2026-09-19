@@ -18,6 +18,16 @@ const blog = defineCollection({
     category: z.string().optional(),
   }),
 });
+const blogJa = defineCollection({
+  loader: glob({ base: './src/pages/ja/posts', pattern: '**/*.md' }),
+  schema: z.object({
+    title: z.string(),
+    published: z.coerce.date(),
+    modified: z.coerce.date().optional(),
+    lang: z.enum(["en", "ja"]).default("ja"),
+    category: z.string().optional(),
+  }),
+});
 
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { blog };
+export const collections = { blog, blogJa };

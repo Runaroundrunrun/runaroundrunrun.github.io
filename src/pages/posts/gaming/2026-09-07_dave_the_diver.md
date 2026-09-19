@@ -1,8 +1,8 @@
 ---
 layout: ../../../layouts/MarkdownPostLayout.astro
-title: 'DAVE THE DIVER: very satisfying game!'
+title: 'DAVE THE DIVER: such a fun game!'
 published: 2026-09-07
-modified: 
+modified: 2026-09-19
 lang: 'en'
 category: gaming
 ---

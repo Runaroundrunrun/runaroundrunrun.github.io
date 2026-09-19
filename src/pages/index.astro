@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
+import BaseLayoutNoNav from "../layouts/BaseLayoutNoNav.astro";
 import ChildBlogPost from "../components/ChildBlogPost.astro";
 import { Image } from 'astro:assets';
 import seeAllPostsImage from "./images/see_all_posts.png";
@@ -8,9 +9,8 @@ import "../styles/index.css";
 const pageTitle = "Home";
 const currentPage ="/";
 ---
-<BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
+<BaseLayoutNoNav pageTitle={pageTitle} currentPage={currentPage}>
 	<div id="menu" class="index-content">
-		<h2>Menu</h2>
 		<div class="menu-wrap">
 			<a class="" href="/posts/">Posts & Notes</a>
 			<a class="" href="/links/">Links</a>
@@ -72,4 +72,4 @@ const currentPage ="/";
 	<!-- <div id="collections">
 
 	</div> -->
-</BaseLayout>
+</BaseLayoutNoNav>

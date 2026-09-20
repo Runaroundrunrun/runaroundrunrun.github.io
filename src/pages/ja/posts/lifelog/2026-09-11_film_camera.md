@@ -46,4 +46,4 @@ category: lifelog
 
 このカメラで撮った写真:
 - [Photos: 出雲, 2025年3月](/ja/posts/photos/2026-08-24_izumo/)
-
+- [Photos: 倉敷, 2026年3月](/ja/posts/photos/2026-09-20_kurashiki/)

@@ -165,6 +165,17 @@ li:has(.icon-new-tab) {
     vertical-align: middle;
     margin-right: 0.5em; 
 }
+.icon-game::before {
+    content: "";
+    display: inline-block;
+    background-image: url('/images/game_50px_24px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.85em;
+    height: 0.9em;
+    vertical-align: middle;
+    margin-right: 0.5em; 
+}
 
 time {
     white-space: nowrap;

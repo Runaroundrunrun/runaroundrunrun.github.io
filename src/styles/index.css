@@ -2,8 +2,6 @@
 div.index-content {
     margin: 1rem auto;
     padding: 1rem;
-    border: solid var(--border-color) 2px;
-    border-radius: 4px;
     max-width: 50rem;
 
     h2 {
@@ -30,4 +28,8 @@ div.index-content {
 a.link-to-posts img {
     width: 17em;
     height: auto;
+}
+#latest, #recently {
+    border: solid var(--border-color) 2px;
+    border-radius: 4px;
 }

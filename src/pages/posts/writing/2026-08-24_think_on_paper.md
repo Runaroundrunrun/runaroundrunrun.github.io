@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "Note to self: please think on paper, for goodness' sake"
 published: 2026-08-24
-modified: 2026-09-14
+modified: 2026-09-26
 lang: 'en'
 category: writing
 ---
@@ -19,3 +19,6 @@ It keeps me from ruminating, which is I'm good at doing when I'm alone with my b
 That's probably why I usually feel less depressed when I think on paper.
 
 So dear myself in the future, please please think on paper, especially when you notice you're having negative thoughts, and try to stay calm.
+
+## Related
+- [Why do I write? Do I even like writing?](/posts/writing/2026-09-26_why_I_write/)

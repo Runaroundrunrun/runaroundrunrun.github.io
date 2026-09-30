@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: I stopped using AI for writing
 published: 2026-08-05
-modified: 2026-08-23
+modified: 2026-09-30
 lang: 'en'
 category: writing 
 ---
@@ -19,10 +19,11 @@ It changed the way I think about using AI and translator, especially this part:
 No, don’t use it to fix your grammar, or for translations, or for whatever else you think you are incapable of doing. Make the mistake. Feel embarrassed. Learn from it. Why? Because that’s what makes us human!
 </blockquote>
 
-I imagined myself reading Japanese posts (my first language is Japanese) written by non-native speakers.  
+I don't think I'm completely against using AI for writing, for I often can't tell the difference between the posts that's 100% written by human and the ones that's written/edited using AI.
 
-Do I want to read a post that's perfectly written with the help of AI, or a post doesn't use AI but contains grammar mistakes and unnatural expressions?  
-I prefer the latter, because it feels more unique.
+However, I realized I was using AI to make the posts perfect.
+I originally wanted this website to be a place for me to play and experiment. That means this place is supposed to allow myself to make mistakes, and using AI is, I think, against this philosophy.
+
 
 First I felt uncomfortable for not using AI to check if I made mistakes, but I got used to it.  
 Now, except for the posts published before June 12 2026[^2], I don't use AI nor translator for writing.  

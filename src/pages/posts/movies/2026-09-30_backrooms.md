@@ -1,8 +1,8 @@
 ---
 layout: ../../../layouts/MarkdownPostLayout.astro
-title: Backrooms(movie)
+title: "Backrooms: It's good, but I got motion sickness"
 published: 2026-09-30
-modified: 
+modified: 2026-10-01
 lang: 'en'
 category: movies
 ---
@@ -24,3 +24,4 @@ Oh and I got a sticker when I passed the entrance!
 
 ## Related
 - [Media Log (June 2026)](/posts/lifelog/2026/2026_june_media_log/)
+- [Media Log (September 2026)](/posts/lifelog/2026/september_media_log/)

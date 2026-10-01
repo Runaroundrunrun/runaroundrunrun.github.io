@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: 英語記事を書くときにAIで添削するのをやめた
 published: 2026-08-23
-modified: 
+modified: 2026-10-01
 lang: 'ja'
 category: writing 
 ---
@@ -18,12 +18,14 @@ category: writing
 No, don’t use it to fix your grammar, or for translations, or for whatever else you think you are incapable of doing. Make the mistake. Feel embarrassed. Learn from it. Why? Because that’s what makes us human!
 </blockquote>
 
-もともと日本語話者でなかった人が書いた日本語の記事を読むとき、AIを使って完璧に書かれた記事と、自分の言葉を使っているけど文法上の間違いとか違和感のある表現を使っている記事のどちらを読みたいか想像したとき、私は後者の方が読みたいなと思ったのだ。
+AIを使って文章を書くことに絶対反対、とは言えないと思っている。  
+だってそもそも私自身、ある文章が100％人が書いたものなのか、AIを使って書かれたものなのか見分けがつかないから。
 
-だってその方がなんかその人独自の色が出た文章な気がするから。
+いままで私がAIを使って英語を直していたのはできるだけミスのない文章を投稿したかったからだということに気づいたのだけど、それは元々このウェブサイトを立ち上げた時の「ここは私がいろいろ試して遊ぶための場所にしたい」という私の思いと対立するんじゃないかと。  
 
-<br>
-AIによる添削をやめてしばらくの間はなんとなく不安だったけれど、ここ最近はもう慣れた気がする。
+
+そんな経緯もありAIによる添削をやめてみた。  
+しばらくの間はなんとなく不安だったけれど、ここ最近はもう慣れた気がする。
 
 今では2026年6月11日以前の記事[^2]を除いて Grammarly も ChatGPT も使っていない。  
 

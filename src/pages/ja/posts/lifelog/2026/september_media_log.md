@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/MarkdownPostLayout.astro
 title: 2026年9月に消費したメディア記録
 published: 2026-10-01
-modified: 
+modified: 2026-10-02
 lang: 'ja'
 category: lifelog
 ---
@@ -25,7 +25,7 @@ category: lifelog
 
 <h2 class="icon-movie">Movies</h2>
 
-- バックルームズ
+- [『バックルームズ』](/ja/posts/movies/2026-10-02_backrooms/)
 
 <h2 class="icon-album">Music - アルバム</h2>
 
@@ -83,3 +83,4 @@ category: lifelog
 ## 関連
 - [ついつい夜更かしして観てしまった中国ドラマ『向日葵を追いかける太陽』](/ja/posts/tv-series/2026-09-25_when_I_fly_towards_you/)
 - [アドリブに笑いころげてます『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』](/ja/posts/tv-series/2026-09-30_popular_serizawa_acts_weird/)
+- [良かったけど、ひどい画面酔いになった：『バックルームズ』](/ja/posts/movies/2026-10-02_backrooms/)

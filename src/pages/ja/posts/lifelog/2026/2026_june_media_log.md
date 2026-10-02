@@ -22,7 +22,8 @@ category: lifelog
 
 ## YouTube
 - Kane Pixels の　<a class="icon-new-tab" target="_blank" href="https://youtube.com/playlist?list=PLVAh-MgDVqvDUEq6qDXqORBioE4Yhol_z&si=9yPyruyZstQqg3JA">Backrooms</a> シリーズ
-    - 映画は9月まで待たないといけないのよねえ...
+    - ~~映画は9月まで待たないといけないのよねえ...~~
+    - [映画観ました！](/ja/posts/movies/2026-10-02_backrooms/)
 
 <h2 class="icon-album">アルバム</h2>
 
@@ -60,6 +61,7 @@ category: lifelog
 
 ## 関連
 - [リンク集を作ったはなし](/ja/posts/web-dev/2026-08-22_adding_links_page/)
+- [良かったけど、ひどい画面酔いになった：『バックルームズ』](/ja/posts/movies/2026-10-02_backrooms/)
 
 ---
 [^1]: 残念なことに、もうこの記事は存在しない様子...

@@ -6,6 +6,8 @@ modified: 2026-10-01
 lang: 'en'
 category: movies
 ---
+*[日本語で読む](/ja/posts/movies/2026-10-02_backrooms/)*
+
 This month, I finally watched the movie "Backrooms".
 Since [I watched the YouTube series in June](/posts/lifelog/2026/2026_june_media_log/), I had been wanting to watch it.
 

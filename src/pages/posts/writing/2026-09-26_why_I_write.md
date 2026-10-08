@@ -6,6 +6,8 @@ modified:
 lang: 'en'
 category: writing 
 ---
+*[日本語で読む](/ja/posts/writing/2026-10-08_why_I_write/)*
+
 It's been months since I started writing here, but to be honest I don't know if I even like writing.  
 
 I know I like discovering new things and places. The excitement I get from exploring those things is stronger than any other activities.  

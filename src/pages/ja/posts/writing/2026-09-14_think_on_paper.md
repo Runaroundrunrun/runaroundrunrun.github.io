@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: '自分用メモ: 頼むから何か考えるときは紙に書いてくれ'
 published: 2026-09-14
-modified: 
+modified: 2026-10-08
 lang: 'ja'
 category: writing 
 ---
@@ -27,3 +27,6 @@ category: writing
 
 ということですので、未来の自分よ、頼むから。  
 特に暗い気分になっているときは紙に書き出してくれ！
+
+## 関連
+- [なぜ書くのか？そもそも書くことを好きなのか？](/ja/posts/writing/2026-10-08_why_I_write/)

@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (August 2026)
 published: 2026-08-30
-modified: 2026-09-19
+modified: 2026-10-09
 lang: 'en'
 category: lifelog
 ---
@@ -50,7 +50,7 @@ category: lifelog
 ## Posts/Articles
 - Anne-Laure Le Cunff, <a class="icon-new-tab" target="_blank" href="https://nesslabs.com/science-of-curiosity">The science of curiosity: why we keep asking “why” - Ness Labs</a> (last accessed: 2026-08-30)
 - Dr. Megan Anna Neff, <a class="icon-new-tab" target="_blank" href="https://neurodivergentinsights.com/working-with-your-interest-based-nervous-system/">ADHD and the Interest Based Nervous System | NDI</a> (last accessed: 2026-08-30)
-    - I think I have this interest based nervous system. Maybe I can use some techniques here.
+    - [I think I have this interest based nervous system.](/posts/personal/2026-10-09_motivation_problem/) Maybe I can use some techniques here.
 - Liz Fischer, <a class="icon-new-tab" target="_blank" href="https://www.betterup.com/blog/self-care-plan">How to develop a self care plan: 5 steps to get started</a> BetterUp.com (last accessed: 2026-08-30)
 - No One's Happy, <a class="icon-new-tab" target="_blank" href="https://nooneshappy.com/article/native-apps-should-be-avoided-whenever-possible/">Native Apps Should Be Avoided Whenever Possible</a> (last accessed: 2026-08-30)
     - This post changed the way I think about downloading apps.
@@ -62,3 +62,4 @@ category: lifelog
 
 ## Related
 - [DAVE THE DIVER: such a fun game!](/posts/gaming/2026-09-07_dave_the_diver/)
+- [Sometimes it's painful for me to do the things I must get done](/posts/personal/2026-10-09_motivation_problem/)

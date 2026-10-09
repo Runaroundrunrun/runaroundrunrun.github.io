@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/MarkdownPostLayout.astro
 title: 2026年8月に消費したメディア記録
 published: 2026-08-30
-modified: 
+modified: 2026-10-09
 lang: 'ja'
 category: lifelog
 ---
@@ -43,7 +43,7 @@ category: lifelog
 
 ## 記事
 - Anne-Laure Le Cunff, <a class="icon-new-tab" target="_blank" href="https://nesslabs.com/science-of-curiosity">The science of curiosity: why we keep asking “why” - Ness Labs</a> (最終閲覧日: 2026-08-30)
-- Dr. Megan Anna Neff, <a class="icon-new-tab" target="_blank" href="https://neurodivergentinsights.com/working-with-your-interest-based-nervous-system/">ADHD and the Interest Based Nervous System | NDI</a> (最終閲覧日: 2026-08-30)
+- Dr. Megan Anna Neff, <a class="icon-new-tab" target="_blank" href="https://neurodivergentinsights.com/working-with-your-interest-based-nervous-system/">Working With Your Interest-Based Nervous System</a> (最終閲覧日: 2026-10-09)
     - 私も興味が基本的な原動力になっている気がする...ここで紹介されているテクニックが使えそうだなと。
 - Liz Fischer, <a class="icon-new-tab" target="_blank" href="https://www.betterup.com/blog/self-care-plan">How to develop a self care plan: 5 steps to get started</a> BetterUp.com (最終閲覧日: 2026-08-30)
 - No One's Happy, <a class="icon-new-tab" target="_blank" href="https://nooneshappy.com/article/native-apps-should-be-avoided-whenever-possible/">Native Apps Should Be Avoided Whenever Possible</a> (最終閲覧日: 2026-08-30)

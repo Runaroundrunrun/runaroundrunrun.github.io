@@ -38,7 +38,8 @@ Here are the things I enjoyed in May 2026.
 
 ## TV Series
 - <a href="/posts/tv-series/2026-05-13_yumis_cells3">유미의 세포들 3 (Yumi's Cells 3)</a>
-- Astrid et Raphaëlle
+- [Astrid et Raphaëlle](/posts/tv-series/2026-10-11_astrid_et_raphaelle/)
 
 ## Related
 - [My Favorite Album: Roxwell by Matilda Mann](/posts/music/2026-07-04_roxwell/)
+- [My favorite duo - "Astrid et Raphaëlle"](/posts/tv-series/2026-10-11_astrid_et_raphaelle/)

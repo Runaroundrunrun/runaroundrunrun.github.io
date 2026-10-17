@@ -6,6 +6,8 @@ modified: 2026-09-19
 lang: 'en'
 category: gaming
 ---
+*[日本語で読む](/ja/posts/gaming/2026-10-17_dave_the_diver/)*
+
 I bought DAVE THE DIVER this summer.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p85VHMpE0to?si=PBn7SqdxqJnTYEG3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

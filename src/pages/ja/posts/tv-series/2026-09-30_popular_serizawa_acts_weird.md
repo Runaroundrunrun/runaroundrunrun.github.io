@@ -2,10 +2,12 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: アドリブに笑いころげてます『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』
 published: 2026-09-30
-modified: 
+modified: 2026-10-17
 lang: 'ja'
 category: tv-series 
 ---
+*Read the English version [here](/posts/tv-series/2026-10-17_popular_serizawa_acts_weird/).*
+
 [DXTEEN](/ja/posts/lifelog/2026-09-05_dxteen/)つながりで、修仲[^1]のみならず、また別のBLドラマ『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』の沼に転がり落ちた。  
 どれくらいハマったのかというと、6話が放送された後1週間、TVerで配信されている間毎日1回ずつ観ていたくらいである（いくらなんでも観すぎ）。
 

@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/MarkdownPostLayout.astro
 title: 2026年8月に消費したメディア記録
 published: 2026-08-30
-modified: 2026-10-09
+modified: 2026-10-17
 lang: 'ja'
 category: lifelog
 ---
@@ -53,8 +53,9 @@ category: lifelog
 - kinaco68, <a class="icon-new-tab" target="_blank" href="https://kinaco68.hatenablog.com/entry/2021/02/15/200000">仕事は薬？ 斎藤環「『社会的うつ病』の治し方」を読む - 何たる迷惑であることか!</a> (最終閲覧日: 2026-08-30)
     - 将来自分がこうなるかもしれないと考えると、結構ダメージがある...
 
-## ゲーム
-- Dave the Diver
+<h2 class="icon-game">ゲーム</h2>
+
+- [Dave the Diver](/ja/posts/gaming/2026-10-17_dave_the_diver/)
 
 ## ドラマ
 - 修学旅行で仲良くないグループに入りました

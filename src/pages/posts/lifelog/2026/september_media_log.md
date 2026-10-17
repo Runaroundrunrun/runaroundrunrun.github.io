@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (September 2026)
 published: 2026-10-01
-modified: 
+modified: 2026-10-17
 lang: 'en'
 category: lifelog 
 ---
@@ -56,8 +56,8 @@ category: lifelog
 - 愛せ、至極散々な僕らの日を - ONE LOVE ONE HEART
 
 ## TV Series
-- 『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』
-- 『当我飞奔向你』(When I Fly Towards You)
+- [『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』(*Popular Serizawa Acts Weird Around Me*)](/posts/tv-series/2026-10-17_popular_serizawa_acts_weird/)
+- 『当我飞奔向你』(*When I Fly Towards You*)
 
 ## Posts/Articles
 
@@ -81,3 +81,4 @@ category: lifelog
 
 ## Related
 - [Backrooms: It's good, but I got motion sickness](/posts/movies/2026-09-30_backrooms/)
+- [I love the casts' interactions, I find my self smiling without knowing: Popular Serizawa Acts Weird Around Me](/posts/tv-series/2026-10-17_popular_serizawa_acts_weird/)

@@ -2,13 +2,15 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "I love the casts' interactions, I find my self smiling without knowing: Popular Serizawa Acts Weird Around Me"
 published: 2026-10-17
-modified: 
+modified: 2026-10-18
 lang: 'en'
 category: tv-series 
 ---
 *[日本語で読む](/ja/posts/tv-series/2026-09-30_popular_serizawa_acts_weird/)*
 
 Recently I'm obsessed with the series *Popular Serizawa Acts Weird Around Me* .
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/II40oNJRnPA?si=M2ASw5SVBSwAsRmu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 I watched the episode 6 everyday while it was available for free (I know I watched it too many times).
 

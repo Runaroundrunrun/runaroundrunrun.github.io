@@ -10,7 +10,9 @@ I always thought having a favorite series in my target language is one of the be
 
 I've been learning French for a while, and I wanted to find something I would love, so that I can watch it on repeat and immerse myself in French.
 
-A few months ago I found the perfect series for me, it's "Astrid et Raphaëlle"!
+A few months ago I found the perfect series for me, it's *Astrid et Raphaëlle* ! [^1]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kpty05_39Lo?si=lK9JhH71mwWFdURS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Raphaëlle, who works at a police department, and Astrid, who loves solving murder mysteries team up and solve cases together.  
 
@@ -32,3 +34,7 @@ It's a great series.
 
 ## Related
 - [Media Log (May 2026)](/posts/lifelog/2026/2026_may_media_log/)
+
+---
+
+[^1]: The title for English version is *Astrid*.

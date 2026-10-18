@@ -2,13 +2,14 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: A?B?C?DXTEEN! 好き回リスト
 published: 2026-09-26
-modified: 
+modified: 2026-10-18
 lang: 'ja'
 category: lifelog 
 ---
 [DXTEEN（と修仲）が気になる今日この頃](/ja/posts/lifelog/2026-09-05_dxteen/) でもちょっと書いたが、DXTEENのYouTubeコンテンツ A?B?C?DXTEEN! をちょくちょく見ている。 
 まだ見ていない回もたくさんあるけど、現時点で好きな回をまとめてみた。
 
+- <a class="icon-new-tab" target="_blank" href="https://youtu.be/oipe6qdAsqU?si=lf-mzo3sDByt6zwd">本気の叩いて被ってじゃんけんぽんやってみた！誰がいちばん強い！？ | [A?B?C?DXTEEN!] # 103 </a>
 - <a class="icon-new-tab" target="_blank" href="https://youtu.be/L0yUEv8n5Bk?si=La5IamvxRGApNmua">【ガチディベート】風呂キャンVSハミキャン討論でマジ喧嘩勃発WWWWWW | [A?B?C?DXTEEN!] #102</a>
 - <a class="icon-new-tab" target="_blank" href="https://youtu.be/-gzwCU-pn90?si=1KYCromlkJ3nidoY">絶対に笑ってはいけない香信のモーニングルーティン | [A?B?C?DXTEEN!] #97</a>
 - <a class="icon-new-tab" target="_blank" href="https://youtu.be/WOldpsc9qdo?si=sWc5RDNQKqvw6UY4">【カオス】気配斬り想像の10倍おもろすぎたWWWW | [A?B?C?DXTEEN!] #92</a>

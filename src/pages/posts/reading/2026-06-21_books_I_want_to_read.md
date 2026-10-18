@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: A list of books I've been wanting to read
 published: 2026-06-21
-modified: 2026-07-05
+modified: 2026-10-18
 lang: 'en'
 category: reading
 ---
@@ -21,9 +21,11 @@ Here's a list of books I've been wanting to read:
 - 『面白南極料理人』
 - 『疲れすぎて眠れぬ夜のために』
 - 『この国の不寛容の果てに 相模原事件と私たちの時代』
-- 『増補 普通の人びと ホロコーストと第101警察予備大隊』
+- ~~『増補 普通の人びと ホロコーストと第101警察予備大隊』~~
     - Japanese translation of *Ordinary men : reserve police battalion 101 and the final solution in Poland*
-- 『ルポ ゴミ屋敷に棲む人々』
+    - I finished reading it in [September 2026.](/posts/lifelog/2026/september_media_log/)
+- ~~『ルポ ゴミ屋敷に棲む人々』~~
+    - I finished reading it in [September 2026.](/posts/lifelog/2026/september_media_log/)
 - 『刑務所図書館の人びと』
     - Japanese translation of *Running the Books: The Adventures of an Accidental Prison Librarian*
 - 『ベツレヘムに向け、身を屈めて』

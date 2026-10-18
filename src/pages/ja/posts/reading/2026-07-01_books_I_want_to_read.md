@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: 読みたい本リスト
 published: 2026-07-01
-modified: 
+modified: 2026-10-18
 lang: 'ja'
 category: reading
 ---
@@ -15,8 +15,10 @@ category: reading
 - 『面白南極料理人』
 - 『疲れすぎて眠れぬ夜のために』
 - 『この国の不寛容の果てに 相模原事件と私たちの時代』
-- 『増補 普通の人びと ホロコーストと第101警察予備大隊』
-- 『ルポ ゴミ屋敷に棲む人々』
+- ~~『増補 普通の人びと ホロコーストと第101警察予備大隊』~~
+    - [2026年9月に読了。](/ja/posts/lifelog/2026/september_media_log/)
+- ~~『ルポ ゴミ屋敷に棲む人々』~~
+    - [2026年9月に読了。](/ja/posts/lifelog/2026/september_media_log/)
 - 『刑務所図書館の人びと』
 - 『ベツレヘムに向け、身を屈めて』
 

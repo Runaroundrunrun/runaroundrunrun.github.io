@@ -42,4 +42,4 @@ Here are the things I enjoyed in July 2026.
 - Catch Me If You Can
 
 ## Related
-- [My new favourite album : Cruel World by Holly Humberstone](/posts/music/2026-07-16_cruel_world/)
+- [My new favorite album : Cruel World by Holly Humberstone](/posts/music/2026-07-16_cruel_world/)

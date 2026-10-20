@@ -18,7 +18,7 @@ It's also possible that after I became unemployed, my savings are decreasing and
 
 I don't think this is a bad thing, it's not like I'm out of books to read. YET.  
 
-Despite all, bookstores are still my favourite place.
+Despite all, bookstores are still my favorite place.
 
 ## Related
 - [I buy way more books than I can read](/posts/reading/2026-05-16_I_buy_way_more_books_than_I_can_read/)

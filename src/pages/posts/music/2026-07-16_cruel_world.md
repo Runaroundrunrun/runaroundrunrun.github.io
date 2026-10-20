@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/MarkdownPostLayout.astro
-title: 'My new favourite album : Cruel World by Holly Humberstone'
+title: 'My new favorite album : Cruel World by Holly Humberstone'
 published: 2026-07-16
 modified: 2026-08-06
 lang: 'en'

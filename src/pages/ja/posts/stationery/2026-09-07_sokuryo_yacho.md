@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: コクヨ 測量野帳 - 持ち運びにピッタリのノート
 published: 2026-09-07
-modified: 
+modified: 2026-10-21
 lang: 'ja'
 category: stationery
 ---
@@ -29,3 +29,4 @@ A5サイズのノートとか、カバーが柔らかめのノートとかいろ
 
 ## Related
 - [スケッチ (2026.06.24 - 06.26)](/ja/posts/drawing/2026-08-03_sketches/)
+- [スケッチ (2026.07.06 - 07.15)](/ja/posts/drawing/2026-10-21_sketches/)

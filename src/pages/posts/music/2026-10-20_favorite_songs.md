@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Songs I want to I hear again before I die (IOW; my favorites)
 published: 2026-10-20
-modified: 
+modified: 2026-10-21
 lang: 'en'
 category: music 
 ---
@@ -28,3 +28,4 @@ In other words; my favorites.
 - *Bloom* - Matilda Mann
 - *Ooh La La* - Faces
 - *Drops Of Jupiter (Tell Me)* - Train
+- *10 ans de nous* - Ben Mazué

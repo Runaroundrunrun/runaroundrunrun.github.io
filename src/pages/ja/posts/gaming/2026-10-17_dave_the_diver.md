@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: 今年の夏は『デイヴ・ザ・ダイバー』をエンジョイしてました
 published: 2026-10-17
-modified: 
+modified: 2026-10-22
 lang: 'ja'
 category: gaming
 ---
@@ -26,3 +26,4 @@ category: gaming
 
 ## 関連
 - [2026年8月に消費したメディア記録](/ja/posts/lifelog/2026/2026_august_media_log/)
+- [超個人的、『デイヴ・ザ・ダイバー』で見かけたら油断してはいけない生き物リスト](/ja/posts/gaming/2026-10-22_dangerous_creatures_in_dave_the_diver/)

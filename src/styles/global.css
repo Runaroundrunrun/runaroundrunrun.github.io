@@ -8,10 +8,10 @@
     --back-color: #FFF6EE;
     --text-color: #000;
     --date-color: #9a9a9a;
-    --border-color: #D6DCB2;
-    --link-color: #D86072;
-    --back-color-2: #D6DCB2;
-    --text-color-2: #000;
+    --border-color: #323C3B;
+    --link-color: #832D24;
+    --back-color-2: #323C3B;
+    --text-color-2: #FFF6EE;
     --quote-border: #ADADAD;
 
 }
@@ -72,7 +72,7 @@ main {
 }
 a {
     color: var(--text-color);
-    text-decoration-color:  var(--link-color);
+    text-decoration-color: var(--link-color);
 }
 a.no-decoration {
     border-bottom: none;

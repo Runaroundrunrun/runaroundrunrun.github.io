@@ -51,7 +51,8 @@ Here are the things I enjoyed in June 2026.
 - You Can't Always Get What You Want - The Rolling Stones
 - I Shall Be Released - Bob Dylan
 
-## Netflix Series
+<h2 class="icon-tv">Netflix Series</h2>
+
 - The Boroughs
 
 ## YouTube

@@ -28,7 +28,8 @@ category: lifelog
 ## 読書
 - [『プロジェクト・ヘイル・メアリー』（アンディ・ウィアー著）](/ja/posts/reading/2026-06-19_project_hail_mary/)
 
-## ドラマ
+<h2 class="icon-tv">ドラマ</h2>
+
 - ユミの細胞たち 3
 - アストリッドとラファエル 文書係の事件録
 

@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: A list of books I've been wanting to read
 published: 2026-06-21
-modified: 2026-10-18
+modified: 2026-10-23
 lang: 'en'
 category: reading
 ---
@@ -30,3 +30,5 @@ Here's a list of books I've been wanting to read:
     - Japanese translation of *Running the Books: The Adventures of an Accidental Prison Librarian*
 - 『ベツレヘムに向け、身を屈めて』
     - Japanese translated version of *Slouching Towards Bethlehem*
+- 『ザ・ロード』
+    - Japanese translated version of *The Road* by Cormac McCarthy

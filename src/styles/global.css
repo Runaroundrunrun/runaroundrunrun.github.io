@@ -87,14 +87,12 @@ a.logo img{
 .icon-new-tab::after {
     content: "";
     display: inline-block;
-    background-image: url('/images/new_tab_50px_41px.png');
+    background-image: url('/images/arrow_50px.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 0.7em;
-    height: 0.57em;
+    width: 1em;
+    height: 1em;
     margin-left: 0.2em;
-    /* position: absolute; */
-    /* top: 0.2em; */
 }
 li:has(.icon-new-tab) {
     position: relative;
@@ -175,6 +173,17 @@ li:has(.icon-new-tab) {
     height: 0.9em;
     vertical-align: middle;
     margin-right: 0.5em; 
+}
+.icon-tv::before {
+    content: "";
+    display: inline-block;
+    background-image: url('/images/tv_50px.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 0.5em;  
 }
 
 time {

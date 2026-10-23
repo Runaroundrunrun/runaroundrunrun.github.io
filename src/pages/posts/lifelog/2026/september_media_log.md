@@ -55,7 +55,8 @@ category: lifelog
 - 月とあたしと冷蔵庫 - 緑黄色社会
 - 愛せ、至極散々な僕らの日を - ONE LOVE ONE HEART
 
-## TV Series
+<h2 class="icon-tv">TV Series</h2>
+
 - [『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』(*Popular Serizawa Acts Weird Around Me*)](/posts/tv-series/2026-10-17_popular_serizawa_acts_weird/)
 - 『当我飞奔向你』(*When I Fly Towards You*)
 

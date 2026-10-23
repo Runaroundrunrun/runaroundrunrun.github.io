@@ -44,7 +44,8 @@ category: lifelog
 - These Days(feat. Jess Glynne, Macklemore & Dan Caplen) - Rudimental
 - トレモロ - 原因は自分にある。
 
-## TV Series
+<h2 class="icon-tv">TV Series</h2>
+
 - 修学旅行で仲良くないグループに入りました
 
 ## Posts/Articles

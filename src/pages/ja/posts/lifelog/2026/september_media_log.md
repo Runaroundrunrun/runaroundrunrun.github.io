@@ -75,7 +75,8 @@ category: lifelog
     - SNSって、私にとっては人と繋がるサービスというよりかは、メディアの一つ、みたいな位置付けになってきているなと。
 
 
-## ドラマ
+<h2 class="icon-tv">ドラマ</h2>
+
 - [『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』](/ja/posts/tv-series/2026-09-30_popular_serizawa_acts_weird/)
 - [『当我飞奔向你』(「向日葵を追いかける太陽」)](/ja/posts/tv-series/2026-09-25_when_I_fly_towards_you/)
 

@@ -57,5 +57,6 @@ category: lifelog
 
 - [Dave the Diver](/ja/posts/gaming/2026-10-17_dave_the_diver/)
 
-## ドラマ
+<h2 class="icon-tv">ドラマ</h2>
+
 - 修学旅行で仲良くないグループに入りました

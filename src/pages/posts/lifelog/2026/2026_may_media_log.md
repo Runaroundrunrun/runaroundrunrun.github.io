@@ -36,7 +36,8 @@ Here are the things I enjoyed in May 2026.
 - Suddenly - I.O.I
 - BOOMPALA - LE SSERAFIM
 
-## TV Series
+<h2 class="icon-tv">TV Series</h2>
+
 - <a href="/posts/tv-series/2026-05-13_yumis_cells3">유미의 세포들 3 (Yumi's Cells 3)</a>
 - [Astrid et Raphaëlle](/posts/tv-series/2026-10-11_astrid_et_raphaelle/)
 

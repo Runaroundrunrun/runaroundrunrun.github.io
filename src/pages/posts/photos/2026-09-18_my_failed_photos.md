@@ -2,10 +2,11 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'RIP: my failed photos'
 published: 2026-09-18
-modified: 
+modified: 2026-10-23
 lang: 'en'
 category: photos 
 ---
+*[日本語で読む](/ja/posts/photos/2026-10-23_my_failed_photos/)*
 
 I've been posting my favorite photos I took with my [KODAK M38](/posts/lifelog/2026-08-27_film_camera/):
 - [Photos: Izumo, March 2025](/posts/photos/2026-08-06_izumo/)

@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Songs I want to I hear again before I die (IOW; my favorites)
 published: 2026-10-20
-modified: 2026-10-21
+modified: 2026-10-23
 lang: 'en'
 category: music 
 ---
@@ -26,6 +26,11 @@ In other words; my favorites.
 - *Cloud Nine* - The Temptations
 - *Scarlett* - Holly Humberstone
 - *Bloom* - Matilda Mann
+- *Haunt Me* - Matilda Mann
+- *Chain Reaction* - Matilda Mann
 - *Ooh La La* - Faces
 - *Drops Of Jupiter (Tell Me)* - Train
 - *10 ans de nous* - Ben Mazué
+- *Piano Man* - Billy Joel
+- Emily Browning's version of *God Help The Girl*
+- Ray Charles's version of *Let It Be*

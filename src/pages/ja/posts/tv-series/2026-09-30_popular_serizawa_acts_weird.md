@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: アドリブに笑いころげてます『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』
 published: 2026-09-30
-modified: 2026-10-18
+modified: 2026-10-26
 lang: 'ja'
 category: tv-series 
 ---
@@ -51,6 +51,7 @@ DXTEEN からこのドラマに出ているのはグループの末っ子、笑�
 
 ## 関連
 - [DXTEEN（と修仲）が気になる今日この頃](/ja/posts/lifelog/2026-09-05_dxteen/)
+- [あれ...なんか、青春もののBL沼に片足突っ込んでないか？](/ja/posts/tv-series/2026-10-26_school_themed_bl/)
 
 ---
 [^1]: 『修学旅行で仲良くないグループに入りました』

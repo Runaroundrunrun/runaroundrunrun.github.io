@@ -1,3 +1,4 @@
+// deprecated
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import sanitizeHtml from 'sanitize-html';

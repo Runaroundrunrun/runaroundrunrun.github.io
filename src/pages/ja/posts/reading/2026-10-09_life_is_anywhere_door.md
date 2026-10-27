@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 旅のお供にしたい『人生はどこでもドア』
 published: 2026-10-09
 modified: 

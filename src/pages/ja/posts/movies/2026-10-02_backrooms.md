@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: '良かったけど、ひどい画面酔いになった：『バックルームズ』'
 published: 2026-10-02
 modified: 

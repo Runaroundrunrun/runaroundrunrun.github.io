@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: アドリブに笑いころげてます『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』
 published: 2026-09-30
 modified: 2026-10-26

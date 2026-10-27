@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: "レシピ: ミネストローネ"
 published: 2026-07-04
 modified: 

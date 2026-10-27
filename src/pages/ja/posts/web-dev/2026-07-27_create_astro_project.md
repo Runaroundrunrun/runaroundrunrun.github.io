@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: Webサイト立ち上げの記録(3) - Astro を使ったプロジェクトの作成
 published: 2026-07-27
 modified: 

@@ -1,5 +1,5 @@
 ---
-layout: ../../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 2026年5月に楽しんだ作品リスト
 published: 2026-06-06
 modified: 2026-07-31

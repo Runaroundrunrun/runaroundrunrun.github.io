@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 'Photos: 倉敷, 2026年3月'
 published: 2026-09-20
 modified: 

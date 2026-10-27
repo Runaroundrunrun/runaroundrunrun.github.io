@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: categories セクションを Posts and Notes ページに追加
 published: 2026-07-03
 modified: 2026-08-05

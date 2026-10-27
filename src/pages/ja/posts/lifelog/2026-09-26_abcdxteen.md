@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: A?B?C?DXTEEN! 好き回リスト
 published: 2026-09-26
 modified: 2026-10-18

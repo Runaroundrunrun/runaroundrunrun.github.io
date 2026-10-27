@@ -1,5 +1,5 @@
 ---
-layout: ../../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 2026年7月に消費したメディア記録
 published: 2026-08-02
 modified: 2026-08-06

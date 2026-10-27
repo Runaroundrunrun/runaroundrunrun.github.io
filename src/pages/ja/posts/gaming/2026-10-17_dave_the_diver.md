@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 今年の夏は『デイヴ・ザ・ダイバー』をエンジョイしてました
 published: 2026-10-17
 modified: 2026-10-22

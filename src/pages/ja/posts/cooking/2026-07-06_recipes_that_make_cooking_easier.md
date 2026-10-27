@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 料理を少しラクにしてくれるレシピリスト
 published: 2026-07-06
 modified: 

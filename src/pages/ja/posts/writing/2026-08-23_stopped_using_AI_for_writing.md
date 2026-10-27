@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 英語記事を書くときにAIで添削するのをやめた
 published: 2026-08-23
 modified: 2026-10-01

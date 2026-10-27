@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: あれ...なんか、青春もののBL沼に片足突っ込んでないか？
 published: 2026-10-26
 modified: 

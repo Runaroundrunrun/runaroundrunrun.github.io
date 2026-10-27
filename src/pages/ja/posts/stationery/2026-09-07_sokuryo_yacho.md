@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: コクヨ 測量野帳 - 持ち運びにピッタリのノート
 published: 2026-09-07
 modified: 2026-10-21

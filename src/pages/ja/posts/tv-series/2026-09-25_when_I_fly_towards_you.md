@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: ついつい夜更かしして観てしまった中国ドラマ『向日葵を追いかける太陽』
 published: 2026-09-25
 modified: 

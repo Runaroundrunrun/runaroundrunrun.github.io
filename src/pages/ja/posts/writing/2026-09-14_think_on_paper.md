@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: '自分用メモ: 頼むから何か考えるときは紙に書いてくれ'
 published: 2026-09-14
 modified: 2026-10-08

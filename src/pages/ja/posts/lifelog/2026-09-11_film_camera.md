@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 'お気に入り: フィルムカメラ Kodak M38'
 published: 2026-09-11
 modified: 2026-10-23

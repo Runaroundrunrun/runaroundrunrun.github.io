@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: なぜ書くのか？そもそも書くことを好きなのか？
 published: 2026-10-08
 modified: 

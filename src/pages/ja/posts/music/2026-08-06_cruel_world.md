@@ -1,5 +1,5 @@
 ---
-layout: ../../../../layouts/MarkdownPostLayout.astro
+layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: '新しいお気に入りアルバム: Holly Humberstone の Cruel World'
 published: 2026-08-06
 modified: 

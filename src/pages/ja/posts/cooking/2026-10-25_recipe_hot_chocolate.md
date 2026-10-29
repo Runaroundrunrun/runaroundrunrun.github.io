@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 'レシピ: 自己流ココア'
 published: 2026-10-25
-modified: 
+modified: 2026-10-29
 lang: 'ja'
 category: cooking
 ---
@@ -24,3 +24,5 @@ category: cooking
 1. ココアパウダー、きび砂糖を鍋に入れ、豆乳を少しずつ入れながらペースト状になるまで混ぜる。ダマをなくしたいので。
 2. 各種スパイスと、残りの豆乳を入れ、鍋を火にかける。
 3. 火にかけている間、スプーンなどでかき回す。沸騰が激しくなる前に火を止めて、できあがり。
+
+![hot chocolate in a cup](../images/2026-10-25_hot_chocolate.png)

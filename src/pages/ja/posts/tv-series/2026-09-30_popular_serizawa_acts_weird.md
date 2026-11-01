@@ -52,6 +52,7 @@ DXTEEN からこのドラマに出ているのはグループの末っ子、笑�
 ## 関連
 - [DXTEEN（と修仲）が気になる今日この頃](/ja/posts/lifelog/2026-09-05_dxteen/)
 - [あれ...なんか、青春もののBL沼に片足突っ込んでないか？](/ja/posts/tv-series/2026-10-26_school_themed_bl/)
+- [2026年10月に消費したメディア記録](/ja/posts/lifelog/2026/october_media_log/)
 
 ---
 [^1]: 『修学旅行で仲良くないグループに入りました』

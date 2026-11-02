@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Runa's Playground（ルナの遊び場）</title>
+        <title>Runa's Playground (にほんご)</title>
         <description>いろいろ試して遊ぶための場所。</description>
-        <link>http://runaroundrunrun.github.io/</link>
+        <link>http://runaroundrunrun.github.io/ja/posts</link>
         <language>ja</language>
         <item>
             <title>2026年10月に消費したメディア記録</title>

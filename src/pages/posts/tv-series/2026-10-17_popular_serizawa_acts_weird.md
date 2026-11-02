@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: "I love the casts' interactions, I find my self smiling without knowing: Popular Serizawa Acts Weird Around Me"
 published: 2026-10-17
-modified: 2026-10-18
+modified: 2026-11-02
 lang: 'en'
 category: tv-series 
 ---
@@ -37,6 +37,7 @@ The series is not over yet, but I really hope there's season 2.
 
 ## Related
 - [Media Log(September 2026)](/posts/lifelog/2026/september_media_log/)
+- [Media Log (October 2026)](/posts/lifelog/2026/october_media_log/)
 
 ---
 

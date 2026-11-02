@@ -55,7 +55,7 @@ category: lifelog
 - *Etc.* - Jawbreaker
 - ⭐ *REIGN* - 7kingz
 - ⭐ *Strange Desire* - Bleachers
-- ⭐ *GLHF* - Muque
+- ⭐ *GLHF* - muque
 - ⭐ *Daylight* - Grace Potter
 - *Rockferry* - Duffy
 - *Because I Wanted You To Know* - Matilda Mann

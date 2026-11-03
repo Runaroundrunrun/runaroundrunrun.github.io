@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'My new favorite album : Cruel World by Holly Humberstone'
 published: 2026-07-16
-modified: 2026-08-06
+modified: 2026-11-03
 lang: 'en'
 category: music
 ---
@@ -46,3 +46,4 @@ I loved her performance as well!
 
 ## Related
 - [Media Log (July 2026)](/posts/lifelog/2026/2026_july_media_log/)
+- [Okay, I love this too; "The Walls Are Way Too Thin" (EP)](/posts/music/2026-11-03_the_walls_are_way_too_thin/)

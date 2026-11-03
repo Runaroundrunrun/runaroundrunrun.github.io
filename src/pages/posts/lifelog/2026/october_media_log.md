@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (October 2026)
 published: 2026-11-02
-modified: 
+modified: 2026-11-03
 lang: 'en'
 category: lifelog
 ---
@@ -30,7 +30,7 @@ I fell in love with tanka this month.
 I listened to a lot of albums this month...
 - *AMAZONIA* - ONE N' ONLY
 - *Brotherhood* - New Order
-- ⭐ *The Walls Are Way Too Thin* - Holly Humberstone
+- ⭐ [*The Walls Are Way Too Thin*](/posts/music/2026-11-03_the_walls_are_way_too_thin/) - Holly Humberstone
 - ⭐ [*ANIMAL*](/posts/music/2026-10-25_animal/) - JO1
 - *Something We All Got* - cootie catcher
 - *Dear You* - Jawbreaker
@@ -111,3 +111,4 @@ I listened to a lot of albums this month...
 ## Related
 - [I love the casts' interactions, I find my self smiling without knowing: Popular Serizawa Acts Weird Around Me](/posts/tv-series/2026-10-17_popular_serizawa_acts_weird/)
 - [JO1's U.S. debut EP "ANIMAL" - it's so cool!](/posts/music/2026-10-25_animal/)
+- [Okay, I love this too; "The Walls Are Way Too Thin" (EP)](/posts/music/2026-11-03_the_walls_are_way_too_thin/)

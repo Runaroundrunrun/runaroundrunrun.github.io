@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (October 2026)
 published: 2026-11-02
-modified: 2026-11-03
+modified: 2026-11-04
 lang: 'en'
 category: lifelog
 ---
@@ -107,6 +107,10 @@ I listened to a lot of albums this month...
     - It reminded me that I used to think on paper too (before coding or debugging) when I was working as a software engineer.
 - Winnie Lim, <a class="icon-new-tab" target="_blank" href="https://winnielim.org/journal/running-a-personal-website-is-not-fun-anymore/">running a personal website is not fun anymore</a> (last accessed: 2026-11-01)
     - You start to wonder if it's worth having a personal website...
+
+## YouTube
+- <a class="icon-new-tab" target="_blank" href="https://youtu.be/IyT8pKRfRpE?si=9CD_h6jqqFFdwLZr">[Hi! JO1] EP.117 JO1メンバー理解王✍️ 前編</a>
+- <a class="icon-new-tab" target="_blank" href="https://youtu.be/JPgOXRcBXUo?si=5AXgwJmZCSWCCeVI">[Hi! JO1] EP.118 JO1メンバー理解王✍️ 後編 </a>
 
 ## Related
 - [I love the casts' interactions, I find my self smiling without knowing: Popular Serizawa Acts Weird Around Me](/posts/tv-series/2026-10-17_popular_serizawa_acts_weird/)

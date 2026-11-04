@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 2026年10月に消費したメディア記録
 published: 2026-11-01
-modified: 
+modified: 2026-11-04
 lang: 'ja'
 category: lifelog
 ---
@@ -80,6 +80,10 @@ category: lifelog
 - *IGNITE* - JO1
 - *相思想愛* - DXTEEN
 - *Hands On Me* - Maisie Peters
+
+## YouTube
+- <a class="icon-new-tab" target="_blank" href="https://youtu.be/IyT8pKRfRpE?si=9CD_h6jqqFFdwLZr">[Hi! JO1] EP.117 JO1メンバー理解王✍️ 前編</a>
+- <a class="icon-new-tab" target="_blank" href="https://youtu.be/JPgOXRcBXUo?si=5AXgwJmZCSWCCeVI">[Hi! JO1] EP.118 JO1メンバー理解王✍️ 後編 </a>
 
 ## 記事
 

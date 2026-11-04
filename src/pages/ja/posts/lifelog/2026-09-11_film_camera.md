@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 'お気に入り: フィルムカメラ Kodak M38'
 published: 2026-09-11
-modified: 2026-10-23
+modified: 2026-11-05
 lang: 'ja'
 category: lifelog 
 ---
@@ -47,6 +47,7 @@ category: lifelog
 このカメラで撮った写真:
 - [Photos: 出雲, 2025年3月](/ja/posts/photos/2026-08-24_izumo/)
 - [Photos: 倉敷, 2026年3月](/ja/posts/photos/2026-09-20_kurashiki/)
+- [Photos: 九品仏浄真寺 (2024年冬)](/ja/posts/photos/2026-11-05_joshin-ji/)
 
 そして失敗したやつ:
 - [撮るのに失敗した写真たち](/ja/posts/photos/2026-10-23_my_failed_photos/)

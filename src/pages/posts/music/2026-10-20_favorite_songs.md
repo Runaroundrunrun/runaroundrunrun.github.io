@@ -6,6 +6,8 @@ modified: 2026-11-01
 lang: 'en'
 category: music 
 ---
+*[日本語で読む](/ja/posts/music/2026-11-04_favorite_songs/)*
+
 Here are the list of songs I want to hear before I die. 
 In other words; my favorites.
 

@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 死ぬ前にもういちど聞いておきたい曲リスト（つまりお気に入り）
 published: 2026-11-04
-modified: 
+modified: 2026-11-05
 lang: 'ja'
 category: music 
 ---
@@ -39,3 +39,4 @@ category: music
 - Ray Charles's version of *Let It Be*
 - *Georgia On My Mind* - Ray Charles
 - *I Shall Be Released* - Bob Dylan
+- *世界はそれを愛と呼ぶんだぜ* - サンボマスター

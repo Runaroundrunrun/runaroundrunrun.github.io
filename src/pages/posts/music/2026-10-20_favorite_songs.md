@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Songs I want to I hear again before I die (IOW; my favorites)
 published: 2026-10-20
-modified: 2026-11-01
+modified: 2026-11-05
 lang: 'en'
 category: music 
 ---
@@ -39,3 +39,4 @@ In other words; my favorites.
 - Ray Charles's version of *Let It Be*
 - *Georgia On My Mind* - Ray Charles
 - *I Shall Be Released* - Bob Dylan
+- *世界はそれを愛と呼ぶんだぜ* - サンボマスター

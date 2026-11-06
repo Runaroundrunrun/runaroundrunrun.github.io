@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: How I discover new music
 published: 2026-09-20
-modified: 
+modified: 2026-11-06
 lang: 'en'
 category: music
 ---
@@ -19,6 +19,7 @@ I also check:
 
 and
 - <a class="icon-new-tab" target="_blank" href="https://austinkleon.substack.com/t/mixtapes">Austin Kleon's mixtapes</a>
+- <a class="icon-new-tab" target="_blank" href="https://thekevinalexander.substack.com/">On Repeat Records</a> by Kevin Alexander
 
 when I want to explore songs from the past.
 

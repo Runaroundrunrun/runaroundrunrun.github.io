@@ -1,13 +1,24 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/feeds.css";
 
-const pageTitle = "Feeds";
+const pageTitle = "RSS Feed";
 const currentPage = "/feeds/";
 ---
 
 <BaseLayout pageTitle={pageTitle} currentPage={currentPage}>
-    <h1>{pageTitle}</h1>
-    <div class="">
-        <!-- TODO: implement -->
+    <div class="feeds-container">
+        <h1>{pageTitle}</h1>
+        <p>
+            There are two RSS feeds for now;
+        </p>
+        <ul>
+            <li><a href="/feed.xml">Posts and notes (English)</a>:
+                <ul><li>posts and notes that are written in English.</li></ul>
+            </li>
+            <li><a href="/ja/feed.xml">記事 (Japanese)</a>:
+                <ul><li>posts and notes that are written in Japanese.</li></ul>
+            </li>
+        </ul>
     </div>
 </BaseLayout>

@@ -1,13 +1,24 @@
 ---
 import BaseLayoutJa from "../../layouts/ja/BaseLayoutJa.astro";
+import "../../styles/feeds.css";
 
 const pageTitle = "RSSフィード";
 const currentJaPage = "/feeds/";
 ---
 
 <BaseLayoutJa pageTitle={pageTitle} currentPage={currentJaPage}>
-    <h1>{pageTitle}</h1>
-    <div class="">
-        <!-- TODO: implement -->
+    <div class="feeds-container">
+        <h1>{pageTitle}</h1>
+        <p>
+            現在は2つのRSSフィードを作ってます：
+        </p>
+        <ul>
+            <li><a href="/feed.xml">Posts and notes (English)</a>:
+                <ul><li>英語で書いた記事やメモ。</li></ul>
+            </li>
+            <li><a href="/ja/feed.xml">記事 (にほんご)</a>:
+                <ul><li>日本語で書いた記事やメモ。</li></ul>
+            </li>
+        </ul>
     </div>
 </BaseLayoutJa>

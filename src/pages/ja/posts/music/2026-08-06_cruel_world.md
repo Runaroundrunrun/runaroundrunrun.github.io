@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: '新しいお気に入りアルバム: Holly Humberstone の Cruel World'
 published: 2026-08-06
-modified: 
+modified: 2026-11-08
 lang: 'ja'
 category: music 
 ---
@@ -47,3 +47,4 @@ Holly Humberstone というアーティストの "Scarlett" と "Room Service" �
 
 ## 関連
 - [2026年7月に消費したメディア記録](/ja/posts/lifelog/2026/2026_july_media_log/)
+- [オッケー、これも好きです - "The Walls Are Way Too Thin" (EP)](/ja/posts/music/2026-11-08_the_walls_are_way_too_thin/)

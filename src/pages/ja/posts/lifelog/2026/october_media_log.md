@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 2026年10月に消費したメディア記録
 published: 2026-11-01
-modified: 2026-11-04
+modified: 2026-11-08
 lang: 'ja'
 category: lifelog
 ---
@@ -32,7 +32,7 @@ category: lifelog
 今月はめっちゃ聴いたな...
 - *AMAZONIA* - ONE N' ONLY
 - *Brotherhood* - New Order
-- ⭐ *The Walls Are Way Too Thin* - Holly Humberstone
+- ⭐ [*The Walls Are Way Too Thin*](/ja/posts/music/2026-11-08_the_walls_are_way_too_thin/) - Holly Humberstone
 - ⭐ *ANIMAL* - JO1
 - *Something We All Got* - cootie catcher
 - *Dear You* - Jawbreaker
@@ -115,3 +115,4 @@ category: lifelog
 
 ## 関連
 - [アドリブに笑いころげてます『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』](/ja/posts/tv-series/2026-09-30_popular_serizawa_acts_weird/)
+- [オッケー、これも好きです - "The Walls Are Way Too Thin" (EP)](/ja/posts/music/2026-11-08_the_walls_are_way_too_thin/)

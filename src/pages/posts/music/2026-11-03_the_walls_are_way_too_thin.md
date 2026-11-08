@@ -6,6 +6,8 @@ modified:
 lang: 'en'
 category: music 
 ---
+*[日本語で読む](/ja/posts/music/2026-11-08_the_walls_are_way_too_thin/)*
+
 Here are the songs from Holly Humberstone's EP *The Walls Are Way Too Thin* [^1]:
 1. Haunted House
 2. The Walls Are Way Too Thin

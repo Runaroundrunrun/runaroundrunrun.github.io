@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Sometimes it's painful for me to do the things I must get done
 published: 2026-10-09
-modified: 
+modified: 2026-11-08
 lang: 'en'
 category: personal 
 ---
@@ -17,6 +17,8 @@ This tendency of not being able to start things I'm not interested in had huge e
 After I started working as a software developer I managed to do what I was assigned to with the help of the environment(I think I got often hyper fixated) but I ended up having a burnout. 
 
 I read <a class="icon-new-tab" target="_blank" href="https://neurodivergentinsights.com/working-with-your-interest-based-nervous-system/">How the Interest-Based Nervous System Shapes ADHD Motivation and Burnout</a> by Dr. Megan Anna Neff, and now I think these struggles of mine might be a sign that I have interest based nervous system.  
+Though I'm not sure if I'm ADHD.
+
 I think her post helped me understand this trait of mine better, but will I ever learn to deal with this?  
 Do I have to live with it for the rest of my life?
 

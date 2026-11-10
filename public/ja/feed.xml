@@ -5,6 +5,356 @@
         <link>http://runaroundrunrun.github.io/ja/posts</link>
         <language>ja</language>
         <item>
+            <title>Astro v7 へのUpgrade</title>
+            <link>
+                http://runaroundrunrun.github.io/ja/posts/web-dev/2026-11-10_astro_upgrade_v7/
+            </link>
+            <guid isPermaLink="true">
+                http://runaroundrunrun.github.io/ja/posts/web-dev/2026-11-10_astro_upgrade_v7/
+            </guid>
+            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+            <description>Astro v7へアップグレードしたときの記録。</description>
+            <content:encoded>
+                <![CDATA[
+<p>このウェブサイトのビルドに使っている Astro を、やっとv7へアップグレードできた…</p>
+<p>やることはシンプルなはずで、</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+    data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">npx </span><span style="color:#F97583">@</span><span style="color:#E1E4E8">astrojs/upgrade</span></span></code></pre>
+<p>というコマンドを叩いて、あとは「YES」と答えるだけと思ってたのだけど！</p>
+<p>その後にいつも通り localhost で動かしてみようとして <code>npm run dev</code> を実行すると、 satteri<sup><a href="#user-content-fn-1"
+            id="user-content-fnref-1" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup>
+    に関連するモジュールがないよぉぉ！というエラーが出てきて、それと数週間戦っていた。</p>
+<p>使っている Node.js のバージョンを上げれば良かった、というオチだったけど…</p>
+<p>試したことや、VSCodeのターミナルに出てきたメッセージを備忘として残しておく。</p>
+<details>
+    <summary>Astro v7 へアップグレードできるまでの過程</summary>
+    <p>※出力されているパスは手で適当に直したもの</p>
+    <ol>
+        <li>以下のコマンドを実行</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">npx </span><span style="color:#F97583">@</span><span style="color:#E1E4E8">astrojs/upgrade</span></span></code></pre>
+    <ol start="2">
+        <li>以下で<code>y</code>を入力</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">Need to install the following packages:</span></span>
+<span class="line"><span style="color:#F97583">@</span><span style="color:#E1E4E8">astrojs/upgrade</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">0.7.5</span></span>
+<span class="line"><span style="color:#E1E4E8">Ok to proceed? (y)</span></span></code></pre>
+    <ol start="3">
+        <li>以下で<code>Yes</code>を選択</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8"> astro   Integration upgrade in progress.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">      ◼  </span><span style="color:#F97583">@</span><span style="color:#E1E4E8">astrojs/rss is up to </span><span style="color:#F97583">date</span><span style="color:#E1E4E8"> on v4.0.19</span></span>
+<span class="line"><span style="color:#E1E4E8">      ▲  astro will be updated  from v6.4.3 to v7.3.5</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">  wait   One package has breaking changes. Continue?</span></span></code></pre>
+    <ol start="4">
+        <li>以下が出たけど、一旦無視。</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8"> check   Be sure to follow the CHANGELOG.</span></span>
+<span class="line"><span style="color:#E1E4E8">         astro https://docs.astro.build/en/guides/upgrade-to/v7/</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8"> ██████  Installing dependencies with npm...</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">+—————+  Houston:</span></span>
+<span class="line"><span style="color:#F97583">|</span><span style="color:#79B8FF"> ^</span><span style="color:#E1E4E8"> u </span><span style="color:#79B8FF">^</span><span style="color:#E1E4E8">  Have fun building!</span></span>
+<span class="line"><span style="color:#E1E4E8">+—————+</span></span>
+<span class="line"><span style="color:#E1E4E8">npm notice</span></span>
+<span class="line"><span style="color:#E1E4E8">npm notice New major version of npm available! 11.12.1 -</span><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> 12.2.0</span></span>
+<span class="line"><span style="color:#E1E4E8">npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0</span></span>
+<span class="line"><span style="color:#E1E4E8">npm notice To update run: npm install -g npm</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">12.2.0</span></span>
+<span class="line"><span style="color:#E1E4E8">npm notice</span></span></code></pre>
+    <ol start="5">
+        <li><code>npm run dev</code>を実行すると、以下のエラーが出てきた。</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">Error: Cannot </span><span style="color:#F97583">find</span><span style="color:#E1E4E8"> native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> /path/to/.../node_modules/satteri/index.js:585:19</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> ModuleJob.run (node:internal/modules/esm/module_job:437:25)</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> async node:internal/modules/esm/loader:639:26</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> async runCommand (/path/to/.../node_modules/astro/dist/cli/index.js:172:22)</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> async cli (/path/to/.../node_modules/astro/dist/cli/index.js:222:5) {</span></span>
+<span class="line"><span style="color:#E1E4E8">  cause: Error: The specified module could </span><span style="color:#F97583">not</span><span style="color:#E1E4E8"> be found.</span></span>
+<span class="line"><span style="color:#E1E4E8">  \\?\\path\to\...\node_modules\</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">bruits\satteri-win32-x64-msvc\satteri_napi.win32-x64-msvc.node</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> Object..node (node:internal/modules/cjs/loader:1988:18)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> Module.load (node:internal/modules/cjs/loader:1553:32)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> Module._load (node:internal/modules/cjs/loader:1355:12)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> wrapModuleLoad (node:internal/modules/cjs/loader:255:19)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> Module.require (node:internal/modules/cjs/loader:1576:12)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> require (node:internal/modules/helpers:153:16)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> requireNative (/path/to/.../node_modules/satteri/index.js:135:25)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> /path/to/.../node_modules/satteri/index.js:530:17</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> ModuleJob.run (node:internal/modules/esm/module_job:437:25)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> async node:internal/modules/esm/loader:639:26 {</span></span>
+<span class="line"><span style="color:#E1E4E8">    code: 'ERR_DLOPEN_FAILED',</span></span>
+<span class="line"><span style="color:#E1E4E8">    cause: Error: Cannot </span><span style="color:#F97583">find</span><span style="color:#E1E4E8"> module './satteri_napi.win32-x64-msvc.node'</span></span>
+<span class="line"><span style="color:#E1E4E8">    Require stack:</span></span>
+<span class="line"><span style="color:#E1E4E8">    - \path\to\...\node_modules\satteri\index.js</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module._resolveFilename (node:internal/modules/cjs/loader:1476:15)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module._load (node:internal/modules/cjs/loader:1262:25)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> wrapModuleLoad (node:internal/modules/cjs/loader:255:19)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module.require (node:internal/modules/cjs/loader:1576:12)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> require (node:internal/modules/helpers:153:16)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> requireNative (/path/to/.../node_modules/satteri/index.js:130:16)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> /path/to/.../node_modules/satteri/index.js:530:17 {</span></span>
+<span class="line"><span style="color:#E1E4E8">      code: 'MODULE_NOT_FOUND',</span></span>
+<span class="line"><span style="color:#E1E4E8">      requireStack: [Array]</span></span>
+<span class="line"><span style="color:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span></code></pre>
+    <ol start="6">
+        <li><code>package-lock.json</code>と<code>node_modules</code>を削除して、<code>npm i</code>を実行。実行結果:</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">added </span><span style="color:#79B8FF">221</span><span style="color:#E1E4E8"> packages, and audited </span><span style="color:#79B8FF">222</span><span style="color:#E1E4E8"> packages in 27s</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#79B8FF">88</span><span style="color:#E1E4E8"> packages are looking </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> funding</span></span>
+<span class="line"><span style="color:#E1E4E8">  run `npm fund` </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> details</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">found </span><span style="color:#79B8FF">0</span><span style="color:#E1E4E8"> vulnerabilities</span></span></code></pre>
+    <ol start="7">
+        <li><code>npm run dev</code>を再度実行すると、以下のエラーが出てくる。</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">    code: 'ERR_DLOPEN_FAILED',</span></span>
+<span class="line"><span style="color:#E1E4E8">    cause: Error: Cannot </span><span style="color:#F97583">find</span><span style="color:#E1E4E8"> module './satteri_napi.win32-x64-msvc.node'</span></span>
+<span class="line"><span style="color:#E1E4E8">    Require stack:</span></span>
+<span class="line"><span style="color:#E1E4E8">    - \path\to\...\node_modules\satteri\index.js</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module._resolveFilename (node:internal/modules/cjs/loader:1476:15)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module._load (node:internal/modules/cjs/loader:1262:25)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> wrapModuleLoad (node:internal/modules/cjs/loader:255:19)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module.require (node:internal/modules/cjs/loader:1576:12)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> require (node:internal/modules/helpers:153:16)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> requireNative (/path/to/.../node_modules/satteri/index.js:130:16)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> /path/to/.../node_modules/satteri/index.js:530:17 {</span></span>
+<span class="line"><span style="color:#E1E4E8">      code: 'MODULE_NOT_FOUND',</span></span>
+<span class="line"><span style="color:#E1E4E8">      requireStack: [Array]</span></span>
+<span class="line"><span style="color:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span></code></pre>
+    <ol start="8">
+        <li>node_modules を削除。</li>
+        <li>別ウィンドウでコマンドプロンプトを出す。npmのバージョンチェック</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> npm -v</span></span>
+<span class="line"><span style="color:#E1E4E8">11.12.1</span></span></code></pre>
+    <ol start="10">
+        <li>nvm for windowsのドキュメンテーションを読むと、npmのバージョンアップというか、nvm for windows のバージョンアップが必要みたいなのでそれをやる</li>
+        <li>nvm for windows 2.0.0のsetup.exeを実行</li>
+        <li><code>nvm -v</code>を実行してバージョンを確認</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> nvm -v</span></span>
+<span class="line"><span style="color:#E1E4E8">v2.0.0</span></span></code></pre>
+    <ol start="13">
+        <li>Node.jsをインストール</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> nvm install lts</span></span></code></pre>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="plaintext"><code><span class="line"><span>&gt; nvm use latest</span></span></code></pre>
+    <p>これで<code>v24.21.0</code>を使うことに。</p>
+    <ol start="14">
+        <li><code>npm -v</code>を実行すると出てくるバージョンはこれになった:</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> npm -v</span></span>
+<span class="line"><span style="color:#E1E4E8">11.19.0</span></span></code></pre>
+    <ol start="15">
+        <li>これで<code>npm install</code>を実行してみる</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#79B8FF">88</span><span style="color:#E1E4E8"> packages are looking </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> funding</span></span>
+<span class="line"><span style="color:#E1E4E8">  run `npm fund` </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> details</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">found </span><span style="color:#79B8FF">0</span><span style="color:#E1E4E8"> vulnerabilities</span></span>
+<span class="line"><span style="color:#E1E4E8">npm warn install-scripts </span><span style="color:#79B8FF">1</span><span style="color:#E1E4E8"> package has install scripts </span><span style="color:#F97583">not</span><span style="color:#E1E4E8"> yet covered by allowScripts:</span></span>
+<span class="line"><span style="color:#E1E4E8">npm warn install-scripts   esbuild</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">0.28.2 (postinstall: node install.js)</span></span>
+<span class="line"><span style="color:#E1E4E8">npm warn install-scripts</span></span>
+<span class="line"><span style="color:#E1E4E8">npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve </span><span style="color:#F97583">&lt;</span><span style="color:#E1E4E8">pkg</span><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8">` to allow.</span></span></code></pre>
+    <ol start="16">
+        <li><code>npm run dev</code>を実行してみる</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">Error: Cannot </span><span style="color:#F97583">find</span><span style="color:#E1E4E8"> native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> /path/to/.../node_modules/satteri/index.js:585:19</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> ModuleJob.run (node:internal/modules/esm/module_job:561:25)</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> async node:internal/modules/esm/loader:647:26</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> async runCommand (/path/to/.../node_modules/astro/dist/cli/index.js:172:22)</span></span>
+<span class="line"><span style="color:#F97583">    at</span><span style="color:#E1E4E8"> async cli (/path/to/.../node_modules/astro/dist/cli/index.js:222:5) {</span></span>
+<span class="line"><span style="color:#E1E4E8">  cause: Error: The specified module could </span><span style="color:#F97583">not</span><span style="color:#E1E4E8"> be found.</span></span>
+<span class="line"><span style="color:#E1E4E8">  \\?\\path\to\...\node_modules\</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">bruits\satteri-win32-x64-msvc\satteri_napi.win32-x64-msvc.node</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> Object..node (node:internal/modules/cjs/loader:2087:18)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> Module.load (node:internal/modules/cjs/loader:1651:32)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> Module._load (node:internal/modules/cjs/loader:1443:12)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> wrapModuleLoad (node:internal/modules/cjs/loader:261:19)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> Module.require (node:internal/modules/cjs/loader:1674:12)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> require (node:internal/modules/helpers:157:16)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> requireNative (/path/to/.../node_modules/satteri/index.js:135:25)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> /path/to/.../node_modules/satteri/index.js:530:17</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> ModuleJob.run (node:internal/modules/esm/module_job:561:25)</span></span>
+<span class="line"><span style="color:#F97583">      at</span><span style="color:#E1E4E8"> async node:internal/modules/esm/loader:647:26 {</span></span>
+<span class="line"><span style="color:#E1E4E8">    code: 'ERR_DLOPEN_FAILED',</span></span>
+<span class="line"><span style="color:#E1E4E8">    cause: Error: Cannot </span><span style="color:#F97583">find</span><span style="color:#E1E4E8"> module './satteri_napi.win32-x64-msvc.node'</span></span>
+<span class="line"><span style="color:#E1E4E8">    Require stack:</span></span>
+<span class="line"><span style="color:#E1E4E8">    - \path\to\...\node_modules\satteri\index.js</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module._load (node:internal/modules/cjs/loader:1341:5)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> wrapModuleLoad (node:internal/modules/cjs/loader:261:19)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> Module.require (node:internal/modules/cjs/loader:1674:12)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> require (node:internal/modules/helpers:157:16)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> requireNative (/path/to/.../node_modules/satteri/index.js:130:16)</span></span>
+<span class="line"><span style="color:#F97583">        at</span><span style="color:#E1E4E8"> /path/to/.../node_modules/satteri/index.js:530:17 {</span></span>
+<span class="line"><span style="color:#E1E4E8">      code: 'MODULE_NOT_FOUND',</span></span>
+<span class="line"><span style="color:#E1E4E8">      requireStack: [Array]</span></span>
+<span class="line"><span style="color:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span></code></pre>
+    <ol start="17">
+        <li>npm のキャッシュを削除してみる</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">npm cache clean --force</span></span></code></pre>
+    <ol start="18">
+        <li><code>npm install</code>を再実行。</li>
+        <li>以下を実行した</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> npm install-scripts ls</span></span>
+<span class="line"><span style="color:#79B8FF">1</span><span style="color:#E1E4E8"> package has install scripts </span><span style="color:#F97583">not</span><span style="color:#E1E4E8"> yet covered by allowScripts:</span></span>
+<span class="line"><span style="color:#E1E4E8">  esbuild</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">0.28.2 (postinstall: node install.js)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">Run `npm install-scripts approve </span><span style="color:#F97583">&lt;</span><span style="color:#E1E4E8">pkg</span><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8">` to allow, or `npm install-scripts deny </span><span style="color:#F97583">&lt;</span><span style="color:#E1E4E8">pkg</span><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8">` to deny.</span></span></code></pre>
+    <ol start="20">
+        <li>以下を実行:</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> npm install-scripts approve esbuild</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">0.28.2</span></span>
+<span class="line"><span style="color:#E1E4E8">Approved esbuild:</span></span>
+<span class="line"><span style="color:#E1E4E8">  added esbuild</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">0.28.2</span></span></code></pre>
+    <ol start="21">
+        <li><code>npm run dev</code>を実行したが、やっぱり改善せず。</li>
+        <li>以下を実行した。Geminiにアドバイスを求めて。でもやはりだめ。</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> npm install -D </span><span style="color:#F97583">@</span><span style="color:#E1E4E8">bruits/satteri-win32-x64-msvc</span></span>
+<span class="line"><span style="color:#E1E4E8">up to date, audited </span><span style="color:#79B8FF">215</span><span style="color:#E1E4E8"> packages in 1s</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#79B8FF">88</span><span style="color:#E1E4E8"> packages are looking </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> funding</span></span>
+<span class="line"><span style="color:#E1E4E8">  run `npm fund` </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> details</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">found </span><span style="color:#79B8FF">0</span><span style="color:#E1E4E8"> vulnerabilities</span></span></code></pre>
+    <ol start="23">
+        <li>package-lock.json, node_modulesを削除、npmのキャッシュをクリーン。</li>
+        <li><code>npm install --force</code>を実行</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> npm install --force</span></span>
+<span class="line"><span style="color:#E1E4E8">npm warn using --force Recommended protections disabled.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">added </span><span style="color:#79B8FF">214</span><span style="color:#E1E4E8"> packages, and audited </span><span style="color:#79B8FF">215</span><span style="color:#E1E4E8"> packages in 59s</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#79B8FF">88</span><span style="color:#E1E4E8"> packages are looking </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> funding</span></span>
+<span class="line"><span style="color:#E1E4E8">  run `npm fund` </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> details</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">found </span><span style="color:#79B8FF">0</span><span style="color:#E1E4E8"> vulnerabilities</span></span></code></pre>
+    <ol start="25">
+        <li><code>npm rebuild</code>を実行</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> npm rebuild</span></span>
+<span class="line"><span style="color:#E1E4E8">rebuilt dependencies successfully</span></span></code></pre>
+    <ol start="26">
+        <li><code>npm run dev</code>を実行したけど、やっぱり同じエラーが出る…</li>
+        <li><code>satteri_napi.win32-x64-msvc.node</code>は、<code>node_modules/@bruits/satteri-win32-x64-msvc</code>には入っていた
+        </li>
+        <li>Geminiに聞いたら、そのパッケージを別個でインストールしてみて、と言われる</li>
+    </ol>
+    <blockquote>
+        <p>Windows用のバインディングパッケージを直接プロジェクトにインストール（追加）してみてください。</p>
+    </blockquote>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#E1E4E8">npm install </span><span style="color:#F97583">@</span><span style="color:#E1E4E8">bruits/satteri-win32-x64-msvc</span></span></code></pre>
+    <p>言われたことをやってもやっぱり同じエラーが出る。</p>
+    <ol start="29">
+        <li>パスが長すぎるかも、とかnode, npmのバージョンを変えて試してみると良いかも、とGeminiには言われる。<br>
+            違うAIにも聞いてみたら、Node.jsを<code>24.22.1</code>へupdateしてみて、とのこと。</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> nvm install 24.22.1</span></span>
+<span class="line"><span style="color:#E1E4E8">Installed </span><span style="color:#79B8FF">1</span><span style="color:#E1E4E8"> version: 24.22.1</span></span>
+<span class="line"><span style="color:#E1E4E8">Completed in 28s</span></span>
+<span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> nvm use 24.22.1</span></span>
+<span class="line"><span style="color:#E1E4E8">Now using Node.js v24.22.1 by default.</span></span>
+<span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> node -v</span></span>
+<span class="line"><span style="color:#E1E4E8">v24.22.1</span></span></code></pre>
+    <ol start="31">
+        <li>astroのupgradeを再度やってみる。</li>
+    </ol>
+    <pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"
+        data-language="cmd"><code><span class="line"><span style="color:#F97583">&gt;</span><span style="color:#E1E4E8"> npx </span><span style="color:#F97583">@</span><span style="color:#E1E4E8">astrojs/upgrade</span></span>
+<span class="line"><span style="color:#E1E4E8">Need to install the following packages:</span></span>
+<span class="line"><span style="color:#F97583">@</span><span style="color:#E1E4E8">astrojs/upgrade</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">0.8.1</span></span>
+<span class="line"><span style="color:#E1E4E8">Ok to proceed? (y) y</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8"> astro   Integration upgrade in progress.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">      ◼  </span><span style="color:#F97583">@</span><span style="color:#E1E4E8">astrojs/rss is up to </span><span style="color:#F97583">date</span><span style="color:#E1E4E8"> on v4.0.19</span></span>
+<span class="line"><span style="color:#E1E4E8">      ▲  astro will be updated  from v6.4.3 to v7.4.2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">  wait   One package has breaking changes. Continue?</span></span>
+<span class="line"><span style="color:#E1E4E8">         Yes</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8"> check   Be sure to follow the CHANGELOG.</span></span>
+<span class="line"><span style="color:#E1E4E8">         astro https://docs.astro.build/en/guides/upgrade-to/v7/</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8"> ██████  Installing dependencies with npm...</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">+—————+  Houston:</span></span>
+<span class="line"><span style="color:#F97583">|</span><span style="color:#79B8FF"> ^</span><span style="color:#E1E4E8"> u </span><span style="color:#79B8FF">^</span><span style="color:#E1E4E8">  Thanks </span><span style="color:#F97583">for</span><span style="color:#E1E4E8"> using Astro!</span></span>
+<span class="line"><span style="color:#E1E4E8">+—————+</span></span></code></pre>
+    <ol start="32">
+        <li><code>npm run dev</code>を叩いてlocalhostでページを観れるようになった。<br>
+            うまくいったよおおお!</li>
+    </ol>
+</details>
+<h2 id="参考リンク">参考リンク</h2>
+<ul>
+    <li><a href="https://docs.astro.build/en/guides/upgrade-to/v7/">Upgrade to Astro v7</a></li>
+    <li><a href="https://docs.nvm-windows.com/install/installers">Installers | nvm-windows Documentation</a></li>
+</ul>
+<h2 id="関連">関連</h2>
+<ul>
+    <li><a href="/ja/posts/web-dev/2026-07-27_create_astro_project/">Webサイト立ち上げの記録(3) - Astro を使ったプロジェクトの作成</a></li>
+</ul>
+<hr>
+<section data-footnotes="" class="footnotes">
+    <h2 class="sr-only" id="footnote-label">Footnotes</h2>
+    <ol>
+        <li id="user-content-fn-1">
+            <p>satteriはv7から使われるようになっている。 <a href="#user-content-fnref-1" data-footnote-backref=""
+                    aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+        </li>
+    </ol>
+</section>
+                ]]> 
+            </content:encoded>
+        </item>
+        <item>
             <title>オッケー、これも好きです - "The Walls Are Way Too Thin" (EP)</title>
             <link>
                 http://runaroundrunrun.github.io/ja/posts/music/2026-11-08_the_walls_are_way_too_thin/
@@ -1031,52 +1381,6 @@
                 <p>在在とランランというカップルだけではなく、ふたりの共通の親友3人も仲良くて、5人でわちゃわちゃしているところがこれまたかわいい。<br />
                     男女の区別とかなしに、本当に楽しそうに、さわやかに青春を満喫しているのですよ。</p>
                 <p>きっとまた何かの拍子でハマり、見まくるのだろうなーと思うドラマ。</p>
-            </content:encoded>
-        </item>
-        <item>
-            <title>Photos: 倉敷, 2026年3月</title>
-            <link>
-                http://runaroundrunrun.github.io/posts/photos/2026-09-20_kurashiki/
-            </link>
-            <guid isPermaLink="true">
-                http://runaroundrunrun.github.io/posts/photos/2026-09-20_kurashiki/
-            </guid>
-            <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-            <content:encoded>
-                <p>
-                    <em>Read the English version <a href="/posts/photos/2026-08-29_kurashiki/">here</a>
-                        .</em>
-                </p>
-                <p>今年の3月に倉敷に行ったのだけど、そのときに<a href="/ja/posts/lifelog/2026-09-11_film_camera/">Kodak
-                    Film Camera M38 </a>で撮った写真がこちら。</p>
-                <p>
-                    <img src="../../../posts/images/2026-08-29_Kurashiki_1.jpg" alt="alt" />
-                </p>
-                <p>
-                    <img src="../../../posts/images/2026-08-29_Kurashiki_2.jpg" alt="alt" />
-                </p>
-                <p>
-                    <img src="../../../posts/images/2026-08-29_Kurashiki_3.jpg" alt="alt" />
-                </p>
-                <p>
-                    <img src="../../../posts/images/2026-08-29_Kurashiki_4.jpg" alt="alt" />
-                </p>
-                <p>
-                    <img src="../../../posts/images/2026-08-29_Kurashiki_5.jpg"
-                        alt="Minions in Kurashiki" />
-                </p>
-                <h2>Links</h2>
-                <ul>
-                    <li>&lt;a class="icon-new-tab" target="_blank"
-                        href="https://www.kurashiki-tabi.jp/"&gt;倉敷観光WEB&lt;/a&gt; (最終閲覧日:
-                        2026-09-20)</li>
-                </ul>
-                <h2>Related</h2>
-                <ul>
-                    <li>
-                        <a href="/ja/posts/lifelog/2026-09-11_film_camera/">お気に入り: フィルムカメラ Kodak M38</a>
-                    </li>
-                </ul>
             </content:encoded>
         </item>
     </channel>

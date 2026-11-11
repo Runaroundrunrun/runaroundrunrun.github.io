@@ -121,6 +121,7 @@ export default defineConfig({
 
 ## 関連
 - [Webサイト立ち上げの記録 (2) - Astro を使う準備](/ja/posts/web-dev/2026-06-21_install_nodejs/)
+- [Astro v7 へのUpgrade](/ja/posts/web-dev/2026-11-11_astro_upgrade_v7/)
 
 ----------
 [^1]: Webサイトをホストする <a class="icon-new-tab" target="_blank" href="https://www.netlify.com/">Netlify</a> へのデプロイとかはスキップした。私の目標は GitHub Pages にデプロイすることだったので！  

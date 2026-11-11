@@ -2,7 +2,7 @@
 layout: ../../../../layouts/MarkdownPostLayout.astro
 title: Media Log (September 2026)
 published: 2026-10-01
-modified: 2026-10-17
+modified: 2026-11-11
 lang: 'en'
 category: lifelog 
 ---
@@ -77,8 +77,8 @@ category: lifelog
     - I didn't know that there were already people who had to change job or business models because of the appearance of generative AI. I too, could learn and get the work done thanks to technical posts available online so it made me feel sad.
 - 安達裕哉, <a class="icon-new-tab" target="_blank" href="https://blog.tinect.jp/?p=85681">「MPがすぐに尽きてしまう人」は、企業では救えない。</a> Books & Apps (last accessed: 2026-09-30)
     - It sounded like me... I don't have much MP.
-- yomoyomo, <a class="icon-new-tab" target="_blank" href="https://keep.google.com/#NOTE/1Zt3K2_QyUD3tHWuaBlicGU5nNFqONte5FQxtwOoNh8ond6dClqiYGGHSFZb7pxeCVB-EGA">
-ソーシャルメディアは死なない。ただゾンビとして残るだろう</a> WirelessWire &amp; Schrödinger's (last accessed: 2026-09-30) 
+- yomoyomo, <a class="icon-new-tab" target="_blank" href="https://wirelesswire.jp/2026/05/93576/">
+ソーシャルメディアは死なない。ただゾンビとして残るだろう</a> WirelessWire &amp; Schrödinger's (last accessed: 2026-11-11) 
 
 ## Related
 - [Backrooms: It's good, but I got motion sickness](/posts/movies/2026-09-30_backrooms/)

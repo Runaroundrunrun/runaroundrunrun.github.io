@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 2026年9月に消費したメディア記録
 published: 2026-10-01
-modified: 2026-10-09
+modified: 2026-11-11
 lang: 'ja'
 category: lifelog
 ---
@@ -70,8 +70,8 @@ category: lifelog
     - もうAIのせいで仕事がなくなっちゃったとか、変えざるを得ない人が出てきているのだなと。私も無料で読める技術記事からだいぶ仕事面で助けてもらっていたので、残念だなという気持ち。
 - 安達裕哉, <a class="icon-new-tab" target="_blank" href="https://blog.tinect.jp/?p=85681">「MPがすぐに尽きてしまう人」は、企業では救えない。</a> Books & Apps (最終閲覧日: 2026-09-30)
     - 私もMPがすぐになくなってしまう人かもしれない...
-- yomoyomo, <a class="icon-new-tab" target="_blank" href="https://keep.google.com/#NOTE/1Zt3K2_QyUD3tHWuaBlicGU5nNFqONte5FQxtwOoNh8ond6dClqiYGGHSFZb7pxeCVB-EGA">
-ソーシャルメディアは死なない。ただゾンビとして残るだろう</a> WirelessWire &amp; Schrödinger's (最終閲覧日: 2026-09-30) 
+- yomoyomo, <a class="icon-new-tab" target="_blank" href="https://wirelesswire.jp/2026/05/93576/">
+ソーシャルメディアは死なない。ただゾンビとして残るだろう</a> WirelessWire &amp; Schrödinger's (最終閲覧日: 2026-11-11) 
     - SNSって、私にとっては人と繋がるサービスというよりかは、メディアの一つ、みたいな位置付けになってきているなと。
 
 

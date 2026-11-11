@@ -215,6 +215,9 @@ header {
 }
 
 /* posts */
+h1.page-title {
+    display: flex;
+}
 a.rss {
     img {
         width: 1rem;

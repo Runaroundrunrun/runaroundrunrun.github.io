@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 死ぬ前にもういちど聞いておきたい曲リスト（つまりお気に入り）
 published: 2026-11-04
-modified: 2026-11-08
+modified: 2026-11-12
 lang: 'ja'
 category: music 
 ---
@@ -40,6 +40,7 @@ category: music
 - *Georgia On My Mind* - Ray Charles
 - *I Shall Be Released* - Bob Dylan
 - *世界はそれを愛と呼ぶんだぜ* - サンボマスター
+- *Go Your Own Way* - Fleetwood Mac
 
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cQTkUTG1DcbCXBNnAbQSO?utm_source=generator&si=73671f9e97124f17" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

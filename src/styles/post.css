@@ -37,9 +37,15 @@ div.content-container {
     max-width: 50rem;
     margin: auto;
 }
-h2#footnote-label {
-    display: none;
+section.footnotes {
+    h2#footnote-label {
+        display: none;
+    }
+    ol {
+        line-height: 1;
+    }
 }
+
 blockquote {
     border-left: solid 2px var(--quote-border);
     padding-left: 0.5rem;

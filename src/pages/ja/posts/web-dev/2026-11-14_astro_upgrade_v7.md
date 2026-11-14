@@ -1,7 +1,7 @@
 ---
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: Astro v7 へのUpgrade
-published: 2026-11-11
+published: 2026-11-14
 modified: 
 lang: 'ja'
 category: web-dev 

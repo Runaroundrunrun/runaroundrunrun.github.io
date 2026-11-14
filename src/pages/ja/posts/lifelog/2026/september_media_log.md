@@ -2,7 +2,7 @@
 layout: ../../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 2026年9月に消費したメディア記録
 published: 2026-10-01
-modified: 2026-11-11
+modified: 2026-11-14
 lang: 'ja'
 category: lifelog
 ---
@@ -16,7 +16,7 @@ category: lifelog
 - 倉下忠憲『すべてはノートからはじまる　あなたの人生をひらく記録術』
 - [稲垣えみ子『人生はどこでもドア リヨンの14日間』](/ja/posts/reading/2026-10-09_life_is_anywhere_door/)
 - 森博嗣『集中力はいらない』
-- 『増補 普通の人びと ホロコーストと第101警察予備大隊』
+- [クリストファー・R・ブラウニング『増補 普通の人びと ホロコーストと第101警察予備大隊』](/ja/posts/reading/2026-11-14_ordinary_men/)
 - 岸恵美子『ルポ　ゴミ屋敷に棲む人びと』
 - 土門蘭『ほんとうのことを書く練習』
 - 伊藤紺『わたしのなかにある巨大な星』 
@@ -86,3 +86,4 @@ category: lifelog
 - [アドリブに笑いころげてます『陽キャ集団にいる芹沢は、俺の前だと様子がおかしい』](/ja/posts/tv-series/2026-09-30_popular_serizawa_acts_weird/)
 - [良かったけど、ひどい画面酔いになった：『バックルームズ』](/ja/posts/movies/2026-10-02_backrooms/)
 - [旅のお供にしたい『人生はどこでもドア』](/ja/posts/reading/2026-10-09_life_is_anywhere_door/)
+- [感想メモ『増補 普通の人びと』](/ja/posts/reading/2026-11-14_ordinary_men/)

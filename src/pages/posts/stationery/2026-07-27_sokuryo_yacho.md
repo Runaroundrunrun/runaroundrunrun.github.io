@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: KOKUYO Sokuryo Yacho - a perfect pocket notebook for me to carry around
 published: 2026-07-27
-modified: 2026-09-07
+modified: 2026-11-13
 lang: 'en'
 category: stationery
 ---
@@ -14,7 +14,7 @@ I started carrying it with me after I watched video essays on pocket notebooks, 
 
 I tried to carry around A5 notebooks, soft cover pocket notebooks and so on, but in the end I end up with KOKUYO Sokuryo Yacho.  
 
-![alt](../images/2026-07-27_sokuryo-yacho.jpeg)
+![KOKUYO Sokuryo Yacho](../images/2026-07-27_sokuryo-yacho.jpeg)
 
 Here are the reasons I love this notebook:
 - It's small and thin enough to fit in my handbag (and my pocket), but it feels like it has plenty of pages

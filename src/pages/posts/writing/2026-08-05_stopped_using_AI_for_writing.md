@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: I stopped using AI for writing
 published: 2026-08-05
-modified: 2026-11-03
+modified: 2026-11-14
 lang: 'en'
 category: writing 
 ---
@@ -42,11 +42,12 @@ I will correct errors and rewrite as many times as possible.
 [^1]: It seems like the page doesn't exist anymore?
 [^2]: I used AI for these posts:
 <br> [The most exciting sci-fi I've ever read: Project Hail Mary](/posts/reading/2026-06-12_project_hail_mary),
-<br> [I buy way more books than I can read](/posts/reading/2026-05-16_I_buy_way_more_books_than_I_can_read/), 
 <br>[Keyboard shortcuts I use](/posts/technical/2026-05-30_keyboard_shortcuts/), 
 <br>[I haven't felt this happy watching a Korean series - 유미의 세포들 3 (Yumi's Cells 3)](/posts/tv-series/2026-05-13_yumis_cells3/), 
 <br>[My current keybindings configuration in VSCode](/posts/web-dev/2026-05-12_my_current_vscode_keybindings_configuration/), 
 <br>[On setting up this website](/posts/web-dev/2026-05-08_on_setting_up_this_website/)
 
-[^3]: I wrote this post with the help of AI once, but I rewrote it completely by myself:
-<br>[Decorating notebook covers](/posts/crafting/2026-05-26_decorating_notebook_covers/)
+[^3]: I wrote these posts with the help of AI once, but I rewrote them completely by myself:
+<br>[Decorating notebook covers](/posts/crafting/2026-05-26_decorating_notebook_covers/),
+<br> [I buy way more books than I can read](/posts/reading/2026-05-16_I_buy_way_more_books_than_I_can_read/), 
+

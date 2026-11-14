@@ -2,23 +2,24 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: I buy way more books than I can read
 published: 2026-05-16
-modified: 2026-09-19
+modified: 2026-11-14
 lang: 'en'
 category: reading
 ---
-I love bookstores; they're one of my favorite places in the world.
+*note: I once wrote this post using AI, but I rewrote it completely by myself.*
 
-But there's this problem: I buy more books than I can handle.
+Visiting a bookstore is one of my favorite things to do, but there's a problem: I buy way more books than I can read.
 
-I prefer buying books in person rather than online. 
-That way I can flip through books I'm interested in and decide whether I should buy them at that time.
+I like buying books in a bookstore, because I can flip through books before deciding to buy them.  
+You can do that with ebooks I suppose, but there are books you can find, only by visiting bookstores and reading staff's recommendations.
 
-It's not common to find a book you've been wanting to read in a bookstore.  
-So whenever I find one, I cannot help but think "I might not be able to find the same book later!".  
-That's why I end up buying at least a few books every time I go to a bookstore.  
+When I encounter interesting books, I think to myself "I don't know if I can find this book again!"  
+So I often end up buying at least a few books every time I go to a bookstore.  
+And I visit different bookstores a few times a week.  
 
-Now I have a stack of books I have bought but haven't read yet.  
-I have to stop myself from buying more, seriously!
+No wonder now I have a stack of books I haven't read yet.
+
+I need to keep myself from buying more books for a while...seriously. 
 
 ![a stack of books I need to read](../images/2026-05-16_books_I_need_to_read.JPG)
 

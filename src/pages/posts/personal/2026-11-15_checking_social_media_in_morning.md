@@ -1,7 +1,7 @@
 ---
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: I want to stop checking social media's feeds right after I wake up
-published: 2026-11-14
+published: 2026-11-15
 modified: 
 lang: 'en'
 category: personal

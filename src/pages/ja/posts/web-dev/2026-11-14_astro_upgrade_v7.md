@@ -1,8 +1,8 @@
 ---
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
-title: Astro v7 へのUpgrade
+title: Astro v7 へのアップグレード
 published: 2026-11-14
-modified: 
+modified: 2026-11-15
 lang: 'ja'
 category: web-dev 
 ---
@@ -209,6 +209,8 @@ Error: Cannot find native binding. npm has a bug related to optional dependencie
   }
 }
 ```
+なんで！！（泣）
+
 17. npm のキャッシュを削除してみる
 ```cmd
 npm cache clean --force

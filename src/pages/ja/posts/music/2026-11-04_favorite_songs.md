@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 死ぬ前にもういちど聞いておきたい曲リスト（つまりお気に入り）
 published: 2026-11-04
-modified: 2026-11-12
+modified: 2026-11-15
 lang: 'ja'
 category: music 
 ---
@@ -44,3 +44,5 @@ category: music
 
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cQTkUTG1DcbCXBNnAbQSO?utm_source=generator&si=73671f9e97124f17" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<a class="icon-new-tab" target="_blank" href="https://www.last.fm/user/runaroundrun/playlists/14608664">Last.fm でも同じプレイリスト作ってます</a>

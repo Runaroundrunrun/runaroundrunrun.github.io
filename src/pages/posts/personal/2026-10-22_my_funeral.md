@@ -2,10 +2,12 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: How I want my funeral to be like
 published: 2026-10-22
-modified: 2026-10-27
+modified: 2026-11-15
 lang: 'en'
 category: personal 
 ---
+*[日本語で読む](/ja/posts/personal/2026-11-15_my_funeral/)*
+
 Sometimes, I think about how I want my funeral to be like.  
 I think about it when I attend or see someone's funeral, or when I read books on death.
 

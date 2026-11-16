@@ -20,13 +20,13 @@
 :root .dark {
     /* TODO: change colors */
     /* colors */
-    --back-color: #FFF6EE;
-    --text-color: #000;
+    --back-color: #221C1B;
+    --text-color: #FEF7EB;
     --date-color: #9a9a9a;
-    --border-color: #323C3B;
-    --link-color: #B03D30;
-    --back-color-2: #323C3B;
-    --text-color-2: #FFF6EE;
+    --border-color: #806C6B;
+    --link-color: #F59E0B;
+    --back-color-2: #806C6B;
+    --text-color-2: #FEF7EB;
     --quote-border: #ADADAD;
 }
 
@@ -38,11 +38,8 @@
     font-family: var(--font-japanese);
 }
 
-html {
-    background-color: var(--back-color);
-}
-
 body {
+    background-color: var(--back-color);
     margin: 0 auto;
     width: 100%;
     padding: 1rem;
@@ -57,9 +54,14 @@ body {
 h1 {
     margin: 1rem 0;
     font-size: 1.6rem;
+    color: var(--text-color);
 }
 h2 {
     font-size: 1.2rem;
+    color: var(--text-color);
+}
+h3, h4, ul, span {
+    color: var(--text-color);
 }
 hr {
     color: var(--border-color);

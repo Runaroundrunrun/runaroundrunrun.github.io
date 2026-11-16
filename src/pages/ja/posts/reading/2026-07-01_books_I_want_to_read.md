@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 読みたい本リスト
 published: 2026-07-01
-modified: 2026-10-23
+modified: 2026-11-16
 lang: 'ja'
 category: reading
 ---
@@ -17,6 +17,7 @@ category: reading
 - 『この国の不寛容の果てに 相模原事件と私たちの時代』
 - ~~『増補 普通の人びと ホロコーストと第101警察予備大隊』~~
     - [2026年9月に読了。](/ja/posts/lifelog/2026/september_media_log/)
+    - [読書メモ](/ja/posts/reading/2026-11-14_ordinary_men/)
 - ~~『ルポ ゴミ屋敷に棲む人々』~~
     - [2026年9月に読了。](/ja/posts/lifelog/2026/september_media_log/)
 - 『刑務所図書館の人びと』

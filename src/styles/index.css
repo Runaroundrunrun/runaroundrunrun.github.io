@@ -10,7 +10,7 @@ div.index-content {
     h3 {
         margin: 0.5rem 0;
     }
-    div.recently-child {
+    div.child-container {
         margin: 0.5rem auto 0.5rem 1rem;
         ul {
             margin: auto 0;
@@ -19,9 +19,9 @@ div.index-content {
     div.menu-wrap {
         display: flex;
         justify-content: center;
-        gap: 1rem;
         a {
             font-size: 1.1rem;
+            margin: 0 0.5rem;
         }
     }
 }
@@ -29,7 +29,7 @@ a.link-to-posts img {
     width: 17em;
     height: auto;
 }
-#latest, #recently {
+#latest, #recently, #music {
     border: solid var(--border-color) 2px;
     border-radius: 4px;
 }

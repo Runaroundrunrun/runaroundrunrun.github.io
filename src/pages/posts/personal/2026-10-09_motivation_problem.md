@@ -2,13 +2,15 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: Sometimes it's painful for me to do the things I must get done
 published: 2026-10-09
-modified: 2026-11-08
+modified: 2026-11-18
 lang: 'en'
 category: personal 
 ---
 
 When I was a student, I got good grades in the subject I liked but I was having a hard time keeping up with the ones I wasn't interested in.  
 I knew that I had to study every subject equally, but I just couldn't bring myself to do that. It felt like dragging a labrador retriever refusing to move.
+
+![dragging a labrador retriever](../images/2026-10-09_dragging_a_labrador.jpg)
 
 I know that once I start I wouldn't feel this way, but the act of starting often feels a lot to me. It's almost suffocating.
 

@@ -7,6 +7,55 @@
         <link>http://runaroundrunrun.github.io/posts/</link>
         <language>en-us</language>
         <item>
+            <title>I should be offline more</title>
+            <link>
+                http://runaroundrunrun.github.io/posts/personal/2026-11-21_thoughts_on_being_online/
+            </link>
+            <guid isPermaLink="true">
+                http://runaroundrunrun.github.io/posts/personal/2026-11-21_thoughts_on_being_online/
+            </guid>
+            <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+            <content:encoded>
+                <![CDATA[
+<p>Reading these posts made me realize that I've been spending more time in front of screens than actually enjoying time
+    without the Internet.</p>
+<ul>
+    <li>Dave Rupert, <a href="https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/">I wish you the best in the
+            Offline</a></li>
+    <li>Imperfect, <a href="https://imperfect.bearblog.dev/online-and-offline/">online and offline</a></li>
+    <li>Salma Alam-Naylor, <a href="https://whitep4nth3r.com/blog/goodbye-forever-probably/">Goodbye, forever, probably.</a></li>
+</ul>
+<p>Now the world behind the screens occupies big part of my life, not “real” things and “real” human beings.</p>
+<p>I see my offline friends less than before, I watch contents on platforms like Netflix more than going to a movie
+    theater, I read downloaded blog posts more than printed books, and I become obsessed with friendships or
+    relationships on screens.</p>
+<p>I don't want to think being online is completely a bad thing, but life shouldn't be lived this way, right?</p>
+<p>When I first set up this website, <a href="/posts/web-dev/2026-05-08_on_setting_up_this_website/">I wanted to learn
+        about myself and the world through writing and I wanted to keep the stuff I create</a>, but these days it feels
+    like I wrote posts to keep the streaks and drew to share.</p>
+<p>Posts, notes, and all the stuff I create should be the products of my life, not the other way around.<br>
+    I just seemed to forget that lately.</p>
+<p>I can't decide if I should go offline yet, and I'm not sure if I can.<br>
+    But I should keep in mind that there's always an option to go offline…</p>
+<h2 id="links">Links</h2>
+<ul>
+    <li>Dave Rupert, <a href="https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/">I wish you the best in the
+            Offline</a> (last accessed: 2026-11-12)</li>
+    <li>Imperfect, <a href="https://imperfect.bearblog.dev/online-and-offline/">online and offline</a> (last accessed: 2026-11-12)
+    </li>
+    <li>Salma Alam-Naylor, <a href="https://whitep4nth3r.com/blog/goodbye-forever-probably/">Goodbye, forever, probably.</a> (last
+        accessed: 2026-11-12)</li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+    <li><a href="/posts/web-dev/2026-05-08_on_setting_up_this_website/">On setting up this website</a></li>
+    <li><a href="/posts/personal/2026-11-15_checking_social_media_in_morning/">I want to stop checking social media's
+            feeds right after I wake up</a></li>
+</ul>
+                ]]>
+            </content:encoded>
+        </item>
+        <item>
             <title>I want to stop checking social media's feeds right after I wake up</title>
             <link>
                 http://runaroundrunrun.github.io/posts/personal/2026-11-15_checking_social_media_in_morning/
@@ -1070,45 +1119,6 @@
                     <li>
                         <a href="/posts/lifelog/2026-08-27_film_camera/">My Favorite Belonging:
                             KODAK Film Camera M38</a>
-                    </li>
-                </ul>
-            </content:encoded>
-        </item>
-        <item>
-            <title>DAVE THE DIVER: such a fun game!</title>
-            <link>
-                http://runaroundrunrun.github.io/posts/gaming/2026-09-07_dave_the_diver/
-            </link>
-            <guid isPermaLink="true">
-                http://runaroundrunrun.github.io/posts/gaming/2026-09-07_dave_the_diver/
-            </guid>
-            <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-            <content:encoded>
-                <p>
-                    <em>
-                        <a href="/ja/posts/gaming/2026-10-17_dave_the_diver/">日本語で読む</a>
-                    </em>
-                </p>
-                <p>I bought DAVE THE DIVER this summer.</p>
-                <p>&lt;iframe width="560" height="315"
-                    src="https://www.youtube.com/embed/p85VHMpE0to?si=PBn7SqdxqJnTYEG3"
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-                    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen&gt;&lt;/iframe&gt;</p>
-                <p>I've finished playing all the chapters already so these days I mostly hunt for
-                    sharks (call me a shark hunter!).</p>
-                <p>As the story progressed, more features became available and I enjoyed them VERY
-                    MUCH.<br /> There are so many places to explore, sub-tasks to do, fish to
-                    catch...<br /> It's so satisfying that I feel it's worth more than 2400 yen! I
-                    don't know if I can find a game as fun as this one.</p>
-                <p>One of the things I found funny is that Dave's body shape never seemed to change.<br />
-                    I mean, he dives every day and works at night so he burns a lot of calories. And
-                    yet, he doesn't get muscular!</p>
-                <h2>Related</h2>
-                <ul>
-                    <li>
-                        <a href="/posts/lifelog/2026/2026_august_media_log/">Media Log (August 2026)</a>
                     </li>
                 </ul>
             </content:encoded>

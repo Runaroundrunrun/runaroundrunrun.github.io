@@ -2,7 +2,7 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 title: I want to stop checking social media's feeds right after I wake up
 published: 2026-11-15
-modified: 
+modified: 2026-11-21
 lang: 'en'
 category: personal
 ---
@@ -28,6 +28,9 @@ Anyway, here are the things I've tried so far;
     - This seems to be working for me now. By turning it off, there will be no video in the home feed and it makes YouTube less appealing and addictive, I think.
 
 I use Instagram less than YouTube, so I'll see if my time on Instagram will change by the actions above.
+
+## Related
+- [I should be offline more](/posts/personal/2026-11-21_thoughts_on_being_online/)
 
 ---
 [^1]: It's not easy for me to delete Instagram app, for I depend greatly on its messaging feature.

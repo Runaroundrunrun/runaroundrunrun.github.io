@@ -18,14 +18,13 @@
 
 /* for dark mode */
 :root .dark {
-    /* TODO: change colors */
     /* colors */
-    --back-color: #221C1B;
+    --back-color: #1D2020;
     --text-color: #FEF7EB;
     --date-color: #9a9a9a;
-    --border-color: #806C6B;
+    --border-color: #50808E;
     --link-color: #F59E0B;
-    --back-color-2: #806C6B;
+    --back-color-2: #50808E;
     --text-color-2: #FEF7EB;
     --quote-border: #ADADAD;
 }
@@ -60,7 +59,7 @@ h2 {
     font-size: 1.2rem;
     color: var(--text-color);
 }
-h3, h4, ul, span {
+h3, h4, ul, span, p {
     color: var(--text-color);
 }
 hr {
@@ -250,7 +249,6 @@ p.description {
     padding: 1rem;
 }
 span.date {
-    color: var(--date-color);
     display: flex;
     gap: 0.6rem;
     font-style: italic;
@@ -258,6 +256,7 @@ span.date {
 
 span.date > p {
     margin: 0 ;
+    color: var(--date-color);
 }
 ul.posts {
     list-style-type: none;

@@ -71,11 +71,11 @@ const categoryIconMap: Record<string, string> = {
         <aside class="categories">
             <nav>
                 <h4>Categories</h4>
-                <ul>
+                <div class="categories-list">
                     {categories.map(category => 
-                        <li><a href={`#${category}`}>{categoryDispMap[category]}</a></li>
+                        <a href={`#${category}`}>{categoryDispMap[category]}</a>
                     )}
-                </ul>
+                </div>
             </nav>
         </aside>
         <div class="posts-container">

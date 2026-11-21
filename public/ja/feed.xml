@@ -5,6 +5,35 @@
         <link>http://runaroundrunrun.github.io/ja/posts</link>
         <language>ja</language>
         <item>
+            <title>なんでカフェにいると作業がはかどるのか？</title>
+            <link>
+                http://runaroundrunrun.github.io/posts/personal/2026-11-21_cafe_and_productivity/
+            </link>
+            <guid isPermaLink="true">
+                http://runaroundrunrun.github.io/posts/personal/2026-11-21_cafe_and_productivity/
+            </guid>
+            <pubDate>Sat, 21 Oct 2026 00:00:00 GMT</pubDate>
+            <content:encoded>
+                <![CDATA[ 
+<p><em>Read the English version <a href="/posts/personal/2026-11-01_cafe_and_productivity/">here</a>.</em></p>
+<p>文章を書くこと。読書。このサイトをどう変えたいか検討すること。<br>
+    こういった作業は、家でやるよりもカフェでやる方が集中できたりする。</p>
+<p>多分、カフェだと集中を乱すものが家よりも少ないのかなと。<br>
+    家の方が静かではあるのだけど、カフェにはタブレットを持っていかないし、外に出ているときはデータ量を食うようなこと(動画を見たりSNSをチェックすること)を携帯でやらないので。</p>
+<p>家にいると、意識していなくても部屋の中にあるものが気になっているのかもしれないし。</p>
+<p>他にカフェだと集中できる理由としてありえそうなのは、時間の制限があること。<br>
+    ずーっとカフェにはいることはできないけど、<br>
+    それができる家だと、いつでも作業を始めたり再開することができそうな気がして、「今終わらせなくてもいいか」となかなか手をつけなかったりする。</p>
+<p>でも何かやらないといけない作業ができるたびにカフェに行かなければいけない人間には、なりたくないんだよな…</p>
+<p>もしかしたら、こんな↓感じの工夫をしてカフェと環境を近づけて、家での作業をよりはかどらせることができたりしないかしら？:</p>
+<ul>
+    <li>視界にものとかが入らないような、作業専用のスペースをつくる</li>
+    <li>作業に取り掛かる前に、どれくらいの時間取り組むか決める＝時間制限を設ける</li>
+</ul>
+                ]]> 
+            </content:encoded>
+        </item>
+        <item>
             <title>Astro v7 へのアップグレード</title>
             <link>
                 http://runaroundrunrun.github.io/ja/posts/web-dev/2026-11-14_astro_upgrade_v7/

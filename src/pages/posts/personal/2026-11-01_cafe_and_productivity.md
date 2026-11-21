@@ -6,6 +6,8 @@ modified:
 lang: 'en'
 category: personal 
 ---
+*[日本語で読む](/ja/posts/personal/2026-11-21_cafe_and_productivity/)*
+
 Writing, reading, thinking about how I want to alter this website... I can focus on those activities more in a cafe than doing them from home.
 
 I think it's because there are less distractions when I'm at a cafe, for I don't bring my tablet with me and I use my phone less.

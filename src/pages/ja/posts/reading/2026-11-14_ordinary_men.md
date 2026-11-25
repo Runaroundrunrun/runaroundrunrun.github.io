@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 感想メモ『増補 普通の人びと』
 published: 2026-11-14
-modified: 2026-11-17
+modified: 2026-11-25
 lang: 'ja'
 category: reading
 ---
@@ -29,3 +29,4 @@ category: reading
 ## 関連
 - [2026年9月に消費したメディア記録](/ja/posts/lifelog/2026/september_media_log/)
 - [感想メモ『アーモンド』](/ja/posts/reading/2026-11-17_almond/)
+- [感想メモ『ザ・ロード』](/ja/posts/reading/2026-11-25_the_road/)

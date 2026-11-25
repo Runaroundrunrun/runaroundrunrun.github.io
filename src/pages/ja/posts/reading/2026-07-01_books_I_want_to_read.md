@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 読みたい本リスト
 published: 2026-07-01
-modified: 2026-11-24
+modified: 2026-11-25
 lang: 'ja'
 category: reading
 ---
@@ -23,6 +23,7 @@ category: reading
 - 『刑務所図書館の人びと』
 - 『ベツレヘムに向け、身を屈めて』
 - ~~『ザ・ロード』~~
+    - [読書メモ](/ja/posts/reading/2026-11-25_the_road/)
 
 ## 洋書
 - *Bird by Bird: Some Instructions on Writing and Life*

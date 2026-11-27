@@ -25,3 +25,4 @@ Here are some posts that inspired me to set up this website:
 ## Related
 - [Features I want to add to this website](/posts/web-dev/2026-05-20_features_to_add/)
 - [I should be offline more](/posts/personal/2026-11-21_thoughts_on_being_online/)
+- [Bookmarks: posts that inspired me to write and keep writing](/posts/bookmarks/2026-11-28_inspiring_posts_about_writing/)

@@ -23,6 +23,7 @@ const byCategory = Map.groupBy(sortedPosts, (post) => {return post.frontmatter.c
 const categories = [...byCategory.keys()].sort();
 
 const categoryDispMap: Record<string, string> = {
+    "bookmarks" : "Bookmarks",
     "crafting" : "Crafting",
     "drawing" : "Drawing",
     "gaming": "Gaming",
@@ -39,6 +40,7 @@ const categoryDispMap: Record<string, string> = {
     "writing" : "Writing"
 };
 const categoryIconMap: Record<string, string> = {
+    "bookmarks" : "",
     "crafting" : "",
     "drawing" : "",
     "gaming": "icon-game",

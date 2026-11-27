@@ -21,3 +21,4 @@ Also, sometimes it's fun to read things you wrote in the past.
 
 ## Related
 - [Note to self: please think on paper, for goodness' sake](/posts/writing/2026-08-24_think_on_paper/)
+- [Bookmarks: posts that inspired me to write and keep writing](/posts/bookmarks/2026-11-28_inspiring_posts_about_writing/)

@@ -2,7 +2,7 @@
 layout: ../../../../layouts/ja/MarkdownPostLayoutJa.astro
 title: 'レシピ: 自己流ココア'
 published: 2026-10-25
-modified: 2026-10-29
+modified: 2026-11-27
 lang: 'ja'
 category: cooking
 ---
@@ -26,3 +26,6 @@ category: cooking
 3. 火にかけている間、スプーンなどでかき回す。沸騰が激しくなる前に火を止めて、できあがり。
 
 ![hot chocolate in a cup](../images/2026-10-25_hot_chocolate.png)
+
+## 関連
+- [レシピ: ウーロンミルクティー](/ja/posts/cooking/2026-11-28_oolong_milk_tea/)

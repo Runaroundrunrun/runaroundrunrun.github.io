@@ -20,6 +20,7 @@ const allPosts = Object.values(import.meta.glob<MarkdownInstance<Frontmatter>>('
 const sortedPosts = allPosts.sort((a: any, b: any) => a.frontmatter.published > b.frontmatter.published ? -1 : 1);
 const byCategory = Map.groupBy(sortedPosts, (post) => {return post.frontmatter.category as string});
 const categoryDispMap: Record<string, string> = {
+    "bookmarks" : "ブックマーク",
     "cooking" : "料理",
     "crafting" : "ハンドクラフト",
     "drawing" : "描いたもの",
@@ -39,6 +40,7 @@ const categoryDispMap: Record<string, string> = {
 // 日本語の昇順に並べる
 const categories = [...byCategory.keys()].sort((a, b) => categoryDispMap[a].localeCompare(categoryDispMap[b], 'ja'));
 const categoryIconMap: Record<string, string> = {
+    "bookmarks" : "",
     "cooking" : "",
     "crafting" : "",
     "drawing" : "",
